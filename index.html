@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetBot - AI Veterinary Diagnosis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 900px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        /* Landing Page */
+        .landing-page {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .landing-page h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .animal-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .animal-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 40px 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+        }
+
+        .animal-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            border-color: #667eea;
+        }
+
+        .animal-icon {
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+
+        .animal-card h3 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .animal-card p {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        /* Chat Interface */
+        .chat-interface {
+            display: none;
+            height: 600px;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-header h2 {
+            font-size: 1.5rem;
+        }
+
+        .back-btn {
+            background: rgba(255,255,255,0.2);
+            border: 2px solid white;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.bot {
+            display: flex;
+            gap: 15px;
+        }
+
+        .message.user {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .bot .avatar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .user .avatar {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px 20px;
+            border-radius: 15px;
+            line-height: 1.6;
+        }
+
+        .bot .message-content {
+            background: white;
+            color: #333;
+            border-bottom-left-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .input-area {
+            padding: 20px 30px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .input-area input:focus {
+            border-color: #667eea;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .send-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .vet-finder-btn {
+            background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .vet-finder-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(86, 171, 47, 0.4);
+        }
+
+        .vet-finder-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results Display */
+        .result-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .result-box.warning {
+            border-left-color: #ff6b6b;
+            background: #fff5f5;
+        }
+
+        .result-box.success {
+            border-left-color: #51cf66;
+            background: #f3faf4;
+        }
+
+        .result-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .disease-item {
+            padding: 10px;
+            margin: 8px 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .confidence-bar {
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 15px 20px;
+            background: white;
+            border-radius: 15px;
+            width: fit-content;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #667eea;
+            border-radius: 50%;
+            margin: 0 3px;
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .animal-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .message-content {
+                max-width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 VetBot AI</h1>
+            <p>Advanced Veterinary Diagnostic Assistant</p>
+        </div>
+
+        <!-- Landing Page -->
+        <div id="landingPage" class="landing-page">
+            <h2>Select Your Animal</h2>
+            <p style="color: #666; margin-bottom: 20px;">Choose the type of animal you need assistance with</p>
+            
+            <div class="animal-cards">
+                <div class="animal-card" onclick="selectAnimal('dog')">
+                    <div class="animal-icon">🐕</div>
+                    <h3>Dog</h3>
+                    <p>Canine disease diagnosis with 90.94% accuracy</p>
+                </div>
+                
+                <div class="animal-card" onclick="selectAnimal('cat')">
+                    <div class="animal-icon">🐱</div>
+                    <h3>Cat</h3>
+                    <p>Feline disease diagnosis with 94% precision</p>
+                </div>
+                
+                <div class="animal-card" onclick="selectAnimal('cow')">
+                    <div class="animal-icon">🐄</div>
+                    <h3>Cow</h3>
+                    <p>Bovine disease diagnosis with 89.34% accuracy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Interface -->
+        <div id="chatInterface" class="chat-interface">
+            <div class="chat-header">
+                <h2 id="chatTitle">VetBot Chat</h2>
+                <button class="back-btn" onclick="backToHome()">← Back</button>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="typing-indicator" id="typingIndicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Type your answer here..." onkeypress="handleKeyPress(event)">
+                <button class="send-btn" id="sendBtn" onclick="sendMessage()">Send</button>
+            </div>
+            
+            <div class="input-area" style="border-top: none; padding-top: 0;">
+                <button class="vet-finder-btn" id="vetFinderBtn" onclick="findNearestVet()">
+                    📍 Find Nearest Vet
+                </button>
+                <button class="vet-finder-btn" id="emergencyVetBtn" onclick="findEmergencyVet()" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);">
+                    🚨 Emergency Vet
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentAnimal = null;
+        let currentQuestion = 0;
+        let userData = {};
+
+        const dogQuestions = [
+            { field: 'Breed', question: 'What is the breed of your dog?', placeholder: 'e.g., Labrador, German Shepherd' },
+            { field: 'Age', question: 'How old is your dog? (in years)', placeholder: 'e.g., 3' },
+            { field: 'Gender', question: 'What is the gender?', placeholder: 'Male or Female' },
+            { field: 'Weight', question: 'What is the weight? (in kg)', placeholder: 'e.g., 25' },
+            { field: 'Symptom_1', question: 'What is the primary symptom you noticed?', placeholder: 'e.g., Fever, Coughing' },
+            { field: 'Symptom_2', question: 'Any secondary symptom? (Leave blank if none)', placeholder: 'Optional' },
+            { field: 'Symptom_3', question: 'Any other symptom?', placeholder: 'Optional' },
+            { field: 'Symptom_4', question: 'Any additional symptom?', placeholder: 'Optional' },
+            { field: 'Duration', question: 'How long have these symptoms been present? (in days)', placeholder: 'e.g., 3' },
+            { field: 'Appetite_Loss', question: 'Is there loss of appetite?', placeholder: 'Yes or No' },
+            { field: 'Vomiting', question: 'Is there vomiting?', placeholder: 'Yes or No' },
+            { field: 'Diarrhea', question: 'Is there diarrhea?', placeholder: 'Yes or No' },
+            { field: 'Coughing', question: 'Is there coughing?', placeholder: 'Yes or No' },
+            { field: 'Labored_Breathing', question: 'Is there labored breathing?', placeholder: 'Yes or No' },
+            { field: 'Lameness', question: 'Is there lameness?', placeholder: 'Yes or No' },
+            { field: 'Skin_Lesions', question: 'Are there any skin lesions?', placeholder: 'Yes or No' },
+            { field: 'Nasal_Discharge', question: 'Is there nasal discharge?', placeholder: 'Yes or No' },
+            { field: 'Eye_Discharge', question: 'Is there eye discharge?', placeholder: 'Yes or No' },
+            { field: 'Body_Temperature', question: 'What is the body temperature? (°C)', placeholder: 'e.g., 39.5 (Optional)' },
+            { field: 'Heart_Rate', question: 'What is the heart rate? (bpm)', placeholder: 'e.g., 110 (Optional)' }
+        ];
+
+        const catQuestions = [
+            { field: 'Breed', question: 'What is the breed of your cat?', placeholder: 'e.g., Persian, Siamese, Mixed' },
+            { field: 'Age', question: 'How old is your cat? (in years)', placeholder: 'e.g., 3' },
+            { field: 'Gender', question: 'What is the gender?', placeholder: 'Male or Female' },
+            { field: 'Weight', question: 'What is the weight? (in kg)', placeholder: 'e.g., 4' },
+            { field: 'Symptom_1', question: 'What is the primary symptom you noticed?', placeholder: 'e.g., Sneezing, Vomiting' },
+            { field: 'Symptom_2', question: 'Any secondary symptom? (Type "none" if none)', placeholder: 'Optional' },
+            { field: 'Symptom_3', question: 'Any other symptom? (Type "none" if none)', placeholder: 'Optional' },
+            { field: 'Symptom_4', question: 'Any additional symptom? (Type "none" if none)', placeholder: 'Optional' },
+            { field: 'Duration', question: 'How long have these symptoms been present? (in days)', placeholder: 'e.g., 3' },
+            { field: 'Appetite_Loss', question: 'Is there loss of appetite?', placeholder: 'Yes or No' },
+            { field: 'Vomiting', question: 'Is there vomiting?', placeholder: 'Yes or No' },
+            { field: 'Diarrhea', question: 'Is there diarrhea?', placeholder: 'Yes or No' },
+            { field: 'Coughing', question: 'Is there coughing or sneezing?', placeholder: 'Yes or No' },
+            { field: 'Labored_Breathing', question: 'Is there labored breathing?', placeholder: 'Yes or No' },
+            { field: 'Lameness', question: 'Is there lameness?', placeholder: 'Yes or No' },
+            { field: 'Skin_Lesions', question: 'Are there any skin lesions or excessive scratching?', placeholder: 'Yes or No' },
+            { field: 'Nasal_Discharge', question: 'Is there nasal discharge?', placeholder: 'Yes or No' },
+            { field: 'Eye_Discharge', question: 'Is there eye discharge?', placeholder: 'Yes or No' },
+            { field: 'Body_Temperature', question: 'What is the body temperature? (°C) - Optional', placeholder: 'e.g., 39.0 (Optional)' },
+            { field: 'Heart_Rate', question: 'What is the heart rate? (bpm) - Optional', placeholder: 'e.g., 180 (Optional)' }
+        ];
+
+        const cowQuestions = [
+            { field: 'Breed', question: 'What is the breed of your cow?', placeholder: 'e.g., Jersey, Holstein' },
+            { field: 'Age', question: 'How old is your cow? (in years)', placeholder: 'e.g., 4' },
+            { field: 'Gender', question: 'What is the gender?', placeholder: 'Male or Female' },
+            { field: 'Weight', question: 'What is the weight? (in kg)', placeholder: 'e.g., 450' },
+            { field: 'Symptom_1', question: 'What is the primary symptom you noticed?', placeholder: 'e.g., Fever, Lameness' },
+            { field: 'Symptom_2', question: 'Any secondary symptom? (Leave blank if none)', placeholder: 'Optional' },
+            { field: 'Symptom_3', question: 'Any other symptom?', placeholder: 'Optional' },
+            { field: 'Symptom_4', question: 'Any additional symptom?', placeholder: 'Optional' },
+            { field: 'Duration', question: 'How long have these symptoms been present? (in days)', placeholder: 'e.g., 3' },
+            { field: 'Appetite_Loss', question: 'Is there loss of appetite?', placeholder: 'Yes or No' },
+            { field: 'Vomiting', question: 'Is there vomiting?', placeholder: 'Yes or No' },
+            { field: 'Diarrhea', question: 'Is there diarrhea?', placeholder: 'Yes or No' },
+            { field: 'Coughing', question: 'Is there coughing?', placeholder: 'Yes or No' },
+            { field: 'Labored_Breathing', question: 'Is there labored breathing?', placeholder: 'Yes or No' },
+            { field: 'Lameness', question: 'Is there lameness?', placeholder: 'Yes or No' },
+            { field: 'Skin_Lesions', question: 'Are there any skin lesions?', placeholder: 'Yes or No' },
+            { field: 'Nasal_Discharge', question: 'Is there nasal discharge?', placeholder: 'Yes or No' },
+            { field: 'Eye_Discharge', question: 'Is there eye discharge?', placeholder: 'Yes or No' },
+            { field: 'Body_Temperature', question: 'What is the body temperature? (°C)', placeholder: 'e.g., 39.5 (Optional)' },
+            { field: 'Heart_Rate', question: 'What is the heart rate? (bpm)', placeholder: 'e.g., 110 (Optional)' }
+        ];
+
+        function selectAnimal(animal) {
+            currentAnimal = animal;
+            currentQuestion = 0;
+            userData = {};
+
+            document.getElementById('landingPage').classList.add('hidden');
+            document.getElementById('chatInterface').style.display = 'flex';
+            
+            let icon, name;
+            if (animal === 'dog') {
+                icon = '🐕';
+                name = 'Dog';
+            } else if (animal === 'cat') {
+                icon = '🐱';
+                name = 'Cat';
+            } else {
+                icon = '🐄';
+                name = 'Cow';
+            }
+            
+            document.getElementById('chatTitle').textContent = `${icon} ${name}VetBot`;
+
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = '<div class="typing-indicator" id="typingIndicator"><span></span><span></span><span></span></div>';
+
+            setTimeout(() => {
+                addBotMessage(`Hello! I'm ${name}VetBot, your AI veterinary assistant. I'll ask you a series of questions to help diagnose your ${animal}. Let's begin!`);
+                setTimeout(() => askNextQuestion(), 1000);
+            }, 500);
+        }
+
+        function backToHome() {
+            document.getElementById('chatInterface').style.display = 'none';
+            document.getElementById('landingPage').classList.remove('hidden');
+            currentAnimal = null;
+            currentQuestion = 0;
+            userData = {};
+        }
+
+        function askNextQuestion() {
+            let questions;
+            if (currentAnimal === 'dog') {
+                questions = dogQuestions;
+            } else if (currentAnimal === 'cat') {
+                questions = catQuestions;
+            } else {
+                questions = cowQuestions;
+            }
+            
+            if (currentQuestion < questions.length) {
+                const q = questions[currentQuestion];
+                addBotMessage(q.question);
+                document.getElementById('userInput').placeholder = q.placeholder;
+                document.getElementById('userInput').focus();
+            } else {
+                showResults();
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            
+            if (message === '') return;
+
+            addUserMessage(message);
+            
+            let questions;
+            if (currentAnimal === 'dog') {
+                questions = dogQuestions;
+            } else if (currentAnimal === 'cat') {
+                questions = catQuestions;
+            } else {
+                questions = cowQuestions;
+            }
+            
+            userData[questions[currentQuestion].field] = message;
+            
+            input.value = '';
+            currentQuestion++;
+
+            setTimeout(() => askNextQuestion(), 800);
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        async function findNearestVet() {
+            findVet(false);
+        }
+
+        async function findEmergencyVet() {
+            findVet(true);
+        }
+
+        async function findVet(emergency) {
+            const vetBtn = emergency ? document.getElementById('emergencyVetBtn') : document.getElementById('vetFinderBtn');
+            vetBtn.disabled = true;
+            
+            addBotMessage(emergency ? 
+                '🚨 Searching for emergency veterinary clinics near you...' : 
+                '📍 Searching for veterinary clinics near you...');
+            
+            showTypingIndicator();
+
+            if (!navigator.geolocation) {
+                hideTypingIndicator();
+                addBotMessage('❌ Geolocation is not supported by your browser. Please enable location services.');
+                vetBtn.disabled = false;
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(
+                async (position) => {
+                    try {
+                        const response = await fetch('http://localhost:5000/find-vets', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                latitude: position.coords.latitude,
+                                longitude: position.coords.longitude,
+                                animal_type: currentAnimal,
+                                emergency: emergency
+                            })
+                        });
+
+                        const result = await response.json();
+                        hideTypingIndicator();
+
+                        if (result.success) {
+                            let message = `
+                                <div class="result-box success">
+                                    <div class="result-title">${emergency ? '🚨 Emergency' : '📍'} Veterinary Clinics Found</div>
+                                    <p><strong>Search:</strong> ${result.search_query}</p>
+                                    <p><strong>Your Location:</strong> ${result.location.latitude.toFixed(4)}, ${result.location.longitude.toFixed(4)}</p>
+                                    <br>
+                                    <a href="${result.maps_url}" target="_blank" style="
+                                        display: inline-block;
+                                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                        color: white;
+                                        padding: 12px 24px;
+                                        border-radius: 25px;
+                                        text-decoration: none;
+                                        font-weight: 600;
+                                        margin-top: 10px;
+                                    ">
+                                        🗺️ Open in Google Maps
+                                    </a>
+                                </div>
+                            `;
+                            addBotMessage(message);
+                            
+                            if (emergency) {
+                                addBotMessage(`
+                                    <div class="result-box warning">
+                                        <div class="result-title">🚨 Emergency Tips</div>
+                                        <p>• Call ahead to confirm they can handle your emergency</p>
+                                        <p>• Bring vaccination records if available</p>
+                                        <p>• Keep animal calm during transport</p>
+                                        <p>• Have someone call while you drive</p>
+                                    </div>
+                                `);
+                            }
+                        } else {
+                            addBotMessage('❌ Could not find veterinary clinics. Please try again or search manually.');
+                        }
+                    } catch (error) {
+                        hideTypingIndicator();
+                        addBotMessage('❌ Error connecting to location service. Please check your internet connection.');
+                        console.error('Error:', error);
+                    }
+                    
+                    vetBtn.disabled = false;
+                },
+                (error) => {
+                    hideTypingIndicator();
+                    let errorMsg = '';
+                    switch(error.code) {
+                        case error.PERMISSION_DENIED:
+                            errorMsg = '❌ Location access denied. Please enable location permissions in your browser settings.';
+                            break;
+                        case error.POSITION_UNAVAILABLE:
+                            errorMsg = '❌ Location information unavailable. Please try again.';
+                            break;
+                        case error.TIMEOUT:
+                            errorMsg = '❌ Location request timed out. Please try again.';
+                            break;
+                        default:
+                            errorMsg = '❌ An unknown error occurred while getting your location.';
+                    }
+                    addBotMessage(errorMsg);
+                    vetBtn.disabled = false;
+                }
+            );
+        }
+
+        function addBotMessage(message) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot';
+            
+            let icon;
+            if (currentAnimal === 'dog') {
+                icon = '🐕';
+            } else if (currentAnimal === 'cat') {
+                icon = '🐱';
+            } else {
+                icon = '🐄';
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="avatar">${icon}</div>
+                <div class="message-content">${message}</div>
+            `;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addUserMessage(message) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message user';
+            messageDiv.innerHTML = `
+                <div class="message-content">${message}</div>
+                <div class="avatar">👤</div>
+            `;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showResults() {
+            document.getElementById('sendBtn').disabled = true;
+            document.getElementById('userInput').disabled = true;
+
+            addBotMessage('Thank you for providing all the information. Let me analyze the symptoms...');
+            
+            showTypingIndicator();
+
+            generateMockResults().then(results => {
+                hideTypingIndicator();
+                displayResults(results);
+            });
+        }
+
+        function showTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'block';
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+
+        async function generateMockResults() {
+            try {
+                const response = await fetch('http://localhost:5000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        animal_type: currentAnimal,
+                        data: userData
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('API request failed');
+                }
+
+                const result = await response.json();
+
+                if (result.success) {
+                    return {
+                        top3: result.top3,
+                        confidence_level: result.confidence_level,
+                        warnings: result.warnings || [],
+                        recommendations: result.recommendations || []
+                    };
+                } else {
+                    throw new Error(result.error || 'Prediction failed');
+                }
+
+            } catch (error) {
+                console.error('API Error:', error);
+                
+                addBotMessage('⚠️ Could not connect to AI server. Please ensure Flask API is running on http://localhost:5000');
+                
+                const diseases = currentAnimal === 'dog' 
+                    ? ['Parvovirus', 'Kennel Cough', 'Gastroenteritis']
+                    : currentAnimal === 'cat'
+                    ? ['Feline Panleukopenia', 'Upper Respiratory Infection', 'Gastritis']
+                    : ['Foot and Mouth Disease', 'Mastitis', 'Bovine Viral Diarrhea'];
+                
+                return {
+                    top3: [
+                        { name: diseases[0], confidence: 75.5 },
+                        { name: diseases[1], confidence: 15.3 },
+                        { name: diseases[2], confidence: 9.2 }
+                    ],
+                    confidence_level: 'HIGH',
+                    warnings: userData.Age && parseFloat(userData.Age) < 2 ? 
+                        [{ type: 'warning', message: 'Young animal detected - higher risk for certain diseases' }] : [],
+                    recommendations: [
+                        'Consult with a veterinarian for proper diagnosis',
+                        'Monitor symptoms closely',
+                        'Ensure proper hydration and nutrition'
+                    ]
+                };
+            }
+        }
+
+        function displayResults(results) {
+            let resultHTML = `
+                <div class="result-box ${results.confidence_level === 'LOW' ? 'warning' : 'success'}">
+                    <div class="result-title">🔍 Diagnostic Results</div>
+                    <p><strong>Confidence Level:</strong> ${results.confidence_level}</p>
+                </div>
+            `;
+
+            resultHTML += '<div class="result-box"><div class="result-title">📊 Top 3 Possible Diseases:</div>';
+            
+            results.top3.forEach((disease, index) => {
+                resultHTML += `
+                    <div class="disease-item">
+                        <strong>${index + 1}. ${disease.name}</strong> - ${disease.confidence.toFixed(2)}%
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${disease.confidence}%"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            resultHTML += '</div>';
+
+            if (results.warnings && results.warnings.length > 0) {
+                resultHTML += '<div class="result-box warning"><div class="result-title">⚠️ Important Warnings:</div>';
+                results.warnings.forEach(warning => {
+                    const msg = warning.message || warning;
+                    resultHTML += `<p>• ${msg}</p>`;
+                });
+                resultHTML += '</div>';
+            }
+
+            if (results.recommendations && results.recommendations.length > 0) {
+                resultHTML += `
+                    <div class="result-box">
+                        <div class="result-title">💡 Recommendations:</div>
+                `;
+                results.recommendations.forEach(rec => {
+                    resultHTML += `<p>• ${rec}</p>`;
+                });
+                resultHTML += '</div>';
+            }
+
+            addBotMessage(resultHTML);
+            
+            setTimeout(() => {
+                addBotMessage('Would you like to start a new consultation? Click the "Back" button to return to the home page.');
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
