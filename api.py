@@ -3,15 +3,16 @@
 # ============================================================
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS   # 👈 MOVE HERE
+
 import pickle
 import pandas as pd
 import numpy as np
 import os
 
 app = Flask(__name__)
-from flask_cors import CORS
+CORS(app)   # 👈 KEEP ONLY THIS (simple)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
 
 # ============================================================
 # SAFE LABEL ENCODER
@@ -1300,6 +1301,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
+  
     try:
         data        = request.json
         animal_type = data.get('animal_type', '').lower()
@@ -1307,6 +1309,8 @@ def predict():
 
         if not animal_type or not user_data:
             return jsonify({'error': 'Missing animal_type or data'}), 400
+
+        # your existing logic continues...
 
         # ==============================================================
         # CAT PREDICTION
@@ -1475,6 +1479,7 @@ def get_disease_info(animal_type, disease_name):
 
 @app.route('/find-vets', methods=['POST'])
 def find_vets():
+
     try:
         data       = request.json
         latitude   = data.get('latitude')
@@ -1504,7 +1509,6 @@ def find_vets():
 
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 500
-
 
 # ============================================================
 # RUN SERVER
