@@ -445,9 +445,11 @@
     </div>
 
     <script>
+        const API_URL = 'https://vet-bot-accb.onrender.com';
         let currentAnimal = null;
         let currentQuestion = 0;
         let userData = {};
+
 
         const dogQuestions = [
             { field: 'Breed', question: 'What is the breed of your dog?', placeholder: 'e.g., Labrador, German Shepherd' },
@@ -636,7 +638,7 @@
             navigator.geolocation.getCurrentPosition(
                 async (position) => {
                     try {
-                        const response = await fetch('http://localhost:5000/find-vets', {
+                        const response = await fetch(`${API_URL}/find-vets`, {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
@@ -779,7 +781,7 @@
 
         async function generateMockResults() {
             try {
-                const response = await fetch('http://localhost:5000/predict', {
+                const response = await fetch(`${API_URL}/find-vets`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
