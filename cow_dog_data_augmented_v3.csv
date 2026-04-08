@@ -1,0 +1,1264 @@
+Animal_Type,Breed,Age,Gender,Weight,Symptom_1,Symptom_2,Symptom_3,Symptom_4,Duration,Appetite_Loss,Vomiting,Diarrhea,Coughing,Labored_Breathing,Lameness,Skin_Lesions,Nasal_Discharge,Eye_Discharge,Body_Temperature,Heart_Rate,Disease_Prediction
+Dog,Labrador,4.0,Male,25.0,Fever,Lethargy,Appetite Loss,Vomiting,3 days,Yes,Yes,No,No,No,No,No,No,No,39.5°C,120,Parvovirus
+Cow,Holstein,3.0,Female,600.0,Fever,Nasal Discharge,Labored Breathing,Coughing,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.1°C,90,Foot and Mouth Disease
+Dog,Beagle,1.0,Male,10.0,Diarrhea,Vomiting,Lethargy,Appetite Loss,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,130,Gastroenteritis
+Dog,German Shepherd,3.0,Female,30.0,Lameness,Fever,Skin Lesions,Lethargy,7 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,110,Lyme Disease
+Dog,Bulldog,5.0,Male,23.0,Labored Breathing,Coughing,Nasal Discharge,Appetite Loss,6 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.0°C,115,Canine Distemper
+Cow,Jersey,4.0,Female,580.0,Lethargy,Decreased Milk Yield,Fever,No,8 days,Yes,No,No,No,No,No,No,No,No,39.6°C,70,Mastitis
+Dog,Poodle,2.0,Female,12.0,Lethargy,Appetite Loss,Coughing,Vomiting,4 days,Yes,Yes,No,Yes,No,No,No,No,No,39.4°C,115,Kennel Cough
+Cow,Hereford,5.0,Male,650.0,Fever,Lethargy,Decreased Milk Yield,Appetite Loss,5 days,Yes,No,No,No,No,No,No,No,No,39.7°C,80,Bovine Respiratory Disease
+Dog,Chihuahua,4.0,Female,3.5,Lethargy,Vomiting,Diarrhea,Coughing,2 days,Yes,Yes,Yes,Yes,No,No,No,No,No,39.1°C,130,Canine Parvovirus
+Dog,Siberian Husky,6.0,Male,28.0,Lameness,Fever,Skin Lesions,Lethargy,8 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,120,Tick-Borne Disease
+Cow,Angus,3.0,Female,590.0,Decreased Milk Yield,Fever,Appetite Loss,Lethargy,7 days,Yes,No,No,No,No,No,No,No,No,39.5°C,70,Mastitis
+Dog,Poodle,2.0,Female,8.0,Coughing,Nasal Discharge,Appetite Loss,Lethargy,4 days,Yes,No,No,Yes,No,No,No,Yes,No,39.1°C,125,Kennel Cough
+Cow,Angus,5.0,Female,700.0,Fever,Decreased Milk Yield,Lethargy,Nasal Discharge,7 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.8°C,80,Bovine Respiratory Disease
+Dog,Golden Retriever,4.0,Male,30.0,Lameness,Swelling,Appetite Loss,Fever,10 days,Yes,No,No,No,No,Yes,No,No,No,39.5°C,110,Arthritis
+Dog,Chihuahua,1.0,Male,3.0,Vomiting,Diarrhea,Lethargy,Fever,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,135,Parvovirus
+Cow,Hereford,3.0,Female,650.0,Lethargy,Fever,Decreased Milk Yield,Nasal Discharge,8 days,Yes,No,No,Yes,No,No,No,No,No,39.6°C,75,Mastitis
+Dog,German Shepherd,5.0,Male,30.0,Lethargy,Labored Breathing,Coughing,Appetite Loss,6 days,Yes,No,No,Yes,Yes,No,No,No,No,39.6°C,125,Heartworm Disease
+Cow,Holstein,4.0,Female,580.0,Appetite Loss,Diarrhea,Lethargy,Decreased Milk Yield,7 days,Yes,No,Yes,No,No,No,No,No,No,39.4°C,82,Johne's Disease
+Dog,Beagle,2.0,Female,9.0,Fever,Vomiting,Lethargy,Skin Lesions,3 days,Yes,Yes,No,No,No,Yes,Yes,No,No,39.2°C,132,Canine Distemper
+Cow,Jersey,3.0,Male,620.0,Diarrhea,Lethargy,Appetite Loss,Decreased Milk Yield,8 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,79,Salmonellosis
+Dog,Dachshund,7.0,Male,5.5,Coughing,Labored Breathing,Lethargy,Appetite Loss,2 weeks,Yes,No,No,Yes,Yes,No,No,No,No,39.5°C,120,Chronic Bronchitis
+Dog,Golden Retriever,4.0,Female,28.0,Lethargy,Vomiting,Diarrhea,Loss of Appetite,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.2°C,130,Parvovirus
+Cow,Angus,6.0,Male,600.0,Coughing,Nasal Discharge,Labored Breathing,Fever,7 days,No,No,No,Yes,Yes,No,No,No,No,39.9°C,82,Bovine Respiratory Disease
+Dog,Bulldog,5.0,Male,22.0,Vomiting,Appetite Loss,Fever,Diarrhea,3 days,Yes,Yes,No,No,Yes,Yes,No,No,No,39.6°C,138,Gastroenteritis
+Cow,Hereford,3.0,Female,570.0,Lethargy,Diarrhea,Appetite Loss,Dehydration,6 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,80,Bovine Viral Diarrhea
+Dog,Poodle,8.0,Male,15.0,Coughing,Labored Breathing,Lethargy,Appetite Loss,1 week,Yes,No,Yes,No,Yes,No,No,No,Yes,39.3°C,126,Kennel Cough
+Cow,Brahman,7.0,Female,620.0,Fever,Coughing,Lethargy,Decreased Milk Yield,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.6°C,81,Mastitis
+Dog,Husky,9.0,Male,25.0,Lethargy,Vomiting,Diarrhea,Loss of Appetite,4 days,Yes,Yes,No,Yes,Yes,No,No,No,No,39.1°C,124,Canine Parvovirus
+Cow,Limousin,2.0,Male,550.0,Diarrhea,Lethargy,Appetite Loss,Dehydration,4 days,Yes,No,No,Yes,Yes,No,Yes,No,No,39.5°C,85,Cryptosporidiosis
+Dog,Border Collie,3.0,Female,17.0,Coughing,Labored Breathing,Fever,Nasal Discharge,8 days,Yes,No,No,Yes,No,Yes,No,Yes,Yes,39.4°C,129,Bordetella Infection
+Cow,Red Angus,5.0,Female,620.0,Fever,Diarrhea,Lethargy,Appetite Loss,4 days,Yes,No,Yes,No,Yes,No,Yes,Yes,No,39.8°C,83,Bovine Leukemia Virus
+Dog,Chihuahua,3.0,Male,2.5,Sneezing,Eye Discharge,Labored Breathing,Lethargy,5 days,Yes,No,No,Yes,No,No,Yes,No,Yes,39.5°C,131,Allergic Rhinitis
+Cow,Guernsey,4.0,Male,590.0,Appetite Loss,Lethargy,Diarrhea,Dehydration,5 days,Yes,No,No,Yes,No,No,Yes,No,No,39.3°C,84,Bovine Coccidiosis
+Dog,Dachshund,7.0,Female,8.0,Vomiting,Diarrhea,Weight Loss,Appetite Loss,3 days,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,39.2°C,120,Gastroenteritis
+Cow,Jersey,6.0,Female,600.0,Fever,Nasal Discharge,Decreased Milk Yield,Lethargy,5 days,Yes,No,No,Yes,No,Yes,No,No,No,39.4°C,86,Bovine Respiratory Syncytial Virus
+Dog,Labrador Retriever,11.0,Male,35.0,Lethargy,Loss of Appetite,Fever,Vomiting,7 days,Yes,No,No,Yes,No,Yes,No,Yes,No,39.3°C,118,Canine Distemper
+Dog,German Shepherd,6.0,Female,30.0,Coughing,Labored Breathing,Lethargy,Loss of Appetite,6 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.4°C,125,Kennel Cough
+Cow,Holstein,7.0,Male,590.0,Coughing,Nasal Discharge,Labored Breathing,Lethargy,4 days,No,No,No,Yes,Yes,No,Yes,No,No,39.9°C,80,Bovine Pneumonia
+Dog,Beagle,5.0,Male,10.0,Vomiting,Diarrhea,Loss of Appetite,Fever,3 days,Yes,Yes,No,No,No,Yes,No,Yes,No,39.2°C,132,Gastroenteritis
+Cow,Simmental,8.0,Female,630.0,Loss of Appetite,Weight Loss,Lethargy,Reduced Milk Production,7 days,No,Yes,No,No,Yes,Yes,Yes,No,No,39.5°C,83,Johne's Disease
+Dog,Rottweiler,7.0,Female,35.0,Vomiting,Diarrhea,Loss of Appetite,Dehydration,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.0°C,127,Parvovirus
+Cow,Shorthorn,5.0,Male,600.0,Diarrhea,Dehydration,Lethargy,Loss of Appetite,5 days,Yes,No,No,Yes,No,Yes,No,No,Yes,39.4°C,84,Salmonellosis
+Dog,Shih Tzu,4.0,Female,7.0,Coughing,Labored Breathing,Appetite Loss,Lethargy,6 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.3°C,133,Canine Flu
+Cow,Brahman,3.0,Female,570.0,Fever,Nasal Discharge,Lethargy,Coughing,4 days,Yes,No,No,Yes,No,Yes,No,No,Yes,39.8°C,86,Respiratory Syncytial Virus
+Dog,Chihuahua,9.0,Male,2.0,Vomiting,Loss of Appetite,Diarrhea,Lethargy,2 days,Yes,Yes,No,No,No,Yes,No,No,Yes,39.1°C,128,Gastroenteritis
+Cow,Jersey,6.0,Male,620.0,Weight Loss,Reduced Milk Production,Lethargy,Appetite Loss,7 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.4°C,87,Tuberculosis
+Dog,Dalmatian,8.0,Female,20.0,Vomiting,Diarrhea,Weight Loss,Dehydration,4 days,Yes,No,Yes,No,Yes,No,No,Yes,No,39.0°C,120,Pancreatitis
+Cow,Brown Swiss,3.0,Female,580.0,Diarrhea,Dehydration,Loss of Appetite,Lethargy,5 days,Yes,Yes,No,No,No,Yes,No,No,Yes,39.3°C,85,Coccidiosis
+Dog,Akita,6.0,Male,35.0,Lethargy,Loss of Appetite,Fever,Vomiting,6 days,Yes,No,Yes,No,Yes,Yes,No,No,Yes,39.5°C,130,Canine Hepatitis
+Cow,Guernsey,5.0,Male,610.0,Nasal Discharge,Coughing,Labored Breathing,Fever,3 days,Yes,No,Yes,No,No,Yes,No,No,Yes,39.9°C,82,Bovine Influenza
+Dog,Boxer,8.0,Female,27.0,Vomiting,Lethargy,Diarrhea,Loss of Appetite,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2°C,131,Gastroenteritis
+Dog,Golden Retriever,5.0,Male,32.0,Vomiting,Diarrhea,Loss of Appetite,Lethargy,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.2°C,130,Gastroenteritis
+Cow,Limousin,6.0,Female,620.0,Weight Loss,Reduced Milk Production,Appetite Loss,Lethargy,10 days,Yes,Yes,No,Yes,No,Yes,No,No,Yes,39.4°C,85,Johne's Disease
+Dog,Dachshund,4.0,Female,9.0,Lethargy,Vomiting,Loss of Appetite,Dehydration,3 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.0°C,132,Parvovirus
+Cow,Angus,8.0,Male,580.0,Coughing,Labored Breathing,Lethargy,Nasal Discharge,5 days,Yes,No,No,Yes,No,Yes,No,No,Yes,40.0°C,83,Bovine Respiratory Disease
+Dog,Corgi,5.0,Male,11.0,Vomiting,Diarrhea,Lethargy,Weight Loss,3 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.2°C,134,Pancreatitis
+Cow,Hereford,7.0,Female,590.0,Diarrhea,Dehydration,Lethargy,Appetite Loss,6 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.3°C,84,Bovine Johne's Disease
+Dog,Poodle,7.0,Female,15.0,Lethargy,Vomiting,Loss of Appetite,Diarrhea,4 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.1°C,125,Canine Parvovirus
+Cow,Jersey,6.0,Male,570.0,Coughing,Nasal Discharge,Labored Breathing,Fever,5 days,Yes,No,Yes,No,Yes,No,No,Yes,Yes,39.4°C,81,Bovine Tuberculosis
+Dog,Shih Tzu,8.0,Female,8.0,Lethargy,Vomiting,Diarrhea,Loss of Appetite,5 days,Yes,No,Yes,Yes,No,No,No,No,Yes,39.0°C,130,Canine Hepatitis
+Cow,Brown Swiss,9.0,Male,600.0,Labored Breathing,Nasal Discharge,Coughing,Fever,6 days,Yes,No,Yes,Yes,No,Yes,No,No,Yes,39.6°C,80,Bovine Respiratory Disease
+Dog,Beagle,6.0,Male,13.0,Coughing,Labored Breathing,Nasal Discharge,Fever,4 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.4°C,127,Kennel Cough
+Cow,Holstein,7.0,Female,650.0,Coughing,Nasal Discharge,Appetite Loss,Fever,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.4°C,79,Bovine Tuberculosis
+Dog,Golden Retriever,7.0,Male,30.0,Vomiting,Diarrhea,Loss of Appetite,Lethargy,6 days,Yes,No,Yes,Yes,No,No,Yes,No,No,39.5°C,118,Canine Parvovirus
+Cow,Simmental,8.0,Male,580.0,Appetite Loss,Weight Loss,Fever,Lethargy,6 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.3°C,80,Bovine Johne's Disease
+Dog,Rottweiler,5.0,Female,42.0,Lethargy,Vomiting,Loss of Appetite,Coughing,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2°C,120,Canine Parvovirus
+Cow,Angus,6.0,Male,550.0,Coughing,Nasal Discharge,Fever,Weight Loss,7 days,Yes,No,Yes,Yes,Yes,No,Yes,No,No,39.4°C,82,Bovine Respiratory Disease
+Dog,Doberman Pinscher,6.0,Male,40.0,Vomiting,Lethargy,Loss of Appetite,Coughing,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3°C,119,Canine Distemper
+Cow,Charolais,5.0,Female,620.0,Lethargy,Coughing,Nasal Discharge,Fever,4 days,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,39.6°C,81,Bovine Tuberculosis
+Dog,Pit Bull,4.0,Female,35.0,Lethargy,Vomiting,Loss of Appetite,Coughing,3 days,Yes,Yes,No,Yes,No,Yes,No,No,No,39.0°C,125,Leptospirosis
+Cow,Hereford,7.0,Female,580.0,Loss of Appetite,Fever,Coughing,Lethargy,6 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.5°C,80,Bovine Johne's Disease
+Dog,Cocker Spaniel,5.0,Female,20.0,Vomiting,Lethargy,Loss of Appetite,Fever,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2°C,123,Canine Leptospirosis
+Cow,Jersey,5.0,Female,500.0,Coughing,Nasal Discharge,Lethargy,Fever,5 days,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,39.5°C,81,Bovine Viral Diarrhea
+Dog,German Shepherd,4.0,Female,45.0,Lethargy,Loss of Appetite,Coughing,Fever,5 days,Yes,No,Yes,Yes,No,Yes,Yes,No,No,39.4°C,120,Canine Parvovirus
+Cow,Holstein,5.0,Female,620.0,Coughing,Fever,Loss of Appetite,Lethargy,7 days,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,39.3°C,82,Bovine Respiratory Syncytial Virus
+Dog,Poodle,6.0,Male,25.0,Lethargy,Loss of Appetite,Coughing,Fever,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3°C,110,Canine Distemper
+Cow,Guernsey,7.0,Male,590.0,Coughing,Lethargy,Loss of Appetite,Swollen Legs,6 days,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,78,Bovine Tuberculosis
+Dog,Golden Retriever,7.0,Male,33.0,Lethargy,Vomiting,Loss of Appetite,Fever,5 days,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,39.2°C,118,Canine Leptospirosis
+Cow,Aberdeen Angus,6.0,Female,620.0,Coughing,Fever,Loss of Appetite,Lethargy,5 days,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,39.2°C,80,Bovine Respiratory Disease
+Dog,Bulldog,5.0,Female,18.0,Lethargy,Coughing,Loss of Appetite,Fever,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.3°C,115,Kennel Cough
+Cow,Ayrshire,4.0,Male,630.0,Coughing,Lethargy,Loss of Appetite,Swollen Legs,6 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,39.1°C,79,Bovine Tuberculosis
+Dog,Beagle,4.0,Female,15.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,No,Yes,Yes,No,No,Yes,Yes,No,39.2°C,125,Canine Influenza
+Cow,Jersey,5.0,Male,560.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.1°C,79,Bovine Tuberculosis
+Dog,Chihuahua,3.0,Male,6.0,Lethargy,Vomiting,Loss of Appetite,Fever,2 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,39.0°C,118,Canine Parvovirus
+Cow,Simmental,4.0,Male,650.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,39.3°C,78,Bovine Respiratory Syncytial Virus
+Dog,Rottweiler,5.0,Female,40.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,39.3°C,122,Canine Distemper
+Cow,Dexter,3.0,Male,450.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.3°C,79,Bovine Viral Diarrhea
+Dog,Golden Retriever,7.0,Male,30.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,39.0°C,130,Canine Distemper
+Cow,Charolais,3.0,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,39.2°C,77,Bovine Tuberculosis
+Dog,Poodle,3.0,Female,20.0,Vomiting,Diarrhea,Lethargy,Fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0°C,120,Parvovirus
+Cow,Holstein,4.0,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,No,Yes,No,Yes,No,Yes,39.3°C,77,Bovine Respiratory Disease
+Dog,German Shepherd,4.0,Male,32.0,Lethargy,Vomiting,Loss of Appetite,Fever,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1°C,130,Canine Hepatitis
+Cow,Guernsey,5.0,Female,450.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,39.0°C,78,Bovine Parainfluenza
+Dog,Bulldog,3.0,Female,25.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.2°C,125,Canine Leptospirosis
+Cow,Red Poll,4.0,Male,680.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,39.4°C,77,Bovine Tuberculosis
+Dog,Beagle,5.0,Male,25.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.2°C,120,Kennel Cough
+Cow,Jersey,6.0,Female,500.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.2°C,75,Bovine Viral Diarrhea
+Dog,Chihuahua,4.0,Female,5.0,Lethargy,Vomiting,Loss of Appetite,Fever,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1°C,110,Canine Parvovirus
+Cow,Ayrshire,5.0,Male,720.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.3°C,82,Bovine Tuberculosis
+Dog,Boxer,6.0,Female,30.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,115,Canine Leptospirosis
+Cow,Belted Galloway,4.0,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.4°C,75,Bovine Tuberculosis
+Dog,Yorkshire Terrier,4.0,Male,8.0,Lethargy,Vomiting,Loss of Appetite,Fever,3 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.2°C,100,Canine Heartworm Disease
+Dog,Rottweiler,7.0,Male,35.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,39.3°C,110,Kennel Cough
+Cow,Holstein,8.0,Male,650.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.5°C,80,Bovine Respiratory Disease Complex
+Dog,Golden Retriever,5.0,Male,40.0,Vomiting,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2°C,130,Canine Parvovirus
+Cow,Jersey,6.0,Female,550.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,Yes,No,Yes,Yes,No,Yes,No,39.6°C,70,Johne's Disease
+Dog,Beagle,4.0,Female,25.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.2°C,120,Distemper
+Cow,Ayrshire,7.0,Female,550.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.4°C,75,Bovine Johne's Disease
+Dog,Chihuahua,3.0,Male,6.0,Lethargy,Vomiting,Loss of Appetite,Fever,5 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,39.3°C,135,Parvovirus
+Cow,Guernsey,5.0,Female,600.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,39.6°C,85,Bovine Tuberculosis
+Dog,Poodle,3.0,Female,28.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,120,Kennel Cough
+Cow,Charolais,8.0,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.2°C,75,Bovine Respiratory Disease
+Dog,Beagle,4.0,Male,20.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.2°C,130,Canine Distemper
+Cow,Simmental,7.0,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,39.3°C,75,Bovine Tuberculosis
+Dog,Dachshund,3.0,Female,12.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.0°C,115,Canine Parvovirus
+Cow,Jersey,6.0,Male,550.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,39.5°C,70,Bovine Johne's Disease
+Dog,Bulldog,5.0,Female,22.0,Coughing,Lethargy,Loss of Appetite,Fever,5 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.3°C,120,Canine Cough
+Cow,Holstein,8.0,Female,750.0,Coughing,Loss of Appetite,Lethargy,Fever,7 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,39.5°C,85,Bovine Respiratory Disease Complex
+Dog,Shih Tzu,4.0,Male,8.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,39.2°C,115,Parvovirus
+Cow,Angus,5.0,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,39.3°C,75,Bovine Tuberculosis
+Dog,Cocker Spaniel,2.0,Female,10.0,Lethargy,Vomiting,Loss of Appetite,Fever,3 days,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,39.0°C,125,Distemper
+Cow,Limousin,6.0,Male,650.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.5°C,80,Bovine Respiratory Disease Complex
+Dog,Rottweiler,3.0,Female,30.0,Lethargy,Vomiting,Loss of Appetite,Fever,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.2°C,120,Leptospirosis
+Cow,Jersey,3.0,Female,600.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,39.4°C,95,Bovine Respiratory Disease
+Cow,Angus,4.0,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.5°C,90,Bovine Tuberculosis
+Dog,Chihuahua,2.0,Male,6.0,Lethargy,Vomiting,Loss of Appetite,Fever,3 days,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,39.3°C,130,Canine Distemper
+Cow,Charolais,8.0,Female,750.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.3°C,80,Bovine Respiratory Disease
+Dog,Beagle,2.0,Male,10.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4°C,120,Canine Leptospirosis
+Cow,Holstein,3.0,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.2°C,90,Bovine Mastitis
+Cow,Guernsey,3.0,Male,580.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4°C,85,Bovine Respiratory Disease
+Cow,Ayrshire,3.0,Female,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.4°C,90,Bovine Respiratory Disease
+Dog,Boxer,3.0,Female,30.0,Lethargy,Vomiting,Loss of Appetite,Fever,4 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,39.3°C,120,Canine Infectious Hepatitis
+Cow,Jersey,2.0,Male,550.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.2°C,95,Bovine Mastitis
+Cow,Simmental,4.0,Female,700.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.4°C,100,Bovine Respiratory Disease
+Cow,Dexter,2.0,Male,500.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.4°C,95,Bovine Tuberculosis
+Dog,Golden Retriever,5.0,Male,35.0,Coughing,Lethargy,Loss of Appetite,Fever,4 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2°C,110,Canine Parvovirus
+Dog,Labrador,4.0,Male,30.0,Vomiting,Loss of Appetite,Lethargy,Fever,5 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2°C,100,Canine Parvovirus
+Dog,Labrador,4.0,Male,25.0,Fever,Lethargy,Appetite Loss,Vomiting,3 days,Yes,Yes,No,No,No,No,No,No,No,39.5°C,120,Parvovirus
+Cow,Holstein,3.0,Female,600.0,Fever,Nasal Discharge,Labored Breathing,Coughing,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.1°C,90,Foot and Mouth Disease
+Dog,Beagle,1.0,Male,10.0,Diarrhea,Vomiting,Lethargy,Appetite Loss,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,130,Gastroenteritis
+Dog,German Shepherd,3.0,Female,30.0,Lameness,Fever,Skin Lesions,Lethargy,7 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,110,Lyme Disease
+Dog,Bulldog,5.0,Male,23.0,Labored Breathing,Coughing,Nasal Discharge,Appetite Loss,6 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.0°C,115,Canine Distemper
+Cow,Jersey,4.0,Female,580.0,Lethargy,Decreased Milk Yield,Fever,No,8 days,Yes,No,No,No,No,No,No,No,No,39.6°C,70,Mastitis
+Cow,Red Angus,2.4,Male,565.9,Fever,Diarrhea,Anemia,Eye Discharge,10 days,No,No,Yes,No,No,No,No,No,No,38.9°C,79,Parasitic Infection
+Dog,Shih Tzu,0.2,Female,2.5,Vomiting,Nasal Discharge,Coughing,Fever,16 hours,Yes,Yes,Yes,No,No,No,No,No,No,40.2°C,121,Parvovirus
+Cow,Brown Swiss,5.5,Male,551.2,Dehydration,Lameness,Fever,Labored Breathing,8 days,No,No,No,Yes,Yes,No,No,Yes,No,40.2°C,69,Respiratory Disease
+Cow,Brahman,7.5,Female,529.7,Anorexia,Skin Lesions,Fever,Diarrhea,7 days,Yes,No,Yes,No,No,Yes,Yes,No,No,39.2°C,68,Foot and Mouth Disease
+Dog,Golden Retriever,1.2,Female,34.1,Skin Lesions,Anorexia,Nasal Discharge,Nasal_Discharge,11 days,No,No,No,Yes,No,No,No,Yes,No,40.3°C,106,Canine Distemper
+Cow,Aberdeen Angus,2.9,Female,480.8,Lameness,Fever,Weakness,Fever,7 hours,Yes,No,No,No,Yes,Yes,Yes,No,Yes,39.6°C,69,Foot and Mouth Disease
+Dog,Dalmatian,3.7,Female,21.3,Lethargy,Lameness,Fever,Fever,11 days,No,No,No,No,No,Yes,No,No,No,38.1°C,69,Lyme Disease
+Cow,Angus,0.8,Male,487.7,Fever,Nasal Discharge,Diarrhea,Anorexia,7 days,Yes,No,No,No,No,No,No,No,Yes,40.3°C,130,Bovine Viral Diarrhea
+Cow,Belted Galloway,11.1,Male,524.1,Skin Lesions,Vomiting,Nasal Discharge,Anorexia,1 days,Yes,No,No,No,No,Yes,No,No,No,39.7°C,76,Foot and Mouth Disease
+Dog,Corgi,1.2,Female,7.4,Coughing,Fever,Nasal Discharge,Eye_Discharge,6 days,Yes,Yes,No,No,Yes,No,No,Yes,Yes,39.7°C,87,Canine Distemper
+Cow,Hereford,7.3,Female,655.4,Labored Breathing,Skin Lesions,Coughing,Lameness,9 days,Yes,No,No,No,No,Yes,Yes,No,No,40.1°C,71,Foot and Mouth Disease
+Dog,Golden Retriever,2.4,Female,29.1,Weakness,Vomiting,Fever,Labored Breathing,3 weeks,No,Yes,No,Yes,No,No,No,Yes,Yes,38.1°C,91,Kennel Cough
+Dog,Doberman Pinscher,0.7,Female,17.6,Lameness,Labored Breathing,Eye Discharge,Fever,14 days,Yes,No,No,No,No,No,No,No,No,38.5°C,150,Lyme Disease
+Cow,Shorthorn,9.6,Female,500.4,Labored Breathing,Dehydration,Fever,Anorexia,2 days,Yes,No,Yes,Yes,No,No,No,Yes,No,39.8°C,64,Bovine Viral Diarrhea
+Dog,Labrador,0.8,Female,31.6,Fever,Vomiting,Vomiting,Weakness,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,136,Parvovirus
+Cow,Charolais,7.6,Male,539.5,Weight Loss,Anemia,Coughing,Nasal Discharge,8 days,No,No,Yes,No,No,No,No,No,No,38.8°C,53,Parasitic Infection
+Dog,Husky,4.1,Male,26.3,Anorexia,Appetite Loss,Vomiting,Diarrhea,11 days,Yes,Yes,Yes,No,No,No,No,No,No,38.2°C,121,Gastroenteritis
+Cow,Ayrshire,1.4,Female,463.8,Coughing,Nasal Discharge,Lameness,Anorexia,13 days,Yes,No,No,No,No,Yes,Yes,Yes,No,40.1°C,59,Foot and Mouth Disease
+Dog,Dachshund,3.3,Female,17.9,Dehydration,Vomiting,Fever,Eye_Discharge,2 days,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,39.3°C,123,Canine Distemper
+Dog,Corgi,1.0,Male,11.2,Eye Discharge,Vomiting,Labored Breathing,Skin Lesions,13 days,Yes,No,Yes,No,No,No,No,No,No,38.3°C,77,Parvovirus
+Cow,Brahman,6.0,Female,774.4,Nasal Discharge,Respiratory Signs,Skin Lesions,Diarrhea,4 days,Yes,Yes,Yes,Yes,No,No,No,No,No,38.7°C,61,Bovine Viral Diarrhea
+Dog,Labrador Retriever,9.1,Male,25.8,Lameness,Eye_Discharge,Labored Breathing,Nasal Discharge,10 days,No,No,No,Yes,No,No,No,No,No,38.4°C,86,Kennel Cough
+Dog,Beagle,5.0,Female,8.3,Lethargy,Nasal Discharge,Eye Discharge,Diarrhea,6 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,125,Gastroenteritis
+Dog,Corgi,10.1,Female,8.4,Coughing,Labored Breathing,Lameness,Anorexia,10 days,Yes,No,No,No,No,Yes,No,No,No,38.6°C,122,Lyme Disease
+Cow,Shorthorn,10.7,Female,523.6,Nasal Discharge,Fever,Vomiting,Weakness,8 days,Yes,No,No,No,No,No,Yes,No,No,39.0°C,70,Mastitis
+Cow,Dexter,9.2,Female,442.0,Diarrhea,Vomiting,Lameness,Skin Lesions,11 days,Yes,No,No,No,No,Yes,No,No,No,40.5°C,58,Foot and Mouth Disease
+Dog,Chihuahua,10.0,Female,3.9,Eye Discharge,Fever,Vomiting,Diarrhea,2 days,Yes,No,No,No,No,Yes,No,No,No,38.8°C,82,Lyme Disease
+Dog,Golden Retriever,0.4,Female,38.9,Dehydration,Skin Lesions,Diarrhea,Anorexia,8 weeks,Yes,Yes,No,No,No,No,No,No,No,39.6°C,159,Gastroenteritis
+Dog,Labrador Retriever,9.4,Female,31.2,Eye Discharge,Diarrhea,Dehydration,Nasal Discharge,7 days,No,No,Yes,No,No,No,No,No,No,37.9°C,63,Gastroenteritis
+Dog,Bulldog,2.7,Female,12.4,Diarrhea,Weakness,Coughing,Nasal_Discharge,6 days,Yes,No,No,Yes,No,No,No,No,Yes,38.9°C,111,Kennel Cough
+Dog,Siberian Husky,7.1,Male,34.3,Loss of Appetite,Fever,Fever,Skin Lesions,11 days,Yes,No,No,No,No,No,No,No,No,39.3°C,80,Lyme Disease
+Cow,Dexter,6.5,Female,544.1,Diarrhea,Nasal Discharge,Weight Loss,Coughing,10 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,80,Parasitic Infection
+Cow,Angus,1.9,Male,381.4,Vomiting,Eye Discharge,Fever,Dehydration,1 days,Yes,No,No,No,No,Yes,Yes,No,No,39.2°C,69,Foot and Mouth Disease
+Cow,Guernsey,6.6,Female,450.6,Lameness,Fever,Skin Lesions,Eye Discharge,8 days,No,No,No,No,No,Yes,Yes,No,No,40.1°C,48,Foot and Mouth Disease
+Dog,Cocker Spaniel,6.9,Female,18.5,Labored Breathing,Nasal Discharge,Skin Lesions,Dehydration,1 weeks,Yes,No,Yes,No,No,No,No,No,No,38.4°C,117,Gastroenteritis
+Cow,Red Poll,3.5,Male,590.0,Anorexia,Dehydration,Lameness,Skin Lesions,3 weeks,Yes,No,No,No,No,Yes,Yes,No,No,39.1°C,68,Foot and Mouth Disease
+Dog,Labrador Retriever,6.5,Female,29.6,Lethargy,Lameness,Fever,Coughing,2 days,Yes,No,No,No,No,Yes,No,No,No,38.4°C,77,Lyme Disease
+Cow,Guernsey,0.5,Female,504.9,Labored Breathing,Anorexia,Coughing,Vomiting,10 days,No,No,Yes,No,No,No,No,No,No,38.3°C,133,Parasitic Infection
+Cow,Guernsey,1.1,Female,603.2,Anorexia,Coughing,Labored Breathing,Nasal Discharge,6 days,Yes,No,No,Yes,No,No,Yes,No,No,39.1°C,51,Foot and Mouth Disease
+Dog,Chihuahua,5.4,Female,2.6,Weakness,Eye Discharge,Nasal_Discharge,Fever,9 days,Yes,Yes,No,Yes,Yes,No,No,Yes,No,39.1°C,89,Canine Distemper
+Dog,Bulldog,9.8,Male,9.6,Fever,Diarrhea,Lameness,Loss of Appetite,5 days,Yes,No,No,No,No,Yes,No,No,No,39.4°C,95,Lyme Disease
+Cow,Simmental,5.8,Female,479.5,Labored Breathing,Vomiting,Eye Discharge,Weakness,7 days,No,No,No,Yes,Yes,No,No,Yes,No,40.5°C,82,Respiratory Disease
+Dog,Poodle,3.2,Male,31.2,Appetite Loss,Lethargy,Vomiting,Skin Lesions,14 days,No,Yes,Yes,No,No,No,No,No,No,38.1°C,118,Gastroenteritis
+Dog,Chihuahua,0.5,Female,4.4,Dehydration,Coughing,Diarrhea,Labored Breathing,7 days,Yes,Yes,Yes,Yes,No,No,No,Yes,No,39.3°C,143,Parvovirus
+Cow,Angus,7.8,Male,472.4,Diarrhea,Nasal Discharge,Skin Lesions,Fever,1 days,Yes,No,No,No,No,Yes,Yes,No,No,40.6°C,57,Foot and Mouth Disease
+Dog,Boxer,2.6,Female,34.7,Labored Breathing,Lameness,Fever,Skin Lesions,11 days,Yes,No,No,Yes,No,No,No,No,No,38.1°C,104,Kennel Cough
+Dog,Labrador,6.1,Female,29.6,Lameness,Diarrhea,Labored Breathing,Weakness,13 days,No,No,No,Yes,No,No,No,Yes,No,39.1°C,126,Kennel Cough
+Cow,Belted Galloway,4.2,Male,678.5,Anorexia,Vomiting,Weakness,Fever,6 days,Yes,No,Yes,No,No,No,No,Yes,Yes,39.8°C,63,Bovine Viral Diarrhea
+Dog,Yorkshire Terrier,7.5,Female,7.7,Nasal_Discharge,Diarrhea,Fever,Anorexia,14 days,No,No,No,Yes,Yes,No,No,No,Yes,38.7°C,104,Kennel Cough
+Dog,Siberian Husky,11.3,Female,25.7,Skin Lesions,Nasal Discharge,Anorexia,Coughing,12 days,Yes,No,No,No,No,No,No,No,No,39.1°C,97,Lyme Disease
+Dog,Rottweiler,10.1,Female,75.4,Nasal Discharge,Lethargy,Labored Breathing,Fever,19 hours,Yes,No,No,No,No,Yes,No,No,No,39.3°C,101,Lyme Disease
+Cow,Red Poll,7.4,Male,531.1,Lameness,Anorexia,Fever,Eye Discharge,8 days,No,No,No,No,No,Yes,No,No,No,39.4°C,64,Mastitis
+Dog,Doberman Pinscher,2.4,Female,16.2,Diarrhea,Dehydration,Lameness,Eye_Discharge,4 days,Yes,No,Yes,Yes,No,No,No,Yes,No,39.0°C,108,Canine Distemper
+Cow,Angus,2.1,Male,670.1,Labored Breathing,Coughing,Dehydration,Reduced Appetite,3 weeks,No,No,No,No,No,No,No,No,No,39.1°C,49,Mastitis
+Cow,Holstein,1.7,Female,484.9,Fever,Skin Lesions,Coughing,Fever,14 days,Yes,No,No,No,No,Yes,Yes,No,No,39.8°C,66,Foot and Mouth Disease
+Dog,Bulldog,5.5,Male,13.0,Diarrhea,Fever,Dehydration,Labored Breathing,19 hours,Yes,No,No,Yes,Yes,No,No,Yes,No,38.6°C,113,Kennel Cough
+Cow,Hereford,7.4,Male,769.4,Rumen Issues,Dehydration,Nasal Discharge,Weakness,16 hours,Yes,No,No,No,No,Yes,Yes,No,No,39.0°C,73,Foot and Mouth Disease
+Dog,German Shepherd,3.4,Female,22.3,Weakness,Fever,Appetite Loss,Labored Breathing,5 days,Yes,Yes,Yes,No,No,No,No,No,No,39.6°C,71,Gastroenteritis
+Cow,Red Poll,3.8,Male,565.2,Skin Lesions,Lameness,Anorexia,Fever,5 days,Yes,No,Yes,No,No,Yes,Yes,No,No,40.6°C,66,Foot and Mouth Disease
+Dog,Chihuahua,6.6,Male,5.0,Coughing,Vomiting,Coughing,Lameness,3 days,Yes,No,No,No,No,No,No,No,Yes,38.8°C,119,Canine Distemper
+Dog,Golden Retriever,8.1,Male,28.3,Fever,Weakness,Labored Breathing,Nasal_Discharge,3 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,38.3°C,118,Kennel Cough
+Dog,Beagle,3.1,Female,4.6,Vomiting,Diarrhea,Weakness,Fever,10 days,Yes,No,No,Yes,No,No,No,Yes,No,38.4°C,66,Kennel Cough
+Dog,Doberman Pinscher,3.2,Male,8.2,Vomiting,Skin Lesions,Diarrhea,Lameness,14 days,No,No,No,No,No,Yes,No,No,No,38.5°C,88,Lyme Disease
+Dog,Cocker Spaniel,1.9,Female,19.3,Lameness,Vomiting,Eye Discharge,Fever,6 days,No,No,No,Yes,Yes,No,No,Yes,No,39.4°C,61,Kennel Cough
+Cow,Aberdeen Angus,3.1,Female,522.8,Coughing,Vomiting,Lameness,Labored Breathing,13 days,Yes,No,No,No,No,No,Yes,No,Yes,39.9°C,62,Foot and Mouth Disease
+Cow,Brown Swiss,0.6,Female,565.4,Eye Discharge,Fever,Fever,Skin Lesions,13 days,Yes,No,No,No,No,Yes,Yes,No,No,40.4°C,117,Foot and Mouth Disease
+Cow,Jersey,9.4,Female,695.8,Fever,Nasal Discharge,Vomiting,Coughing,2 days,Yes,No,No,No,No,No,No,No,No,40.7°C,61,Bovine Viral Diarrhea
+Dog,Siberian Husky,0.7,Female,21.9,Coughing,Fever,Fever,Weakness,10 days,Yes,Yes,Yes,No,No,No,No,No,No,39.7°C,146,Parvovirus
+Cow,Limousin,0.5,Female,534.0,Skin Lesions,Anemia,Lameness,Labored Breathing,14 days,No,No,Yes,No,No,No,No,No,No,39.2°C,112,Parasitic Infection
+Dog,Poodle,5.3,Female,15.1,Coughing,Vomiting,Nasal_Discharge,Nasal Discharge,9 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.1°C,72,Canine Distemper
+Dog,Labrador,6.0,Female,37.1,Coughing,Labored Breathing,Skin Lesions,Coughing,10 days,No,No,No,No,No,No,No,No,No,38.5°C,108,Kennel Cough
+Cow,Shorthorn,9.4,Male,673.1,Coughing,Dehydration,Nasal Discharge,Anorexia,11 days,Yes,No,No,No,Yes,Yes,No,Yes,Yes,38.4°C,70,Respiratory Disease
+Dog,Labrador Retriever,4.0,Male,24.0,Skin Lesions,Weakness,Fever,Diarrhea,1 days,No,No,No,Yes,No,No,No,Yes,No,38.8°C,67,Kennel Cough
+Dog,Corgi,0.8,Male,13.5,Coughing,Eye_Discharge,Weakness,Vomiting,13 days,No,No,No,Yes,No,No,No,Yes,No,38.9°C,146,Kennel Cough
+Cow,Ayrshire,5.5,Male,533.2,Eye Discharge,Rumen Issues,Diarrhea,Fever,1 weeks,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,75,Foot and Mouth Disease
+Dog,Border Collie,0.8,Male,9.8,Labored Breathing,Skin Lesions,Coughing,Diarrhea,4 days,Yes,Yes,Yes,No,No,No,No,No,No,40.0°C,150,Parvovirus
+Dog,Akita,7.2,Male,20.7,Eye_Discharge,Nasal_Discharge,Weakness,Eye Discharge,11 hours,No,No,No,Yes,No,No,No,Yes,No,39.0°C,101,Kennel Cough
+Dog,Akita,3.6,Male,11.2,Fever,Skin Lesions,Nasal Discharge,Anorexia,9 days,Yes,No,No,Yes,No,No,No,Yes,Yes,39.5°C,111,Canine Distemper
+Dog,German Shepherd,7.0,Male,29.4,Vomiting,Diarrhea,Anorexia,Skin Lesions,9 days,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,96,Gastroenteritis
+Dog,Dachshund,9.9,Female,19.5,Weakness,Loss of Appetite,Coughing,Diarrhea,5 days,No,No,No,No,No,Yes,No,No,No,38.5°C,101,Lyme Disease
+Dog,Yorkshire Terrier,8.5,Male,3.7,Lameness,Fever,Fever,Vomiting,7 days,No,No,No,No,Yes,Yes,No,No,No,39.0°C,80,Lyme Disease
+Dog,Boxer,0.8,Female,33.7,Fever,Anorexia,Lethargy,Labored Breathing,6 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,146,Parvovirus
+Dog,Akita,8.6,Male,38.9,Eye Discharge,Eye_Discharge,Coughing,Labored Breathing,7 days,Yes,No,No,Yes,No,No,No,Yes,No,38.3°C,91,Kennel Cough
+Cow,Shorthorn,4.4,Male,483.5,Skin Lesions,Diarrhea,Fever,Coughing,12 days,Yes,No,Yes,No,No,No,No,No,No,39.0°C,66,Parasitic Infection
+Dog,Cocker Spaniel,9.8,Female,20.8,Diarrhea,Weakness,Fever,Appetite Loss,1 days,Yes,No,Yes,No,No,No,No,No,No,38.9°C,121,Gastroenteritis
+Cow,Hereford,4.3,Female,585.8,Weakness,Coughing,Diarrhea,Dehydration,1 weeks,Yes,No,Yes,Yes,No,No,No,No,No,39.3°C,60,Bovine Viral Diarrhea
+Dog,Pit Bull,0.8,Male,22.6,Labored Breathing,Vomiting,Weakness,Lameness,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.7°C,153,Parvovirus
+Cow,Red Poll,7.9,Female,598.1,Coughing,Eye Discharge,Labored Breathing,Anorexia,14 days,Yes,No,Yes,Yes,Yes,No,No,No,No,39.2°C,51,Respiratory Disease
+Dog,Labrador Retriever,7.7,Male,25.2,Coughing,Lameness,Anorexia,Vomiting,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,81,Gastroenteritis
+Dog,Dachshund,7.7,Male,21.9,Weakness,Anorexia,Labored Breathing,Coughing,3 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,61,Lyme Disease
+Dog,Akita,4.1,Male,25.4,Lethargy,Vomiting,Eye Discharge,Appetite Loss,17 hours,No,Yes,No,Yes,No,No,No,No,No,38.4°C,104,Gastroenteritis
+Dog,Golden Retriever,9.6,Male,35.1,Eye_Discharge,Fever,Nasal Discharge,Nasal_Discharge,10 days,No,No,No,Yes,No,No,No,No,No,39.2°C,92,Kennel Cough
+Dog,Border Collie,7.9,Male,8.0,Skin Lesions,Dehydration,Eye Discharge,Labored Breathing,5 days,Yes,No,No,Yes,No,No,No,No,No,38.6°C,90,Kennel Cough
+Cow,Red Angus,4.1,Male,462.2,Labored Breathing,Nasal Discharge,Eye Discharge,Diarrhea,4 days,No,No,Yes,No,No,Yes,No,No,No,39.0°C,72,Parasitic Infection
+Cow,Brown Swiss,5.9,Male,524.5,Fever,Coughing,Weakness,Lameness,11 hours,Yes,No,Yes,No,No,No,No,Yes,No,39.0°C,49,Bovine Viral Diarrhea
+Cow,Red Angus,6.6,Female,549.8,Diarrhea,Nasal Discharge,Nasal Discharge,Eye Discharge,4 days,No,No,No,Yes,Yes,No,No,Yes,No,39.8°C,74,Respiratory Disease
+Dog,Bulldog,2.6,Female,14.0,Labored Breathing,Fever,Diarrhea,Weakness,16 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,100,Gastroenteritis
+Dog,Corgi,0.5,Male,14.1,Anorexia,Lethargy,Diarrhea,Fever,10 days,No,Yes,Yes,No,No,No,No,No,No,39.4°C,130,Parvovirus
+Dog,Shih Tzu,0.5,Male,6.1,Labored Breathing,Vomiting,Lethargy,Lameness,4 days,Yes,Yes,Yes,No,No,No,No,No,No,40.2°C,140,Parvovirus
+Cow,Belted Galloway,5.8,Female,620.2,Anorexia,Reduced Appetite,Fever,Eye Discharge,13 days,Yes,No,No,No,No,No,No,No,No,40.5°C,62,Mastitis
+Dog,Akita,6.5,Female,20.0,Diarrhea,Nasal Discharge,Eye Discharge,Skin Lesions,10 days,Yes,No,No,Yes,No,No,No,Yes,No,38.6°C,78,Kennel Cough
+Cow,Belted Galloway,10.2,Female,538.5,Skin Lesions,Anemia,Nasal Discharge,Vomiting,5 days,Yes,No,No,No,No,No,No,No,No,38.9°C,51,Parasitic Infection
+Cow,Brahman,1.7,Male,628.9,Coughing,Fever,Diarrhea,Diarrhea,10 days,Yes,No,Yes,Yes,Yes,No,No,Yes,No,38.8°C,78,Bovine Viral Diarrhea
+Dog,Dachshund,11.7,Female,8.8,Diarrhea,Vomiting,Nasal Discharge,Skin Lesions,4 days,Yes,Yes,No,No,No,No,No,No,No,38.4°C,95,Gastroenteritis
+Cow,Charolais,4.3,Male,616.1,Anorexia,Reduced Appetite,Labored Breathing,Diarrhea,1 days,Yes,Yes,No,No,No,No,No,No,No,38.7°C,62,Mastitis
+Cow,Belted Galloway,5.4,Female,463.8,Labored Breathing,Nasal Discharge,Dehydration,Anemia,13 days,No,No,No,No,No,No,No,No,No,39.0°C,79,Parasitic Infection
+Cow,Dexter,11.8,Female,643.4,Nasal Discharge,Nasal Discharge,Vomiting,Labored Breathing,19 hours,Yes,No,No,Yes,Yes,No,No,Yes,No,39.9°C,67,Respiratory Disease
+Cow,Guernsey,6.9,Female,557.2,Coughing,Diarrhea,Skin Lesions,Swollen Udder,6 hours,Yes,No,No,No,No,No,No,No,No,40.4°C,82,Mastitis
+Dog,Bulldog,0.4,Female,13.9,Lethargy,Fever,Dehydration,Vomiting,7 days,Yes,Yes,Yes,No,No,No,No,No,No,39.7°C,140,Parvovirus
+Dog,Rottweiler,2.5,Male,64.1,Coughing,Dehydration,Skin Lesions,Anorexia,4 days,Yes,No,No,Yes,Yes,No,No,Yes,No,38.8°C,116,Kennel Cough
+Cow,Ayrshire,0.8,Male,483.3,Anorexia,Vomiting,Fever,Dehydration,6 days,Yes,No,No,No,No,Yes,No,No,No,39.5°C,101,Foot and Mouth Disease
+Dog,Dachshund,6.6,Female,37.7,Nasal Discharge,Vomiting,Anorexia,Skin Lesions,7 days,Yes,Yes,No,Yes,Yes,No,No,Yes,No,39.6°C,101,Canine Distemper
+Dog,Cocker Spaniel,0.3,Male,21.1,Anorexia,Diarrhea,Coughing,Labored Breathing,8 hours,Yes,Yes,No,No,No,No,No,No,No,39.5°C,132,Parvovirus
+Dog,Boxer,8.9,Male,27.6,Diarrhea,Dehydration,Vomiting,Appetite Loss,14 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,109,Gastroenteritis
+Dog,Doberman Pinscher,7.8,Male,11.1,Nasal_Discharge,Dehydration,Vomiting,Vomiting,13 days,Yes,Yes,Yes,No,Yes,No,No,Yes,No,40.1°C,120,Canine Distemper
+Dog,Beagle,0.3,Female,6.2,Dehydration,Diarrhea,Anorexia,Lethargy,2 weeks,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,139,Parvovirus
+Dog,Dachshund,5.5,Female,9.5,Nasal_Discharge,Nasal Discharge,Dehydration,Skin Lesions,4 days,No,No,No,Yes,Yes,No,No,No,No,39.5°C,66,Kennel Cough
+Cow,Shorthorn,5.5,Female,641.0,Diarrhea,Lameness,Eye Discharge,Weakness,6 days,Yes,No,No,No,No,No,Yes,No,No,40.4°C,81,Foot and Mouth Disease
+Cow,Brown Swiss,8.3,Male,556.4,Lameness,Vomiting,Coughing,Eye Discharge,4 weeks,Yes,No,No,Yes,No,No,No,Yes,Yes,40.3°C,58,Respiratory Disease
+Dog,Poodle,5.1,Female,29.8,Coughing,Nasal_Discharge,Dehydration,Anorexia,2 weeks,Yes,No,No,Yes,Yes,No,No,Yes,No,38.4°C,121,Kennel Cough
+Dog,Boxer,4.0,Male,27.7,Dehydration,Vomiting,Lethargy,Diarrhea,1 days,Yes,Yes,Yes,No,No,No,No,No,No,38.3°C,100,Gastroenteritis
+Dog,Doberman Pinscher,2.8,Female,27.9,Skin Lesions,Vomiting,Eye Discharge,Vomiting,13 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,106,Gastroenteritis
+Dog,Doberman Pinscher,9.0,Male,19.0,Vomiting,Eye_Discharge,Anorexia,Coughing,13 days,No,No,No,Yes,Yes,No,No,Yes,Yes,38.5°C,79,Kennel Cough
+Dog,German Shepherd,3.2,Female,20.6,Fever,Nasal Discharge,Weakness,Lethargy,13 days,Yes,No,No,No,No,Yes,No,No,No,38.6°C,83,Lyme Disease
+Cow,Limousin,10.7,Female,431.3,Nasal Discharge,Eye Discharge,Nasal Discharge,Dehydration,2 days,Yes,No,No,Yes,No,No,No,Yes,No,39.2°C,52,Respiratory Disease
+Dog,German Shepherd,2.1,Female,41.0,Skin Lesions,Vomiting,Weakness,Vomiting,14 days,No,No,Yes,No,No,No,No,No,No,38.5°C,68,Gastroenteritis
+Dog,Poodle,9.2,Female,3.2,Lethargy,Fever,Vomiting,Vomiting,14 hours,Yes,Yes,Yes,No,No,No,No,No,Yes,38.9°C,83,Gastroenteritis
+Dog,Siberian Husky,6.1,Female,32.1,Diarrhea,Loss of Appetite,Nasal Discharge,Anorexia,14 days,Yes,No,No,No,No,Yes,No,No,No,38.3°C,88,Lyme Disease
+Dog,Siberian Husky,2.0,Female,27.5,Nasal Discharge,Nasal_Discharge,Weakness,Lameness,7 weeks,No,No,No,Yes,Yes,No,No,No,No,39.2°C,90,Kennel Cough
+Dog,Corgi,9.1,Male,8.7,Skin Lesions,Labored Breathing,Weakness,Coughing,13 days,No,No,No,Yes,No,No,No,No,Yes,38.5°C,67,Kennel Cough
+Cow,Angus,9.6,Female,536.8,Diarrhea,Eye Discharge,Respiratory Signs,Skin Lesions,9 days,Yes,No,Yes,No,No,No,No,No,No,39.5°C,55,Bovine Viral Diarrhea
+Cow,Ayrshire,4.0,Female,543.6,Lameness,Coughing,Anorexia,Diarrhea,11 days,Yes,No,No,No,No,No,No,No,Yes,40.7°C,49,Bovine Viral Diarrhea
+Dog,Siberian Husky,9.2,Female,27.0,Diarrhea,Nasal Discharge,Fever,Lethargy,11 days,No,Yes,Yes,Yes,No,No,No,No,No,39.4°C,117,Gastroenteritis
+Dog,Dalmatian,8.6,Male,27.5,Diarrhea,Weakness,Coughing,Fever,3 days,Yes,Yes,No,No,No,No,No,No,No,39.0°C,66,Gastroenteritis
+Cow,Shorthorn,0.4,Male,509.5,Weight Loss,Diarrhea,Nasal Discharge,Fever,9 days,Yes,No,Yes,No,No,No,No,No,No,38.6°C,130,Parasitic Infection
+Dog,German Shepherd,1.3,Male,28.1,Labored Breathing,Skin Lesions,Diarrhea,Fever,10 days,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.4°C,91,Canine Distemper
+Dog,Poodle,0.9,Male,24.1,Weakness,Vomiting,Coughing,Diarrhea,8 days,Yes,Yes,Yes,Yes,No,No,No,No,No,41.1°C,159,Parvovirus
+Dog,Shih Tzu,6.2,Female,5.2,Lethargy,Weakness,Skin Lesions,Coughing,11 days,No,Yes,Yes,No,No,No,No,No,No,38.2°C,86,Gastroenteritis
+Dog,Husky,0.7,Female,35.7,Fever,Lethargy,Eye Discharge,Vomiting,12 days,Yes,No,No,No,No,No,No,No,No,40.1°C,148,Parvovirus
+Cow,Ayrshire,7.3,Male,723.5,Nasal Discharge,Lameness,Dehydration,Skin Lesions,12 days,No,No,No,No,Yes,No,No,No,No,39.0°C,62,Parasitic Infection
+Dog,Bulldog,0.6,Male,8.4,Labored Breathing,Weakness,Eye Discharge,Coughing,2 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,159,Parvovirus
+Cow,Charolais,2.1,Female,625.5,Vomiting,Eye Discharge,Skin Lesions,Respiratory Signs,8 days,Yes,No,Yes,No,No,No,No,No,No,39.6°C,79,Bovine Viral Diarrhea
+Dog,Pit Bull,3.8,Male,9.0,Eye_Discharge,Weakness,Coughing,Eye Discharge,3 days,No,No,No,Yes,No,No,No,No,Yes,38.3°C,81,Kennel Cough
+Cow,Angus,8.5,Male,523.5,Anorexia,Fever,Eye Discharge,Diarrhea,1 days,Yes,No,No,Yes,No,Yes,No,No,No,40.0°C,80,Foot and Mouth Disease
+Cow,Belted Galloway,1.9,Male,501.3,Anorexia,Fever,Labored Breathing,Skin Lesions,13 days,No,No,Yes,Yes,No,No,No,Yes,No,39.3°C,76,Bovine Viral Diarrhea
+Dog,Dalmatian,0.4,Female,24.9,Dehydration,Fever,Diarrhea,Labored Breathing,7 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,127,Parvovirus
+Cow,Shorthorn,8.9,Male,633.6,Respiratory Signs,Eye Discharge,Coughing,Dehydration,12 hours,No,No,Yes,No,No,No,No,Yes,Yes,39.0°C,75,Bovine Viral Diarrhea
+Cow,Brahman,11.9,Female,600.2,Nasal Discharge,Eye Discharge,Coughing,Weakness,7 days,No,No,No,Yes,No,No,Yes,Yes,No,39.7°C,66,Respiratory Disease
+Dog,Cocker Spaniel,1.7,Female,35.6,Nasal Discharge,Diarrhea,Weakness,Appetite Loss,19 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,97,Gastroenteritis
+Cow,Jersey,7.6,Female,584.8,Coughing,Nasal Discharge,Dehydration,Weakness,2 days,Yes,No,Yes,No,No,No,No,No,No,39.2°C,74,Bovine Viral Diarrhea
+Cow,Simmental,2.5,Female,549.3,Labored Breathing,Skin Lesions,Coughing,Diarrhea,12 days,Yes,No,Yes,No,No,Yes,Yes,No,No,40.2°C,81,Foot and Mouth Disease
+Cow,Limousin,6.8,Female,469.4,Eye Discharge,Nasal Discharge,Anorexia,Diarrhea,3 days,No,No,No,Yes,No,Yes,No,Yes,No,40.2°C,70,Respiratory Disease
+Dog,Golden Retriever,1.7,Male,34.3,Lameness,Vomiting,Eye Discharge,Anorexia,13 days,Yes,No,Yes,No,No,No,No,No,No,37.9°C,65,Gastroenteritis
+Dog,Shih Tzu,1.3,Female,3.2,Skin Lesions,Diarrhea,Vomiting,Anorexia,10 days,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,38.5°C,97,Canine Distemper
+Cow,Aberdeen Angus,5.9,Male,629.8,Nasal Discharge,Swollen Udder,Dehydration,Weakness,10 days,Yes,No,No,No,No,No,No,No,No,39.8°C,67,Mastitis
+Cow,Ayrshire,11.8,Female,414.0,Nasal Discharge,Dehydration,Rumen Issues,Eye Discharge,12 days,Yes,No,No,No,No,Yes,No,No,No,39.3°C,64,Foot and Mouth Disease
+Dog,Poodle,4.0,Female,1.4,Fever,Weakness,Diarrhea,Eye Discharge,11 days,No,No,No,No,No,Yes,No,No,No,38.4°C,77,Lyme Disease
+Dog,Labrador,3.0,Male,27.5,Lameness,Labored Breathing,Nasal Discharge,Anorexia,9 days,No,No,No,Yes,No,No,No,Yes,No,39.2°C,97,Kennel Cough
+Dog,Doberman Pinscher,1.3,Male,7.5,Appetite Loss,Coughing,Fever,Diarrhea,2 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,73,Gastroenteritis
+Cow,Brahman,10.2,Female,557.1,Coughing,Skin Lesions,Labored Breathing,Anorexia,9 days,Yes,No,No,No,No,Yes,Yes,No,No,39.6°C,61,Foot and Mouth Disease
+Dog,Doberman Pinscher,0.7,Female,7.9,Lethargy,Vomiting,Diarrhea,Anorexia,8 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,141,Lyme Disease
+Dog,Labrador Retriever,3.0,Male,24.1,Vomiting,Coughing,Fever,Eye Discharge,1 days,No,No,No,Yes,No,No,No,Yes,No,39.7°C,78,Kennel Cough
+Cow,Holstein,7.4,Male,589.2,Labored Breathing,Vomiting,Eye Discharge,Weakness,3 days,Yes,No,No,Yes,No,No,No,Yes,No,39.6°C,67,Respiratory Disease
+Dog,Beagle,5.6,Female,10.4,Dehydration,Nasal Discharge,Labored Breathing,Skin Lesions,23 hours,No,No,No,Yes,Yes,No,No,No,Yes,39.2°C,77,Kennel Cough
+Cow,Guernsey,1.1,Female,576.3,Lameness,Coughing,Fever,Anorexia,12 days,No,No,No,Yes,Yes,No,No,Yes,No,40.1°C,66,Respiratory Disease
+Cow,Jersey,6.6,Female,527.4,Nasal Discharge,Vomiting,Dehydration,Skin Lesions,7 days,Yes,No,No,No,No,Yes,Yes,Yes,Yes,40.1°C,81,Foot and Mouth Disease
+Dog,Border Collie,5.9,Male,14.1,Appetite Loss,Weakness,Lameness,Vomiting,6 days,Yes,No,Yes,No,No,No,No,No,No,38.7°C,116,Gastroenteritis
+Cow,Shorthorn,6.1,Female,464.3,Anorexia,Fever,Labored Breathing,Respiratory Signs,2 days,Yes,No,Yes,Yes,No,No,No,No,No,39.3°C,64,Bovine Viral Diarrhea
+Cow,Shorthorn,1.3,Female,594.1,Fever,Skin Lesions,Skin Lesions,Rumen Issues,1 weeks,Yes,No,No,No,No,Yes,Yes,No,No,40.5°C,59,Foot and Mouth Disease
+Dog,Husky,7.1,Female,24.1,Lameness,Lameness,Labored Breathing,Anorexia,6 weeks,Yes,No,No,No,No,No,No,No,No,39.0°C,123,Lyme Disease
+Dog,Akita,8.0,Male,22.0,Anorexia,Coughing,Diarrhea,Fever,11 days,No,No,No,No,No,Yes,No,No,No,38.5°C,115,Lyme Disease
+Dog,Pit Bull,0.9,Female,24.8,Anorexia,Vomiting,Eye Discharge,Diarrhea,5 days,Yes,Yes,Yes,No,Yes,No,No,No,No,39.1°C,145,Parvovirus
+Dog,Yorkshire Terrier,5.1,Female,6.3,Anorexia,Eye Discharge,Labored Breathing,Weakness,5 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.9°C,91,Canine Distemper
+Dog,Siberian Husky,7.2,Male,27.9,Lameness,Eye Discharge,Skin Lesions,Nasal_Discharge,8 days,Yes,Yes,Yes,No,Yes,No,No,No,No,39.9°C,117,Canine Distemper
+Dog,Bulldog,0.5,Male,14.4,Skin Lesions,Lameness,Vomiting,Fever,1 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,133,Parvovirus
+Dog,Cocker Spaniel,6.3,Female,18.0,Vomiting,Coughing,Skin Lesions,Diarrhea,7 weeks,Yes,No,No,No,No,No,No,Yes,Yes,38.7°C,72,Canine Distemper
+Cow,Charolais,3.6,Male,589.3,Nasal Discharge,Coughing,Weakness,Vomiting,9 days,No,No,No,No,No,Yes,No,No,Yes,39.2°C,55,Mastitis
+Dog,Bulldog,3.8,Female,9.3,Vomiting,Coughing,Diarrhea,Nasal Discharge,9 days,No,No,No,Yes,No,No,No,Yes,No,38.8°C,63,Kennel Cough
+Dog,Dalmatian,6.3,Female,37.2,Lameness,Dehydration,Weakness,Skin Lesions,14 days,Yes,No,No,No,No,Yes,No,No,No,38.7°C,98,Lyme Disease
+Cow,Dexter,5.1,Female,598.7,Fever,Weakness,Diarrhea,Vomiting,17 hours,Yes,No,Yes,Yes,Yes,No,No,No,No,39.5°C,76,Bovine Viral Diarrhea
+Cow,Red Poll,7.1,Male,565.5,Labored Breathing,Skin Lesions,Nasal Discharge,Vomiting,12 days,No,No,No,Yes,Yes,No,No,Yes,No,39.7°C,78,Respiratory Disease
+Cow,Red Poll,7.1,Female,402.0,Fever,Labored Breathing,Nasal Discharge,Coughing,9 days,Yes,No,No,Yes,No,No,No,Yes,No,40.6°C,76,Respiratory Disease
+Dog,Dachshund,2.1,Male,14.4,Fever,Nasal_Discharge,Eye Discharge,Coughing,10 days,Yes,No,Yes,Yes,No,No,No,No,Yes,39.6°C,63,Canine Distemper
+Cow,Ayrshire,4.5,Female,466.7,Anorexia,Vomiting,Diarrhea,Lameness,7 days,No,No,No,Yes,No,No,No,Yes,No,39.8°C,64,Respiratory Disease
+Cow,Dexter,4.6,Female,585.0,Coughing,Fever,Eye Discharge,Vomiting,13 days,No,Yes,Yes,Yes,No,No,No,Yes,Yes,39.0°C,72,Bovine Viral Diarrhea
+Dog,Doberman Pinscher,0.1,Male,20.8,Fever,Eye Discharge,Nasal Discharge,Dehydration,1 days,Yes,Yes,No,No,No,No,No,No,No,40.1°C,159,Parvovirus
+Dog,Poodle,8.4,Female,17.7,Skin Lesions,Dehydration,Labored Breathing,Coughing,15 hours,No,No,No,Yes,No,No,No,Yes,No,38.9°C,116,Kennel Cough
+Cow,Hereford,11.6,Male,558.8,Vomiting,Dehydration,Skin Lesions,Weakness,9 days,Yes,No,No,No,No,No,No,No,No,39.3°C,61,Mastitis
+Cow,Hereford,3.7,Female,561.0,Reduced Appetite,Labored Breathing,Fever,Weakness,3 days,No,No,No,No,No,No,No,No,No,39.6°C,78,Mastitis
+Dog,Corgi,0.3,Female,12.3,Coughing,Vomiting,Dehydration,Fever,1 days,Yes,Yes,Yes,No,No,No,No,No,No,39.7°C,145,Parvovirus
+Dog,Labrador Retriever,1.2,Female,23.8,Anorexia,Skin Lesions,Diarrhea,Lethargy,8 days,No,Yes,No,No,No,No,Yes,No,No,39.6°C,119,Gastroenteritis
+Dog,Golden Retriever,0.8,Male,26.7,Coughing,Labored Breathing,Skin Lesions,Fever,10 days,Yes,Yes,No,No,No,No,No,No,Yes,39.0°C,144,Gastroenteritis
+Cow,Dexter,5.4,Male,620.5,Lameness,Coughing,Fever,Skin Lesions,9 hours,Yes,No,No,No,No,No,No,No,No,38.7°C,69,Mastitis
+Cow,Simmental,10.3,Male,519.2,Nasal Discharge,Labored Breathing,Skin Lesions,Diarrhea,12 days,Yes,No,No,No,No,Yes,Yes,No,No,39.5°C,60,Foot and Mouth Disease
+Cow,Brahman,7.1,Male,447.7,Swollen Udder,Vomiting,Skin Lesions,Fever,4 days,Yes,No,No,No,No,No,No,No,No,38.5°C,75,Mastitis
+Dog,German Shepherd,5.1,Female,31.4,Weakness,Nasal Discharge,Fever,Dehydration,11 days,Yes,No,No,No,No,Yes,Yes,No,No,38.5°C,85,Lyme Disease
+Cow,Aberdeen Angus,10.2,Male,492.6,Labored Breathing,Lameness,Skin Lesions,Weakness,6 days,No,No,No,No,Yes,No,No,Yes,No,41.0°C,59,Respiratory Disease
+Cow,Guernsey,7.8,Male,641.2,Labored Breathing,Respiratory Signs,Dehydration,Skin Lesions,14 days,Yes,No,Yes,Yes,Yes,No,No,No,No,39.2°C,69,Bovine Viral Diarrhea
+Cow,Simmental,10.4,Male,495.9,Anorexia,Eye Discharge,Labored Breathing,Nasal Discharge,3 days,No,No,No,Yes,Yes,Yes,No,No,No,40.2°C,61,Respiratory Disease
+Dog,Bulldog,1.6,Female,6.5,Labored Breathing,Anorexia,Skin Lesions,Vomiting,5 days,No,No,No,No,No,No,No,Yes,No,38.5°C,125,Kennel Cough
+Dog,Dachshund,6.9,Male,-0.7,Diarrhea,Dehydration,Weakness,Skin Lesions,9 days,No,No,No,Yes,No,No,No,Yes,Yes,38.7°C,107,Kennel Cough
+Dog,Border Collie,7.3,Female,9.4,Anorexia,Vomiting,Coughing,Weakness,12 days,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,124,Gastroenteritis
+Dog,Siberian Husky,0.3,Female,15.5,Fever,Diarrhea,Weakness,Fever,9 days,Yes,Yes,Yes,Yes,No,No,No,No,No,39.5°C,146,Parvovirus
+Cow,Limousin,5.4,Male,676.1,Labored Breathing,Diarrhea,Fever,Dehydration,4 days,Yes,No,No,No,No,Yes,Yes,No,No,39.9°C,63,Foot and Mouth Disease
+Dog,Beagle,4.5,Male,14.6,Weakness,Eye_Discharge,Skin Lesions,Labored Breathing,6 days,No,No,No,Yes,Yes,No,No,No,No,38.8°C,74,Kennel Cough
+Cow,Angus,2.5,Female,654.5,Respiratory Signs,Eye Discharge,Fever,Lameness,11 hours,Yes,No,Yes,Yes,No,No,No,No,No,38.4°C,61,Bovine Viral Diarrhea
+Cow,Brahman,3.7,Male,561.8,Diarrhea,Coughing,Lameness,Skin Lesions,12 days,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,81,Foot and Mouth Disease
+Dog,Rottweiler,2.5,Male,61.8,Weakness,Eye_Discharge,Lameness,Nasal_Discharge,10 days,Yes,No,Yes,Yes,No,No,No,Yes,No,38.3°C,127,Kennel Cough
+Cow,Jersey,9.1,Female,528.0,Lameness,Weight Loss,Diarrhea,Weakness,1 weeks,Yes,No,Yes,No,No,No,No,No,Yes,38.7°C,67,Parasitic Infection
+Cow,Hereford,6.2,Male,554.6,Lameness,Skin Lesions,Weakness,Labored Breathing,9 days,Yes,No,No,Yes,No,No,No,No,No,39.8°C,51,Respiratory Disease
+Cow,Brown Swiss,4.4,Female,580.2,Fever,Labored Breathing,Fever,Dehydration,16 hours,Yes,No,No,No,No,No,No,No,No,40.0°C,72,Mastitis
+Dog,Dachshund,7.0,Male,15.2,Weakness,Coughing,Vomiting,Labored Breathing,2 days,No,Yes,No,Yes,Yes,No,No,Yes,No,37.7°C,88,Canine Distemper
+Dog,Husky,2.3,Male,25.0,Anorexia,Fever,Coughing,Nasal Discharge,11 days,No,Yes,Yes,No,No,No,No,No,No,39.2°C,64,Gastroenteritis
+Dog,Dalmatian,4.5,Female,21.1,Dehydration,Nasal Discharge,Weakness,Fever,12 days,No,Yes,No,Yes,Yes,No,No,No,Yes,39.4°C,70,Canine Distemper
+Dog,Border Collie,7.1,Female,7.3,Coughing,Dehydration,Eye Discharge,Weakness,13 days,No,No,No,No,No,No,No,Yes,No,38.9°C,122,Lyme Disease
+Cow,Simmental,3.3,Male,622.2,Swollen Udder,Vomiting,Anorexia,Dehydration,8 days,No,No,No,No,No,Yes,No,No,No,40.2°C,68,Mastitis
+Dog,Dalmatian,8.3,Male,29.7,Vomiting,Lameness,Dehydration,Diarrhea,7 weeks,No,No,No,No,No,Yes,No,No,No,38.4°C,117,Lyme Disease
+Cow,Simmental,0.3,Female,492.6,Weakness,Weight Loss,Nasal Discharge,Anorexia,4 weeks,No,No,Yes,No,No,No,No,No,No,38.7°C,126,Parasitic Infection
+Cow,Dexter,7.0,Male,578.4,Eye Discharge,Respiratory Signs,Fever,Coughing,6 weeks,No,No,No,No,Yes,No,No,No,No,40.0°C,80,Bovine Viral Diarrhea
+Cow,Ayrshire,4.4,Male,446.3,Vomiting,Eye Discharge,Reduced Appetite,Diarrhea,14 days,Yes,No,No,No,No,No,No,No,No,39.6°C,51,Mastitis
+Cow,Limousin,8.5,Female,504.5,Anorexia,Labored Breathing,Coughing,Anemia,13 days,No,No,No,No,No,No,No,No,No,38.7°C,67,Parasitic Infection
+Cow,Belted Galloway,11.2,Male,584.3,Dehydration,Labored Breathing,Nasal Discharge,Nasal Discharge,6 days,Yes,No,No,No,Yes,No,No,Yes,Yes,39.7°C,77,Respiratory Disease
+Dog,Dalmatian,3.6,Female,28.6,Diarrhea,Fever,Nasal Discharge,Coughing,13 days,No,No,Yes,No,No,No,No,No,No,37.7°C,99,Gastroenteritis
+Cow,Brown Swiss,8.4,Female,516.9,Nasal Discharge,Skin Lesions,Anorexia,Anemia,5 days,Yes,No,No,No,No,No,No,No,No,39.0°C,48,Parasitic Infection
+Dog,Rottweiler,0.9,Male,76.9,Anorexia,Lameness,Coughing,Diarrhea,11 days,Yes,No,Yes,No,No,No,No,No,No,39.5°C,122,Parvovirus
+Cow,Brahman,2.5,Female,567.5,Eye Discharge,Labored Breathing,Fever,Anorexia,5 days,No,No,No,Yes,Yes,No,No,No,No,39.5°C,50,Respiratory Disease
+Cow,Brown Swiss,8.5,Male,756.2,Fever,Diarrhea,Dehydration,Eye Discharge,5 weeks,Yes,No,Yes,Yes,Yes,No,No,No,No,39.9°C,68,Bovine Viral Diarrhea
+Dog,Boxer,7.1,Female,30.2,Lameness,Nasal Discharge,Vomiting,Lethargy,2 days,Yes,Yes,Yes,No,No,No,No,Yes,No,38.8°C,65,Gastroenteritis
+Cow,Simmental,1.1,Female,615.0,Weakness,Lameness,Lameness,Diarrhea,4 days,Yes,No,Yes,No,No,Yes,Yes,No,No,39.6°C,48,Foot and Mouth Disease
+Cow,Hereford,2.1,Male,490.2,Anorexia,Skin Lesions,Coughing,Labored Breathing,13 days,No,No,No,No,Yes,No,No,Yes,No,39.3°C,75,Respiratory Disease
+Cow,Simmental,1.1,Female,432.5,Labored Breathing,Nasal Discharge,Skin Lesions,Fever,9 days,Yes,No,No,Yes,Yes,No,No,No,No,39.7°C,48,Respiratory Disease
+Dog,Siberian Husky,5.0,Female,23.0,Weakness,Diarrhea,Nasal_Discharge,Skin Lesions,3 days,Yes,No,No,Yes,No,No,No,Yes,Yes,39.2°C,109,Kennel Cough
+Dog,Cocker Spaniel,1.4,Female,21.3,Nasal Discharge,Nasal_Discharge,Eye Discharge,Coughing,5 days,No,No,Yes,Yes,Yes,No,No,Yes,No,38.5°C,100,Canine Distemper
+Cow,Brown Swiss,4.9,Male,414.2,Lameness,Labored Breathing,Weakness,Fever,11 days,No,No,Yes,No,No,No,No,No,No,38.5°C,70,Bovine Viral Diarrhea
+Dog,Boxer,5.1,Male,28.4,Vomiting,Lameness,Coughing,Eye Discharge,5 days,No,No,No,No,Yes,No,No,No,No,38.8°C,89,Kennel Cough
+Cow,Angus,9.0,Male,600.1,Nasal Discharge,Labored Breathing,Dehydration,Fever,12 days,No,No,No,Yes,No,No,No,Yes,No,38.5°C,57,Respiratory Disease
+Cow,Belted Galloway,4.0,Male,541.2,Respiratory Signs,Lameness,Diarrhea,Labored Breathing,9 days,Yes,No,Yes,No,No,No,No,No,No,40.0°C,78,Bovine Viral Diarrhea
+Cow,Ayrshire,1.0,Female,532.7,Fever,Respiratory Signs,Nasal Discharge,Labored Breathing,2 days,Yes,No,Yes,No,No,No,No,Yes,No,39.7°C,69,Bovine Viral Diarrhea
+Dog,Husky,11.5,Female,26.4,Anorexia,Nasal Discharge,Loss of Appetite,Diarrhea,13 days,Yes,No,No,No,No,Yes,No,No,No,38.8°C,108,Lyme Disease
+Cow,Brown Swiss,0.7,Female,542.4,Respiratory Signs,Anorexia,Skin Lesions,Weakness,11 days,No,No,Yes,Yes,Yes,Yes,No,Yes,No,38.9°C,117,Bovine Viral Diarrhea
+Dog,Shih Tzu,1.3,Male,4.8,Coughing,Eye Discharge,Weakness,Labored Breathing,4 days,Yes,No,Yes,No,Yes,No,No,Yes,Yes,38.8°C,85,Canine Distemper
+Cow,Simmental,11.3,Male,611.9,Nasal Discharge,Diarrhea,Lameness,Fever,12 days,Yes,No,Yes,No,No,Yes,No,No,No,39.2°C,50,Foot and Mouth Disease
+Cow,Limousin,7.3,Male,627.4,Swollen Udder,Coughing,Fever,Labored Breathing,6 days,Yes,No,No,No,No,No,No,No,No,40.8°C,64,Mastitis
+Dog,Yorkshire Terrier,0.8,Male,3.1,Fever,Diarrhea,Labored Breathing,Dehydration,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,154,Parvovirus
+Dog,Yorkshire Terrier,0.3,Male,6.1,Diarrhea,Eye Discharge,Weakness,Lameness,1 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,142,Parvovirus
+Dog,Labrador Retriever,3.4,Male,33.2,Vomiting,Fever,Appetite Loss,Skin Lesions,2 days,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,125,Gastroenteritis
+Dog,Siberian Husky,1.2,Female,25.7,Labored Breathing,Vomiting,Anorexia,Dehydration,5 days,No,No,No,Yes,Yes,No,No,No,No,38.7°C,88,Kennel Cough
+Cow,Angus,6.2,Female,649.7,Coughing,Fever,Diarrhea,Anorexia,10 days,Yes,No,Yes,No,No,No,No,Yes,No,40.4°C,67,Bovine Viral Diarrhea
+Cow,Guernsey,1.4,Female,491.2,Coughing,Dehydration,Vomiting,Anorexia,17 hours,Yes,No,Yes,No,No,No,No,No,No,39.6°C,62,Parasitic Infection
+Cow,Ayrshire,3.5,Female,755.8,Weakness,Skin Lesions,Vomiting,Nasal Discharge,8 days,Yes,No,No,No,No,No,No,No,No,40.1°C,60,Mastitis
+Dog,Dachshund,3.1,Female,8.5,Weakness,Lameness,Loss of Appetite,Nasal Discharge,11 days,Yes,No,No,No,No,Yes,No,No,No,38.7°C,75,Lyme Disease
+Dog,Border Collie,3.9,Female,9.4,Dehydration,Labored Breathing,Skin Lesions,Lethargy,2 days,Yes,No,Yes,No,No,No,No,No,No,38.8°C,85,Gastroenteritis
+Cow,Dexter,9.6,Male,651.1,Labored Breathing,Anorexia,Weakness,Coughing,20 hours,No,No,No,Yes,Yes,No,No,Yes,No,39.5°C,55,Respiratory Disease
+Dog,Beagle,5.3,Female,11.8,Lethargy,Loss of Appetite,Dehydration,Skin Lesions,10 days,No,No,No,No,No,Yes,No,No,No,38.7°C,79,Lyme Disease
+Dog,Rottweiler,0.4,Female,77.0,Coughing,Skin Lesions,Labored Breathing,Anorexia,11 days,Yes,No,Yes,No,No,No,No,No,No,39.8°C,150,Parvovirus
+Cow,Aberdeen Angus,1.2,Male,701.1,Labored Breathing,Fever,Coughing,Coughing,1 days,No,No,No,Yes,Yes,No,No,No,No,40.1°C,82,Respiratory Disease
+Dog,Labrador Retriever,2.3,Female,19.8,Fever,Eye Discharge,Vomiting,Coughing,19 hours,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,38.8°C,115,Canine Distemper
+Cow,Hereford,6.3,Female,526.2,Eye Discharge,Nasal Discharge,Diarrhea,Labored Breathing,3 days,No,No,No,No,No,No,No,No,No,39.3°C,60,Bovine Viral Diarrhea
+Dog,Corgi,0.7,Male,15.0,Fever,Coughing,Lameness,Weakness,22 hours,No,No,No,Yes,No,No,No,No,No,37.8°C,131,Kennel Cough
+Cow,Brown Swiss,0.9,Female,570.7,Fever,Skin Lesions,Weakness,Vomiting,3 days,Yes,No,No,No,No,Yes,No,No,No,39.5°C,127,Foot and Mouth Disease
+Cow,Holstein,6.6,Male,423.4,Vomiting,Fever,Nasal Discharge,Diarrhea,11 days,Yes,No,No,No,No,No,No,No,No,39.2°C,80,Mastitis
+Cow,Angus,6.4,Female,454.4,Weakness,Anorexia,Anemia,Weight Loss,5 days,Yes,No,Yes,No,No,No,No,No,No,38.7°C,61,Parasitic Infection
+Cow,Brown Swiss,11.8,Male,622.3,Nasal Discharge,Coughing,Nasal Discharge,Dehydration,12 days,No,No,No,Yes,Yes,No,No,Yes,No,39.3°C,61,Respiratory Disease
+Cow,Ayrshire,8.4,Female,546.7,Diarrhea,Rumen Issues,Vomiting,Skin Lesions,12 days,Yes,No,No,No,No,No,Yes,No,No,39.1°C,72,Foot and Mouth Disease
+Cow,Ayrshire,5.0,Female,563.0,Vomiting,Weight Loss,Diarrhea,Anorexia,6 days,No,No,Yes,No,No,No,Yes,No,No,39.4°C,49,Parasitic Infection
+Dog,Border Collie,3.7,Male,8.0,Coughing,Skin Lesions,Vomiting,Nasal_Discharge,6 days,Yes,Yes,No,Yes,Yes,No,No,No,No,38.8°C,97,Canine Distemper
+Cow,Ayrshire,6.7,Male,453.7,Diarrhea,Labored Breathing,Eye Discharge,Skin Lesions,4 days,No,No,No,Yes,No,No,No,Yes,Yes,38.9°C,50,Respiratory Disease
+Cow,Limousin,6.8,Male,408.4,Vomiting,Diarrhea,Respiratory Signs,Lameness,13 days,Yes,No,Yes,No,No,No,No,Yes,No,39.3°C,71,Bovine Viral Diarrhea
+Cow,Brahman,9.6,Female,465.0,Dehydration,Diarrhea,Labored Breathing,Weakness,11 days,Yes,No,No,No,No,No,No,No,No,39.8°C,59,Mastitis
+Dog,Chihuahua,7.8,Female,4.4,Lameness,Fever,Skin Lesions,Loss of Appetite,7 days,Yes,No,No,No,No,Yes,No,No,No,38.4°C,94,Lyme Disease
+Dog,Boxer,8.9,Male,29.1,Dehydration,Eye Discharge,Vomiting,Nasal Discharge,2 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,73,Gastroenteritis
+Cow,Aberdeen Angus,7.7,Male,486.4,Vomiting,Labored Breathing,Anorexia,Skin Lesions,4 days,Yes,No,No,No,No,No,No,No,No,39.4°C,79,Mastitis
+Dog,Labrador Retriever,0.2,Male,14.7,Lethargy,Skin Lesions,Vomiting,Lameness,7 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,144,Parvovirus
+Dog,Bulldog,4.1,Female,9.9,Nasal_Discharge,Fever,Diarrhea,Dehydration,11 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.5°C,89,Canine Distemper
+Dog,Chihuahua,5.9,Female,5.1,Coughing,Diarrhea,Dehydration,Vomiting,5 days,Yes,No,Yes,Yes,Yes,No,No,No,No,39.7°C,104,Canine Distemper
+Cow,Red Angus,2.0,Male,443.1,Anorexia,Lameness,Eye Discharge,Diarrhea,8 days,Yes,No,No,No,No,Yes,Yes,No,No,39.9°C,63,Foot and Mouth Disease
+Dog,Golden Retriever,11.2,Female,28.4,Lameness,Lethargy,Fever,Eye Discharge,10 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,97,Gastroenteritis
+Dog,Yorkshire Terrier,4.9,Female,2.3,Labored Breathing,Eye Discharge,Skin Lesions,Vomiting,7 days,No,No,No,Yes,Yes,No,No,No,Yes,38.5°C,73,Kennel Cough
+Cow,Red Poll,6.8,Male,630.2,Skin Lesions,Fever,Eye Discharge,Anorexia,7 days,No,No,Yes,No,No,No,No,No,No,38.8°C,52,Parasitic Infection
+Dog,Akita,0.6,Female,24.7,Vomiting,Diarrhea,Lameness,Fever,2 days,Yes,No,Yes,No,No,No,No,No,No,39.8°C,154,Parvovirus
+Dog,Rottweiler,3.7,Male,49.1,Skin Lesions,Vomiting,Coughing,Weakness,12 days,Yes,No,No,Yes,No,No,No,Yes,Yes,38.5°C,62,Canine Distemper
+Dog,Doberman Pinscher,3.4,Female,17.1,Lameness,Diarrhea,Nasal Discharge,Coughing,7 days,No,No,No,No,Yes,No,No,No,No,38.6°C,71,Kennel Cough
+Dog,German Shepherd,2.9,Female,16.2,Nasal_Discharge,Vomiting,Coughing,Eye Discharge,10 days,Yes,Yes,No,Yes,No,No,No,No,Yes,38.7°C,128,Canine Distemper
+Dog,Shih Tzu,0.3,Male,5.1,Fever,Labored Breathing,Dehydration,Vomiting,14 days,No,Yes,Yes,No,No,No,No,No,No,39.2°C,134,Parvovirus
+Cow,Angus,9.1,Male,517.2,Weight Loss,Anorexia,Diarrhea,Anemia,9 days,No,No,Yes,No,No,No,No,No,No,38.7°C,76,Parasitic Infection
+Dog,Labrador Retriever,4.3,Female,27.0,Skin Lesions,Lameness,Vomiting,Diarrhea,3 days,Yes,Yes,Yes,Yes,No,No,No,No,Yes,39.6°C,110,Canine Distemper
+Dog,Shih Tzu,8.7,Female,4.1,Dehydration,Skin Lesions,Fever,Weakness,14 days,Yes,Yes,No,No,No,No,No,No,No,38.6°C,83,Gastroenteritis
+Cow,Angus,2.5,Female,589.2,Weakness,Fever,Vomiting,Coughing,10 days,No,No,No,No,No,No,No,No,No,38.9°C,80,Parasitic Infection
+Cow,Red Poll,4.9,Male,530.6,Swollen Udder,Dehydration,Nasal Discharge,Weakness,5 days,Yes,No,No,No,No,No,No,No,No,38.9°C,76,Mastitis
+Dog,Corgi,11.3,Male,8.0,Labored Breathing,Weakness,Appetite Loss,Skin Lesions,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,63,Gastroenteritis
+Cow,Shorthorn,11.7,Female,569.5,Swollen Udder,Anorexia,Fever,Coughing,17 hours,Yes,No,No,No,No,No,No,No,No,39.5°C,60,Mastitis
+Cow,Dexter,11.0,Male,577.1,Coughing,Coughing,Vomiting,Weakness,4 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.4°C,73,Respiratory Disease
+Cow,Hereford,5.3,Female,480.8,Nasal Discharge,Eye Discharge,Skin Lesions,Weight Loss,18 hours,No,No,Yes,No,Yes,No,No,No,No,39.1°C,82,Parasitic Infection
+Dog,Dalmatian,0.9,Female,24.2,Labored Breathing,Loss of Appetite,Lethargy,Skin Lesions,11 days,Yes,Yes,No,No,No,Yes,No,No,No,38.8°C,124,Lyme Disease
+Cow,Charolais,1.6,Male,525.0,Eye Discharge,Lameness,Diarrhea,Fever,5 days,No,No,Yes,No,No,No,No,No,No,38.9°C,74,Parasitic Infection
+Cow,Holstein,11.8,Male,495.8,Fever,Fever,Swollen Udder,Dehydration,11 days,Yes,No,No,No,No,No,No,No,No,39.9°C,64,Mastitis
+Cow,Dexter,7.9,Male,675.2,Fever,Lameness,Coughing,Eye Discharge,5 weeks,No,No,No,Yes,No,No,No,Yes,Yes,39.3°C,73,Respiratory Disease
+Cow,Red Angus,11.7,Female,602.1,Nasal Discharge,Weakness,Vomiting,Fever,7 weeks,No,No,No,Yes,No,No,No,Yes,No,40.1°C,64,Respiratory Disease
+Dog,Bulldog,1.3,Male,10.9,Fever,Vomiting,Lameness,Nasal Discharge,6 days,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,65,Gastroenteritis
+Dog,Chihuahua,0.9,Male,5.1,Weakness,Nasal Discharge,Fever,Diarrhea,13 days,Yes,Yes,Yes,No,No,No,Yes,No,No,39.4°C,155,Parvovirus
+Dog,Chihuahua,8.4,Male,6.0,Appetite Loss,Dehydration,Skin Lesions,Diarrhea,1 days,Yes,Yes,Yes,No,No,No,No,No,No,38.0°C,83,Gastroenteritis
+Dog,Bulldog,0.8,Male,8.4,Nasal Discharge,Dehydration,Diarrhea,Vomiting,13 days,Yes,Yes,No,No,No,No,No,No,No,41.3°C,146,Parvovirus
+Cow,Brown Swiss,7.4,Female,483.3,Anorexia,Nasal Discharge,Rumen Issues,Skin Lesions,6 days,No,No,No,No,No,Yes,Yes,No,No,40.1°C,80,Foot and Mouth Disease
+Dog,Corgi,0.5,Female,12.7,Coughing,Diarrhea,Nasal Discharge,Fever,13 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,134,Parvovirus
+Cow,Shorthorn,10.1,Female,439.4,Vomiting,Anorexia,Fever,Diarrhea,4 weeks,No,No,Yes,No,No,No,No,No,No,39.4°C,79,Parasitic Infection
+Dog,Labrador Retriever,3.4,Female,38.8,Weakness,Diarrhea,Eye Discharge,Dehydration,5 days,Yes,Yes,No,Yes,No,No,No,No,No,38.7°C,118,Gastroenteritis
+Cow,Limousin,6.3,Female,580.5,Fever,Dehydration,Coughing,Anorexia,1 days,Yes,No,Yes,Yes,No,No,No,No,No,39.8°C,57,Bovine Viral Diarrhea
+Dog,Pit Bull,9.9,Male,21.7,Labored Breathing,Diarrhea,Skin Lesions,Weakness,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,98,Gastroenteritis
+Dog,Labrador,3.4,Male,23.0,Eye Discharge,Skin Lesions,Labored Breathing,Weakness,12 days,Yes,No,Yes,Yes,Yes,Yes,No,No,No,40.1°C,109,Canine Distemper
+Dog,Boxer,6.2,Female,38.7,Lethargy,Vomiting,Lameness,Fever,7 days,Yes,Yes,No,No,No,Yes,No,No,No,37.8°C,107,Lyme Disease
+Dog,Labrador Retriever,0.9,Female,35.0,Lameness,Eye Discharge,Fever,Vomiting,10 days,Yes,No,Yes,Yes,No,No,No,No,No,39.7°C,120,Parvovirus
+Cow,Brahman,6.7,Female,608.8,Fever,Vomiting,Anorexia,Weight Loss,10 days,Yes,No,Yes,No,No,No,Yes,Yes,No,38.7°C,64,Parasitic Infection
+Dog,Husky,8.6,Male,26.0,Coughing,Diarrhea,Appetite Loss,Nasal Discharge,12 days,Yes,No,Yes,No,No,No,No,No,No,38.8°C,80,Gastroenteritis
+Dog,Pit Bull,0.5,Female,19.5,Lameness,Nasal Discharge,Eye Discharge,Nasal_Discharge,2 weeks,Yes,No,No,Yes,No,No,No,No,No,38.8°C,133,Kennel Cough
+Cow,Charolais,4.9,Female,381.5,Labored Breathing,Anorexia,Fever,Respiratory Signs,13 days,Yes,No,No,No,No,No,No,Yes,No,40.2°C,74,Bovine Viral Diarrhea
+Dog,German Shepherd,5.6,Male,22.8,Dehydration,Nasal_Discharge,Labored Breathing,Vomiting,6 days,No,No,No,Yes,Yes,No,No,Yes,No,39.6°C,119,Canine Distemper
+Dog,Siberian Husky,3.2,Male,27.1,Fever,Labored Breathing,Nasal Discharge,Anorexia,7 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,38.5°C,123,Kennel Cough
+Dog,Pit Bull,5.0,Male,26.7,Nasal Discharge,Lameness,Fever,Weakness,1 weeks,Yes,No,No,Yes,Yes,No,No,Yes,Yes,38.6°C,128,Kennel Cough
+Dog,Doberman Pinscher,0.7,Male,10.2,Fever,Fever,Coughing,Diarrhea,1 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,138,Parvovirus
+Cow,Aberdeen Angus,4.1,Female,501.8,Diarrhea,Labored Breathing,Nasal Discharge,Weakness,2 days,Yes,No,No,No,No,No,No,No,No,39.9°C,80,Mastitis
+Dog,Chihuahua,6.1,Male,4.5,Diarrhea,Labored Breathing,Nasal_Discharge,Fever,4 days,No,No,No,Yes,Yes,No,No,No,Yes,38.6°C,100,Kennel Cough
+Cow,Dexter,9.3,Male,537.4,Swollen Udder,Nasal Discharge,Fever,Labored Breathing,2 days,Yes,No,No,No,No,No,No,No,No,39.5°C,57,Mastitis
+Cow,Simmental,4.6,Female,581.5,Coughing,Vomiting,Reduced Appetite,Weakness,14 days,Yes,No,No,No,No,No,No,No,No,39.0°C,65,Mastitis
+Cow,Simmental,4.0,Male,503.4,Skin Lesions,Labored Breathing,Vomiting,Anorexia,9 days,No,No,No,Yes,No,No,No,Yes,No,40.2°C,58,Respiratory Disease
+Cow,Simmental,4.4,Male,631.3,Skin Lesions,Weight Loss,Weakness,Eye Discharge,7 hours,No,Yes,No,Yes,No,No,No,No,No,38.5°C,74,Parasitic Infection
+Dog,Corgi,0.1,Female,9.3,Lameness,Vomiting,Anorexia,Fever,11 days,Yes,Yes,Yes,No,No,No,No,No,No,40.6°C,148,Parvovirus
+Dog,Doberman Pinscher,0.6,Female,27.3,Loss of Appetite,Diarrhea,Lethargy,Fever,2 days,No,No,No,No,Yes,Yes,No,No,No,39.0°C,134,Lyme Disease
+Dog,Golden Retriever,5.1,Female,28.3,Diarrhea,Dehydration,Labored Breathing,Vomiting,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,73,Gastroenteritis
+Dog,Golden Retriever,2.8,Male,29.0,Eye_Discharge,Lameness,Nasal Discharge,Eye Discharge,6 days,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,38.4°C,129,Kennel Cough
+Dog,Cocker Spaniel,3.0,Female,34.2,Nasal_Discharge,Coughing,Skin Lesions,Coughing,7 days,No,No,Yes,Yes,Yes,No,No,Yes,No,38.3°C,72,Kennel Cough
+Cow,Guernsey,1.7,Female,449.7,Nasal Discharge,Skin Lesions,Vomiting,Coughing,14 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.8°C,64,Respiratory Disease
+Dog,Siberian Husky,10.2,Female,30.0,Anorexia,Lameness,Eye Discharge,Weakness,11 days,Yes,No,No,No,No,No,No,No,No,39.3°C,123,Gastroenteritis
+Dog,Husky,4.1,Male,39.1,Eye_Discharge,Lameness,Labored Breathing,Weakness,1 weeks,No,No,No,Yes,No,No,No,Yes,Yes,38.5°C,109,Kennel Cough
+Cow,Guernsey,8.4,Male,533.5,Diarrhea,Skin Lesions,Nasal Discharge,Reduced Appetite,3 days,Yes,No,No,No,No,No,No,No,No,39.5°C,81,Mastitis
+Cow,Guernsey,11.3,Female,460.2,Lameness,Fever,Labored Breathing,Lameness,4 days,Yes,No,No,No,Yes,Yes,Yes,No,No,40.1°C,51,Foot and Mouth Disease
+Dog,Dalmatian,0.6,Female,34.4,Lameness,Coughing,Eye Discharge,Anorexia,6 days,No,No,Yes,No,No,Yes,No,No,No,38.6°C,135,Lyme Disease
+Dog,Poodle,7.7,Female,37.1,Nasal Discharge,Vomiting,Diarrhea,Lameness,11 days,No,No,No,No,No,Yes,No,No,No,38.4°C,79,Lyme Disease
+Dog,Shih Tzu,8.4,Male,4.1,Skin Lesions,Vomiting,Vomiting,Nasal Discharge,13 days,Yes,No,No,No,No,No,No,No,No,37.8°C,81,Gastroenteritis
+Dog,German Shepherd,5.6,Female,31.3,Lameness,Diarrhea,Anorexia,Labored Breathing,12 days,Yes,No,Yes,No,No,No,No,Yes,Yes,39.1°C,88,Canine Distemper
+Dog,Poodle,1.1,Female,10.9,Nasal_Discharge,Dehydration,Vomiting,Anorexia,10 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.1°C,93,Kennel Cough
+Dog,Beagle,1.9,Female,12.2,Coughing,Nasal Discharge,Weakness,Anorexia,13 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,101,Gastroenteritis
+Cow,Belted Galloway,1.8,Male,372.2,Labored Breathing,Anorexia,Dehydration,Lameness,13 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.3°C,79,Respiratory Disease
+Cow,Hereford,6.3,Female,478.2,Diarrhea,Weight Loss,Anemia,Anorexia,11 days,No,No,Yes,No,No,No,No,Yes,No,38.6°C,61,Parasitic Infection
+Dog,Dachshund,6.7,Female,8.4,Dehydration,Fever,Nasal_Discharge,Lameness,8 days,Yes,Yes,No,Yes,No,No,No,Yes,No,38.6°C,79,Kennel Cough
+Dog,Bulldog,1.0,Male,7.2,Vomiting,Eye Discharge,Fever,Anorexia,8 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,81,Parvovirus
+Dog,Cocker Spaniel,4.0,Male,20.8,Anorexia,Fever,Coughing,Nasal Discharge,5 days,No,Yes,Yes,No,No,No,No,No,No,38.4°C,111,Gastroenteritis
+Dog,Chihuahua,0.1,Female,5.2,Anorexia,Vomiting,Dehydration,Diarrhea,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,157,Parvovirus
+Dog,Shih Tzu,9.7,Female,2.1,Nasal Discharge,Diarrhea,Weakness,Lethargy,2 days,No,Yes,No,No,No,Yes,No,No,No,38.5°C,78,Lyme Disease
+Cow,Shorthorn,4.5,Male,479.6,Labored Breathing,Nasal Discharge,Labored Breathing,Lameness,19 hours,Yes,No,No,Yes,Yes,No,No,No,No,39.6°C,53,Respiratory Disease
+Dog,Chihuahua,0.5,Male,1.8,Nasal Discharge,Fever,Skin Lesions,Labored Breathing,23 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,142,Parvovirus
+Cow,Charolais,7.5,Female,567.4,Eye Discharge,Anorexia,Diarrhea,Fever,12 days,Yes,No,Yes,No,No,No,No,Yes,No,40.0°C,72,Bovine Viral Diarrhea
+Cow,Simmental,7.0,Female,630.5,Vomiting,Lameness,Labored Breathing,Eye Discharge,9 days,Yes,No,No,Yes,No,No,No,Yes,Yes,40.7°C,78,Bovine Viral Diarrhea
+Dog,Doberman Pinscher,2.5,Male,24.3,Anorexia,Fever,Eye Discharge,Skin Lesions,3 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,117,Lyme Disease
+Cow,Charolais,8.2,Female,681.0,Nasal Discharge,Weakness,Lameness,Dehydration,8 hours,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,48,Foot and Mouth Disease
+Dog,Cocker Spaniel,0.3,Female,35.7,Nasal Discharge,Lameness,Eye Discharge,Fever,3 days,Yes,No,No,No,No,No,No,No,No,38.9°C,144,Gastroenteritis
+Dog,Chihuahua,4.6,Male,5.1,Eye Discharge,Weakness,Vomiting,Nasal Discharge,4 days,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,40.0°C,60,Canine Distemper
+Dog,Border Collie,0.6,Female,13.0,Eye Discharge,Coughing,Anorexia,Coughing,9 days,No,No,No,Yes,No,No,No,Yes,No,38.5°C,131,Kennel Cough
+Dog,Dachshund,1.1,Male,1.2,Weakness,Skin Lesions,Diarrhea,Diarrhea,10 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,78,Gastroenteritis
+Dog,Rottweiler,7.1,Male,58.1,Weakness,Coughing,Labored Breathing,Eye Discharge,4 weeks,No,No,No,No,Yes,No,No,Yes,No,39.9°C,86,Canine Distemper
+Cow,Belted Galloway,8.3,Male,368.4,Vomiting,Nasal Discharge,Coughing,Anorexia,11 hours,No,No,No,Yes,No,No,No,Yes,No,40.3°C,77,Respiratory Disease
+Cow,Jersey,1.3,Female,619.5,Lameness,Diarrhea,Rumen Issues,Dehydration,9 days,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,79,Foot and Mouth Disease
+Dog,Corgi,5.9,Female,18.2,Nasal Discharge,Weakness,Eye_Discharge,Vomiting,5 days,No,No,No,Yes,No,No,No,Yes,Yes,38.9°C,86,Canine Distemper
+Dog,Corgi,1.0,Male,10.6,Lethargy,Diarrhea,Weakness,Fever,2 weeks,Yes,Yes,Yes,Yes,No,No,No,No,No,39.4°C,112,Parvovirus
+Dog,Siberian Husky,0.5,Female,23.9,Labored Breathing,Diarrhea,Coughing,Fever,9 days,No,Yes,No,No,No,No,No,No,No,38.9°C,146,Gastroenteritis
+Dog,Doberman Pinscher,9.9,Male,26.1,Eye Discharge,Vomiting,Fever,Coughing,13 days,Yes,No,No,No,No,Yes,No,No,No,38.6°C,125,Lyme Disease
+Dog,Siberian Husky,1.0,Male,25.5,Diarrhea,Lethargy,Coughing,Weakness,11 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,127,Parvovirus
+Dog,Beagle,6.0,Female,11.5,Weakness,Coughing,Nasal_Discharge,Skin Lesions,1 days,No,No,No,Yes,No,No,No,No,No,38.5°C,124,Kennel Cough
+Dog,Border Collie,7.9,Male,9.2,Eye_Discharge,Fever,Anorexia,Vomiting,12 days,No,Yes,Yes,No,No,No,No,Yes,No,39.1°C,121,Canine Distemper
+Cow,Brahman,0.9,Male,583.3,Lameness,Eye Discharge,Skin Lesions,Diarrhea,12 days,No,No,Yes,Yes,Yes,No,No,No,No,39.1°C,130,Bovine Viral Diarrhea
+Cow,Jersey,7.2,Male,421.7,Dehydration,Weakness,Labored Breathing,Vomiting,5 days,Yes,No,No,No,No,No,Yes,No,No,40.5°C,53,Mastitis
+Cow,Red Angus,5.8,Male,711.5,Reduced Appetite,Fever,Skin Lesions,Lameness,14 days,Yes,No,No,No,No,No,No,No,No,39.4°C,59,Mastitis
+Dog,Husky,5.3,Female,24.2,Labored Breathing,Diarrhea,Loss of Appetite,Dehydration,6 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,71,Lyme Disease
+Cow,Ayrshire,10.9,Male,533.2,Eye Discharge,Coughing,Fever,Anorexia,14 hours,Yes,No,No,Yes,Yes,No,No,Yes,No,40.5°C,68,Respiratory Disease
+Cow,Red Angus,4.8,Female,528.5,Nasal Discharge,Reduced Appetite,Eye Discharge,Vomiting,8 hours,Yes,No,No,No,No,No,No,No,No,39.6°C,67,Mastitis
+Dog,Poodle,4.2,Female,23.2,Vomiting,Coughing,Anorexia,Diarrhea,18 hours,Yes,No,No,Yes,No,No,No,No,No,39.4°C,61,Kennel Cough
+Cow,Holstein,6.4,Male,472.4,Fever,Coughing,Vomiting,Diarrhea,13 days,Yes,No,Yes,No,No,No,No,Yes,No,39.4°C,58,Bovine Viral Diarrhea
+Dog,Dachshund,2.9,Male,13.7,Skin Lesions,Fever,Diarrhea,Lameness,13 days,No,No,No,No,No,Yes,No,No,No,38.8°C,100,Lyme Disease
+Cow,Holstein,8.3,Male,537.5,Fever,Vomiting,Eye Discharge,Coughing,9 days,Yes,No,Yes,Yes,Yes,No,No,No,No,39.3°C,80,Bovine Viral Diarrhea
+Cow,Aberdeen Angus,9.3,Female,556.1,Nasal Discharge,Weakness,Dehydration,Lameness,9 days,No,No,No,Yes,Yes,No,No,Yes,No,39.5°C,82,Respiratory Disease
+Cow,Angus,6.7,Male,620.7,Skin Lesions,Coughing,Diarrhea,Labored Breathing,7 days,No,No,Yes,No,No,No,No,No,No,38.7°C,82,Parasitic Infection
+Dog,Husky,0.6,Male,25.9,Eye Discharge,Anorexia,Coughing,Diarrhea,9 days,Yes,No,Yes,No,No,No,No,Yes,No,39.2°C,158,Parvovirus
+Cow,Guernsey,2.6,Male,711.5,Anorexia,Fever,Labored Breathing,Weight Loss,13 days,Yes,No,No,No,No,No,No,No,No,38.6°C,80,Parasitic Infection
+Dog,Shih Tzu,3.0,Male,4.6,Weakness,Fever,Lameness,Loss of Appetite,7 weeks,Yes,No,No,No,No,Yes,No,No,No,39.1°C,66,Lyme Disease
+Dog,Labrador,3.2,Male,26.4,Fever,Diarrhea,Coughing,Anorexia,13 hours,Yes,No,No,No,No,No,No,No,No,38.9°C,95,Lyme Disease
+Cow,Brahman,1.0,Female,561.0,Coughing,Coughing,Lameness,Diarrhea,2 days,No,No,No,Yes,No,No,No,Yes,No,40.2°C,74,Respiratory Disease
+Dog,Doberman Pinscher,10.5,Male,5.2,Coughing,Loss of Appetite,Fever,Lameness,5 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,93,Lyme Disease
+Cow,Guernsey,5.6,Male,666.3,Anorexia,Fever,Lameness,Weakness,6 days,Yes,No,No,No,No,No,No,Yes,No,40.1°C,49,Mastitis
+Dog,Boxer,7.9,Male,31.3,Appetite Loss,Vomiting,Lethargy,Anorexia,20 hours,Yes,No,Yes,No,No,No,No,No,No,38.7°C,126,Gastroenteritis
+Dog,Labrador,3.5,Female,15.1,Weakness,Nasal Discharge,Lameness,Nasal_Discharge,12 days,No,No,No,Yes,Yes,No,No,No,Yes,38.1°C,124,Kennel Cough
+Cow,Red Poll,6.5,Male,616.7,Skin Lesions,Nasal Discharge,Nasal Discharge,Labored Breathing,18 hours,No,No,No,Yes,Yes,No,No,No,Yes,39.3°C,75,Respiratory Disease
+Cow,Shorthorn,6.9,Male,564.6,Reduced Appetite,Swollen Udder,Dehydration,Skin Lesions,14 days,Yes,No,No,No,No,No,No,No,No,39.5°C,69,Mastitis
+Cow,Brahman,9.4,Female,566.9,Dehydration,Diarrhea,Vomiting,Weakness,13 days,Yes,No,Yes,No,No,No,No,Yes,Yes,40.1°C,68,Bovine Viral Diarrhea
+Dog,Siberian Husky,4.4,Female,27.0,Weakness,Coughing,Eye Discharge,Eye_Discharge,9 days,No,No,No,Yes,No,No,No,No,No,38.7°C,85,Kennel Cough
+Cow,Red Angus,9.3,Male,589.5,Weakness,Labored Breathing,Skin Lesions,Dehydration,2 days,No,No,No,Yes,No,No,Yes,No,No,39.2°C,49,Foot and Mouth Disease
+Cow,Hereford,4.0,Female,475.4,Diarrhea,Lameness,Weakness,Vomiting,10 days,Yes,No,No,No,No,No,No,No,No,38.8°C,69,Parasitic Infection
+Cow,Aberdeen Angus,4.7,Male,512.1,Fever,Dehydration,Coughing,Vomiting,6 days,Yes,No,No,No,No,Yes,Yes,No,No,39.8°C,69,Foot and Mouth Disease
+Dog,Labrador,4.3,Male,36.2,Nasal Discharge,Lameness,Loss of Appetite,Lameness,1 days,No,No,No,No,No,Yes,No,No,No,38.9°C,63,Lyme Disease
+Dog,Husky,0.3,Male,24.2,Diarrhea,Lethargy,Fever,Dehydration,8 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,152,Parvovirus
+Dog,Poodle,0.4,Male,21.1,Lameness,Fever,Anorexia,Labored Breathing,12 days,No,No,Yes,No,No,No,No,No,No,39.1°C,122,Parvovirus
+Cow,Brown Swiss,9.0,Female,288.3,Diarrhea,Nasal Discharge,Coughing,Lameness,7 hours,No,No,No,No,No,No,No,No,No,38.7°C,51,Parasitic Infection
+Dog,Yorkshire Terrier,3.5,Female,4.5,Weakness,Eye_Discharge,Nasal_Discharge,Nasal Discharge,5 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.7°C,104,Canine Distemper
+Cow,Angus,0.8,Female,519.7,Nasal Discharge,Coughing,Coughing,Anorexia,11 days,No,No,No,Yes,Yes,No,No,Yes,No,39.5°C,107,Respiratory Disease
+Cow,Angus,4.7,Female,671.6,Fever,Skin Lesions,Labored Breathing,Anorexia,8 hours,No,No,Yes,No,No,No,No,No,No,40.0°C,50,Mastitis
+Cow,Shorthorn,7.6,Male,537.2,Nasal Discharge,Eye Discharge,Diarrhea,Nasal Discharge,9 days,No,No,No,Yes,No,No,No,Yes,No,40.3°C,70,Respiratory Disease
+Dog,Boxer,5.1,Male,24.5,Weakness,Coughing,Fever,Lethargy,1 days,No,Yes,Yes,No,No,No,No,No,No,38.4°C,71,Gastroenteritis
+Cow,Holstein,5.3,Male,467.0,Vomiting,Weight Loss,Labored Breathing,Coughing,11 days,No,Yes,No,No,No,No,No,No,No,39.0°C,71,Parasitic Infection
+Dog,Husky,9.0,Male,35.2,Fever,Dehydration,Lameness,Anorexia,3 days,No,No,No,No,No,Yes,No,No,No,38.6°C,118,Lyme Disease
+Cow,Simmental,4.8,Male,589.4,Lameness,Anorexia,Anemia,Diarrhea,4 weeks,No,No,No,No,No,No,No,No,No,38.8°C,65,Parasitic Infection
+Cow,Holstein,6.6,Female,568.1,Skin Lesions,Labored Breathing,Diarrhea,Anorexia,9 days,No,No,Yes,No,No,No,No,Yes,No,40.3°C,78,Bovine Viral Diarrhea
+Cow,Shorthorn,8.6,Male,526.6,Labored Breathing,Weight Loss,Eye Discharge,Anemia,10 days,Yes,No,No,No,No,No,No,No,No,38.8°C,48,Parasitic Infection
+Dog,Corgi,8.1,Female,12.3,Coughing,Skin Lesions,Appetite Loss,Dehydration,21 hours,Yes,No,Yes,No,No,No,No,No,No,38.9°C,116,Gastroenteritis
+Dog,Boxer,4.6,Male,27.7,Weakness,Lameness,Labored Breathing,Eye Discharge,2 days,Yes,No,No,Yes,No,No,No,Yes,Yes,38.2°C,61,Kennel Cough
+Dog,Labrador,0.3,Male,37.2,Dehydration,Lethargy,Skin Lesions,Diarrhea,11 days,Yes,Yes,Yes,No,No,No,No,No,No,39.6°C,128,Parvovirus
+Cow,Aberdeen Angus,4.7,Female,493.7,Reduced Appetite,Anorexia,Vomiting,Swollen Udder,19 hours,No,No,No,No,No,No,No,No,No,40.4°C,77,Mastitis
+Cow,Brahman,1.5,Male,554.2,Diarrhea,Eye Discharge,Anorexia,Dehydration,6 days,Yes,No,Yes,Yes,No,No,No,Yes,No,39.9°C,66,Bovine Viral Diarrhea
+Cow,Dexter,10.0,Male,481.2,Eye Discharge,Vomiting,Fever,Anorexia,12 days,Yes,No,No,No,No,No,No,No,No,40.0°C,64,Mastitis
+Cow,Jersey,3.0,Male,593.2,Anorexia,Dehydration,Vomiting,Eye Discharge,8 days,Yes,No,Yes,No,No,No,No,Yes,No,40.2°C,57,Bovine Viral Diarrhea
+Dog,Dalmatian,3.1,Female,25.3,Labored Breathing,Anorexia,Eye Discharge,Vomiting,4 days,Yes,No,No,Yes,No,No,No,Yes,Yes,40.9°C,121,Canine Distemper
+Cow,Guernsey,3.8,Male,553.2,Nasal Discharge,Labored Breathing,Weakness,Dehydration,21 hours,Yes,No,No,No,No,No,No,No,No,39.1°C,53,Mastitis
+Dog,Poodle,10.5,Male,18.7,Nasal Discharge,Labored Breathing,Weakness,Lameness,14 days,No,No,No,No,No,Yes,No,No,No,38.8°C,87,Lyme Disease
+Dog,Rottweiler,10.8,Female,48.2,Dehydration,Lameness,Weakness,Fever,14 days,Yes,No,No,No,No,Yes,No,No,No,38.9°C,121,Lyme Disease
+Cow,Guernsey,2.8,Male,490.3,Fever,Skin Lesions,Lameness,Nasal Discharge,16 hours,Yes,No,No,No,No,Yes,Yes,No,No,38.5°C,76,Foot and Mouth Disease
+Dog,Border Collie,0.8,Male,8.5,Labored Breathing,Diarrhea,Vomiting,Coughing,3 days,Yes,Yes,Yes,No,No,No,No,No,No,40.4°C,125,Parvovirus
+Cow,Ayrshire,0.9,Male,546.1,Lameness,Skin Lesions,Lameness,Vomiting,1 days,Yes,No,No,No,No,No,Yes,No,No,39.9°C,112,Foot and Mouth Disease
+Cow,Brown Swiss,4.3,Female,526.9,Weakness,Eye Discharge,Skin Lesions,Vomiting,5 days,No,No,No,No,No,Yes,Yes,No,No,39.7°C,62,Foot and Mouth Disease
+Dog,Labrador Retriever,0.4,Male,34.5,Eye Discharge,Eye_Discharge,Dehydration,Fever,12 hours,No,No,No,Yes,No,No,No,No,No,39.5°C,144,Kennel Cough
+Cow,Charolais,2.1,Female,595.7,Vomiting,Labored Breathing,Coughing,Diarrhea,2 weeks,No,No,No,Yes,Yes,No,No,No,No,39.9°C,74,Respiratory Disease
+Dog,Labrador,0.9,Male,37.3,Lethargy,Lameness,Fever,Eye Discharge,21 hours,No,Yes,Yes,No,No,No,No,No,No,39.9°C,158,Parvovirus
+Cow,Simmental,6.3,Male,641.0,Nasal Discharge,Skin Lesions,Weakness,Rumen Issues,11 hours,Yes,No,No,No,No,Yes,Yes,No,No,39.5°C,50,Foot and Mouth Disease
+Cow,Shorthorn,1.0,Male,507.9,Coughing,Anorexia,Dehydration,Nasal Discharge,10 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,40.0°C,62,Respiratory Disease
+Cow,Angus,0.9,Male,516.8,Diarrhea,Respiratory Signs,Coughing,Fever,7 weeks,Yes,No,Yes,No,No,No,No,No,Yes,40.3°C,131,Bovine Viral Diarrhea
+Cow,Holstein,6.1,Male,576.5,Vomiting,Nasal Discharge,Labored Breathing,Lameness,14 hours,Yes,No,Yes,No,No,Yes,Yes,No,No,39.5°C,52,Foot and Mouth Disease
+Cow,Brown Swiss,2.1,Male,511.0,Lameness,Vomiting,Diarrhea,Nasal Discharge,13 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.6°C,61,Respiratory Disease
+Cow,Shorthorn,8.6,Female,591.1,Diarrhea,Nasal Discharge,Swollen Udder,Fever,8 days,Yes,No,No,No,No,No,No,No,No,40.2°C,50,Mastitis
+Dog,Rottweiler,10.5,Female,62.3,Vomiting,Appetite Loss,Labored Breathing,Skin Lesions,11 hours,Yes,Yes,No,No,No,No,No,No,No,38.5°C,60,Gastroenteritis
+Cow,Ayrshire,7.5,Female,674.8,Fever,Fever,Eye Discharge,Rumen Issues,12 days,Yes,No,No,No,No,No,Yes,No,No,39.7°C,48,Foot and Mouth Disease
+Cow,Ayrshire,4.1,Male,489.5,Fever,Coughing,Anorexia,Vomiting,12 days,No,No,No,Yes,Yes,No,No,Yes,Yes,38.7°C,73,Respiratory Disease
+Dog,Yorkshire Terrier,0.2,Female,4.1,Lameness,Lethargy,Diarrhea,Vomiting,11 days,No,Yes,Yes,No,No,No,No,No,No,38.8°C,127,Gastroenteritis
+Dog,Akita,0.8,Male,29.6,Fever,Skin Lesions,Lameness,Fever,1 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,121,Parvovirus
+Dog,Labrador Retriever,0.4,Female,25.7,Fever,Labored Breathing,Fever,Anorexia,7 weeks,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,129,Parvovirus
+Dog,Poodle,0.7,Male,25.0,Diarrhea,Lethargy,Lameness,Fever,9 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,152,Parvovirus
+Dog,Corgi,0.2,Female,7.3,Fever,Weakness,Diarrhea,Eye Discharge,14 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,152,Parvovirus
+Cow,Guernsey,5.8,Male,509.3,Nasal Discharge,Fever,Lameness,Dehydration,5 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.0°C,70,Respiratory Disease
+Cow,Brahman,10.9,Male,625.8,Coughing,Fever,Dehydration,Anorexia,10 days,Yes,No,No,No,No,No,No,No,No,39.8°C,67,Mastitis
+Dog,Golden Retriever,11.8,Female,38.8,Lameness,Lameness,Labored Breathing,Dehydration,6 days,Yes,No,No,No,No,Yes,No,No,No,38.1°C,121,Lyme Disease
+Cow,Jersey,4.3,Female,600.1,Anorexia,Nasal Discharge,Diarrhea,Dehydration,8 days,No,No,No,No,No,No,No,No,Yes,39.1°C,80,Bovine Viral Diarrhea
+Dog,Akita,7.4,Female,36.2,Lameness,Coughing,Labored Breathing,Lethargy,12 days,No,Yes,Yes,No,No,No,No,No,No,39.7°C,65,Gastroenteritis
+Cow,Holstein,5.8,Male,577.9,Lameness,Diarrhea,Weakness,Fever,4 days,Yes,No,No,Yes,No,No,No,Yes,Yes,38.7°C,52,Respiratory Disease
+Cow,Hereford,0.1,Female,578.5,Dehydration,Diarrhea,Weight Loss,Diarrhea,10 days,Yes,No,Yes,No,No,No,No,No,No,39.0°C,125,Parasitic Infection
+Dog,Labrador Retriever,0.9,Male,10.2,Dehydration,Skin Lesions,Lameness,Labored Breathing,9 days,Yes,Yes,Yes,No,No,No,No,No,No,40.0°C,157,Parvovirus
+Dog,Chihuahua,8.4,Male,4.3,Nasal Discharge,Lameness,Skin Lesions,Anorexia,3 days,Yes,No,No,No,No,Yes,No,No,No,38.3°C,118,Lyme Disease
+Dog,German Shepherd,7.7,Male,19.4,Vomiting,Lameness,Eye Discharge,Nasal Discharge,8 weeks,No,No,No,Yes,Yes,No,No,Yes,No,38.9°C,125,Kennel Cough
+Cow,Jersey,11.8,Female,565.2,Skin Lesions,Labored Breathing,Coughing,Labored Breathing,10 days,No,No,No,Yes,Yes,No,No,No,Yes,40.4°C,81,Respiratory Disease
+Dog,Akita,9.3,Female,-7.9,Nasal_Discharge,Fever,Anorexia,Weakness,13 days,No,No,No,Yes,No,No,No,No,No,38.9°C,95,Kennel Cough
+Dog,Boxer,10.5,Male,27.3,Fever,Vomiting,Diarrhea,Skin Lesions,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,103,Gastroenteritis
+Cow,Guernsey,10.1,Female,550.9,Lameness,Weakness,Anorexia,Diarrhea,6 days,Yes,No,No,No,Yes,No,No,No,No,38.2°C,48,Parasitic Infection
+Dog,Dachshund,3.6,Male,16.3,Loss of Appetite,Dehydration,Eye Discharge,Fever,10 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,102,Lyme Disease
+Dog,Akita,1.6,Male,39.1,Coughing,Skin Lesions,Anorexia,Eye Discharge,6 days,No,Yes,No,No,No,No,No,Yes,No,39.4°C,90,Canine Distemper
+Dog,Rottweiler,3.9,Female,56.2,Coughing,Anorexia,Eye Discharge,Diarrhea,13 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,74,Lyme Disease
+Dog,Beagle,9.6,Female,10.6,Eye Discharge,Loss of Appetite,Lethargy,Vomiting,8 days,Yes,No,No,No,No,Yes,No,No,No,39.4°C,114,Lyme Disease
+Dog,German Shepherd,0.3,Male,21.3,Eye Discharge,Diarrhea,Diarrhea,Skin Lesions,10 days,Yes,No,Yes,No,No,No,No,No,No,39.1°C,133,Parvovirus
+Cow,Aberdeen Angus,1.8,Male,609.8,Nasal Discharge,Lameness,Labored Breathing,Anorexia,2 days,No,No,Yes,Yes,Yes,No,No,Yes,No,39.9°C,52,Bovine Viral Diarrhea
+Dog,Dalmatian,0.8,Female,32.8,Anorexia,Diarrhea,Fever,Labored Breathing,1 days,Yes,Yes,No,No,No,No,No,No,No,39.4°C,130,Parvovirus
+Cow,Simmental,5.7,Male,550.3,Lameness,Anorexia,Nasal Discharge,Weakness,12 days,Yes,No,No,No,No,No,No,Yes,No,40.2°C,70,Respiratory Disease
+Cow,Aberdeen Angus,11.8,Female,440.4,Vomiting,Diarrhea,Labored Breathing,Weakness,5 days,Yes,No,No,Yes,No,No,No,Yes,Yes,38.9°C,53,Respiratory Disease
+Cow,Belted Galloway,0.5,Female,563.3,Eye Discharge,Fever,Lameness,Dehydration,8 days,Yes,No,No,No,No,Yes,No,No,No,39.9°C,123,Foot and Mouth Disease
+Dog,Labrador Retriever,6.5,Female,28.2,Labored Breathing,Lethargy,Dehydration,Vomiting,9 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,126,Gastroenteritis
+Cow,Jersey,11.1,Male,496.4,Dehydration,Weakness,Diarrhea,Eye Discharge,3 days,Yes,No,No,No,No,Yes,Yes,No,Yes,40.0°C,53,Foot and Mouth Disease
+Cow,Brahman,11.4,Male,404.6,Anorexia,Coughing,Nasal Discharge,Weakness,3 days,No,No,No,Yes,Yes,No,No,Yes,Yes,40.3°C,80,Respiratory Disease
+Dog,Bulldog,0.5,Male,14.8,Nasal Discharge,Skin Lesions,Eye Discharge,Anorexia,9 days,Yes,No,No,Yes,Yes,No,Yes,No,No,39.8°C,127,Canine Distemper
+Dog,Doberman Pinscher,3.3,Male,15.9,Coughing,Eye Discharge,Nasal_Discharge,Nasal Discharge,23 hours,No,No,No,Yes,No,Yes,No,Yes,Yes,38.8°C,103,Kennel Cough
+Dog,Poodle,4.7,Male,28.2,Vomiting,Skin Lesions,Nasal Discharge,Diarrhea,2 days,Yes,Yes,No,No,No,No,No,No,No,38.5°C,111,Gastroenteritis
+Cow,Red Angus,2.8,Female,503.3,Labored Breathing,Labored Breathing,Nasal Discharge,Coughing,6 days,No,No,No,Yes,Yes,No,No,No,Yes,39.9°C,79,Respiratory Disease
+Dog,Dalmatian,3.1,Female,39.3,Anorexia,Lameness,Eye Discharge,Diarrhea,11 days,No,No,Yes,No,Yes,No,No,No,No,38.2°C,67,Gastroenteritis
+Cow,Charolais,3.9,Female,427.7,Skin Lesions,Nasal Discharge,Fever,Vomiting,1 days,Yes,No,No,No,No,No,No,No,No,39.4°C,69,Parasitic Infection
+Dog,Golden Retriever,10.0,Female,26.4,Appetite Loss,Vomiting,Coughing,Diarrhea,1 days,Yes,No,Yes,No,No,No,No,No,No,38.2°C,82,Gastroenteritis
+Cow,Ayrshire,9.1,Female,486.2,Fever,Fever,Skin Lesions,Coughing,18 hours,No,No,No,No,Yes,No,No,No,No,39.2°C,78,Bovine Viral Diarrhea
+Cow,Guernsey,11.9,Male,626.7,Diarrhea,Vomiting,Dehydration,Weight Loss,6 weeks,No,No,Yes,No,No,No,No,No,No,38.7°C,75,Parasitic Infection
+Cow,Brown Swiss,3.6,Female,615.0,Lameness,Fever,Anorexia,Rumen Issues,10 days,Yes,No,No,No,No,No,Yes,No,No,39.4°C,78,Foot and Mouth Disease
+Cow,Aberdeen Angus,4.9,Female,663.1,Eye Discharge,Vomiting,Weakness,Anorexia,9 days,Yes,No,No,No,No,No,No,Yes,No,39.4°C,81,Bovine Viral Diarrhea
+Cow,Simmental,2.7,Female,547.8,Lameness,Fever,Diarrhea,Anorexia,10 days,Yes,No,No,No,No,Yes,Yes,No,No,40.7°C,67,Foot and Mouth Disease
+Dog,Labrador,4.9,Female,22.7,Weakness,Nasal Discharge,Nasal_Discharge,Anorexia,14 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,40.2°C,125,Canine Distemper
+Dog,Dalmatian,10.3,Male,32.6,Diarrhea,Coughing,Vomiting,Nasal Discharge,5 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,69,Gastroenteritis
+Cow,Brown Swiss,9.6,Male,543.6,Fever,Vomiting,Lameness,Dehydration,9 days,Yes,No,No,No,No,No,No,No,No,38.9°C,58,Parasitic Infection
+Dog,Border Collie,11.0,Female,14.2,Labored Breathing,Vomiting,Eye Discharge,Dehydration,6 days,No,Yes,No,Yes,No,No,No,No,No,38.9°C,92,Gastroenteritis
+Cow,Ayrshire,5.7,Female,481.3,Fever,Skin Lesions,Vomiting,Labored Breathing,5 days,No,No,Yes,No,No,No,No,No,No,38.7°C,81,Parasitic Infection
+Dog,Golden Retriever,2.0,Female,19.8,Appetite Loss,Fever,Diarrhea,Dehydration,14 days,Yes,Yes,Yes,No,No,No,No,No,No,38.2°C,105,Gastroenteritis
+Cow,Simmental,7.6,Male,581.2,Dehydration,Nasal Discharge,Diarrhea,Skin Lesions,1 days,No,No,No,Yes,Yes,No,No,Yes,No,39.8°C,75,Respiratory Disease
+Dog,Shih Tzu,5.9,Male,3.8,Anorexia,Vomiting,Lameness,Skin Lesions,10 days,No,No,No,Yes,No,No,No,No,Yes,39.3°C,83,Kennel Cough
+Cow,Angus,7.9,Male,421.0,Skin Lesions,Vomiting,Fever,Eye Discharge,6 days,Yes,No,Yes,No,No,No,No,No,No,39.8°C,80,Bovine Viral Diarrhea
+Dog,Doberman Pinscher,4.1,Male,7.5,Skin Lesions,Nasal_Discharge,Coughing,Vomiting,6 days,No,No,No,No,No,No,No,Yes,Yes,39.2°C,115,Canine Distemper
+Dog,Golden Retriever,0.2,Female,26.7,Lethargy,Fever,Labored Breathing,Diarrhea,1 days,Yes,Yes,Yes,No,No,No,No,No,No,39.8°C,153,Parvovirus
+Cow,Holstein,1.0,Female,414.0,Coughing,Fever,Weakness,Lameness,7 days,Yes,No,No,No,No,No,No,No,No,38.7°C,50,Bovine Viral Diarrhea
+Dog,Boxer,4.1,Female,29.8,Nasal Discharge,Fever,Vomiting,Eye Discharge,2 days,Yes,Yes,Yes,No,Yes,No,No,No,No,39.1°C,82,Gastroenteritis
+Dog,Rottweiler,3.2,Female,56.7,Vomiting,Labored Breathing,Weakness,Fever,11 days,Yes,No,Yes,Yes,Yes,No,No,No,No,39.2°C,121,Canine Distemper
+Cow,Hereford,6.7,Male,699.3,Skin Lesions,Diarrhea,Fever,Diarrhea,7 weeks,Yes,No,Yes,No,No,No,No,Yes,Yes,39.2°C,54,Bovine Viral Diarrhea
+Dog,Rottweiler,8.7,Female,92.1,Vomiting,Nasal Discharge,Loss of Appetite,Fever,7 days,Yes,No,No,No,No,Yes,No,No,No,38.9°C,112,Lyme Disease
+Cow,Red Poll,1.8,Female,572.7,Labored Breathing,Fever,Respiratory Signs,Vomiting,12 days,Yes,Yes,Yes,No,No,No,No,No,Yes,39.6°C,61,Bovine Viral Diarrhea
+Dog,Shih Tzu,3.9,Female,5.4,Weakness,Labored Breathing,Vomiting,Vomiting,11 days,Yes,No,No,No,No,No,No,Yes,Yes,39.3°C,73,Canine Distemper
+Dog,Boxer,4.2,Male,17.9,Vomiting,Nasal_Discharge,Skin Lesions,Lameness,12 days,Yes,No,Yes,No,No,Yes,No,Yes,No,38.7°C,84,Canine Distemper
+Dog,Bulldog,3.2,Male,8.8,Skin Lesions,Lameness,Weakness,Fever,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,84,Canine Distemper
+Cow,Red Angus,8.1,Female,588.5,Lameness,Coughing,Diarrhea,Labored Breathing,13 days,No,No,Yes,Yes,No,No,No,Yes,No,40.7°C,80,Bovine Viral Diarrhea
+Dog,Rottweiler,0.7,Male,44.5,Vomiting,Labored Breathing,Diarrhea,Anorexia,8 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,147,Parvovirus
+Cow,Dexter,0.3,Male,561.7,Skin Lesions,Weight Loss,Fever,Anorexia,12 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,133,Parasitic Infection
+Dog,Corgi,3.4,Female,14.0,Dehydration,Skin Lesions,Lameness,Nasal_Discharge,6 hours,No,No,Yes,No,Yes,No,No,No,Yes,40.8°C,80,Canine Distemper
+Cow,Brown Swiss,10.3,Male,459.7,Nasal Discharge,Lameness,Rumen Issues,Weakness,12 days,Yes,No,No,No,No,Yes,Yes,No,No,40.4°C,59,Foot and Mouth Disease
+Cow,Holstein,11.5,Female,577.7,Dehydration,Lameness,Vomiting,Anorexia,6 days,No,No,Yes,Yes,No,No,No,No,No,38.7°C,83,Parasitic Infection
+Dog,Siberian Husky,2.0,Female,22.3,Weakness,Skin Lesions,Eye Discharge,Fever,6 days,Yes,Yes,Yes,Yes,No,No,No,No,No,38.8°C,123,Gastroenteritis
+Cow,Brown Swiss,7.4,Male,559.0,Fever,Diarrhea,Labored Breathing,Nasal Discharge,3 days,Yes,No,Yes,No,No,No,Yes,Yes,Yes,39.1°C,56,Bovine Viral Diarrhea
+Dog,Pit Bull,4.2,Female,20.9,Fever,Diarrhea,Coughing,Labored Breathing,11 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,38.5°C,100,Kennel Cough
+Cow,Guernsey,10.7,Male,505.4,Weight Loss,Diarrhea,Dehydration,Lameness,8 days,No,No,Yes,No,No,No,No,No,No,39.3°C,67,Parasitic Infection
+Dog,Corgi,0.5,Male,14.6,Eye Discharge,Coughing,Labored Breathing,Diarrhea,12 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,154,Parvovirus
+Cow,Brown Swiss,7.4,Male,693.1,Dehydration,Labored Breathing,Skin Lesions,Skin Lesions,7 days,No,No,No,No,No,No,Yes,Yes,No,40.5°C,54,Foot and Mouth Disease
+Dog,Pit Bull,6.0,Male,14.9,Skin Lesions,Lethargy,Lameness,Lameness,8 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,86,Lyme Disease
+Dog,Dachshund,5.3,Male,24.1,Fever,Coughing,Diarrhea,Eye_Discharge,12 days,Yes,No,Yes,Yes,Yes,No,No,Yes,No,39.8°C,71,Canine Distemper
+Dog,Dalmatian,6.6,Male,36.5,Fever,Eye Discharge,Fever,Weakness,13 days,Yes,No,No,No,No,Yes,No,No,No,37.9°C,118,Lyme Disease
+Dog,Husky,0.5,Male,15.2,Fever,Skin Lesions,Labored Breathing,Coughing,10 days,No,No,No,Yes,No,No,No,Yes,Yes,38.4°C,144,Kennel Cough
+Dog,Husky,2.9,Male,27.3,Lameness,Weakness,Eye Discharge,Anorexia,14 days,Yes,No,No,Yes,No,No,No,Yes,Yes,40.1°C,104,Canine Distemper
+Cow,Aberdeen Angus,5.2,Male,521.7,Dehydration,Anemia,Weakness,Eye Discharge,3 days,Yes,No,No,No,No,No,No,No,No,39.0°C,80,Parasitic Infection
+Dog,Poodle,0.9,Male,15.5,Weakness,Fever,Diarrhea,Vomiting,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,126,Parvovirus
+Dog,Boxer,1.1,Male,27.5,Anorexia,Diarrhea,Eye Discharge,Vomiting,2 weeks,No,No,No,Yes,Yes,No,No,Yes,No,39.4°C,67,Canine Distemper
+Dog,Beagle,9.7,Male,14.3,Skin Lesions,Dehydration,Lameness,Anorexia,14 days,Yes,No,No,No,No,Yes,No,No,No,38.6°C,94,Lyme Disease
+Dog,Cocker Spaniel,0.9,Male,34.5,Lameness,Dehydration,Eye Discharge,Skin Lesions,22 hours,Yes,No,Yes,No,No,No,No,No,No,38.7°C,150,Gastroenteritis
+Cow,Brahman,11.5,Male,515.4,Fever,Coughing,Skin Lesions,Lameness,4 days,Yes,No,No,No,No,No,No,No,Yes,40.1°C,53,Mastitis
+Cow,Red Angus,1.7,Male,558.9,Nasal Discharge,Weakness,Vomiting,Skin Lesions,17 hours,No,No,No,Yes,No,No,No,Yes,No,39.9°C,82,Respiratory Disease
+Dog,Dalmatian,0.6,Female,27.9,Vomiting,Vomiting,Eye Discharge,Labored Breathing,2 days,Yes,Yes,Yes,No,No,No,No,No,No,40.1°C,120,Parvovirus
+Dog,Cocker Spaniel,0.3,Male,15.1,Labored Breathing,Diarrhea,Coughing,Fever,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.8°C,125,Parvovirus
+Cow,Dexter,2.4,Female,533.9,Lameness,Labored Breathing,Coughing,Coughing,16 hours,No,No,No,Yes,Yes,No,No,No,No,39.9°C,50,Respiratory Disease
+Cow,Jersey,9.9,Female,587.6,Weakness,Eye Discharge,Dehydration,Anemia,14 days,Yes,No,Yes,No,No,No,Yes,No,No,38.9°C,82,Parasitic Infection
+Cow,Shorthorn,6.7,Male,526.6,Anorexia,Nasal Discharge,Labored Breathing,Fever,2 days,No,No,Yes,No,No,No,No,No,No,38.8°C,64,Parasitic Infection
+Cow,Simmental,9.8,Male,568.0,Labored Breathing,Lameness,Diarrhea,Fever,10 days,Yes,No,No,No,No,No,No,No,No,39.8°C,80,Mastitis
+Cow,Brahman,5.9,Female,476.8,Fever,Dehydration,Lameness,Labored Breathing,2 days,No,No,No,Yes,Yes,No,No,No,No,39.1°C,51,Respiratory Disease
+Dog,Cocker Spaniel,9.6,Female,20.2,Loss of Appetite,Fever,Diarrhea,Skin Lesions,5 days,No,No,Yes,No,No,Yes,No,No,No,38.6°C,114,Lyme Disease
+Cow,Hereford,7.6,Male,633.6,Anemia,Eye Discharge,Labored Breathing,Dehydration,6 days,No,No,Yes,No,No,No,No,No,No,39.2°C,59,Parasitic Infection
+Cow,Red Poll,7.2,Female,381.3,Skin Lesions,Vomiting,Fever,Reduced Appetite,1 days,Yes,No,No,No,No,No,No,No,No,40.2°C,73,Mastitis
+Cow,Jersey,8.6,Female,528.0,Skin Lesions,Weakness,Diarrhea,Fever,2 weeks,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,50,Foot and Mouth Disease
+Cow,Limousin,5.6,Female,564.8,Weakness,Diarrhea,Anorexia,Lameness,10 days,Yes,No,No,No,No,Yes,No,No,No,39.6°C,81,Foot and Mouth Disease
+Dog,Chihuahua,2.8,Female,5.2,Vomiting,Lameness,Appetite Loss,Coughing,21 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,97,Gastroenteritis
+Dog,Yorkshire Terrier,10.4,Male,4.3,Vomiting,Labored Breathing,Lameness,Lethargy,12 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,96,Lyme Disease
+Dog,Boxer,9.2,Female,31.6,Eye Discharge,Vomiting,Dehydration,Coughing,12 days,No,No,No,Yes,Yes,No,No,No,No,38.7°C,109,Kennel Cough
+Cow,Guernsey,10.7,Male,498.2,Anorexia,Skin Lesions,Lameness,Fever,8 weeks,Yes,No,No,No,No,Yes,No,No,No,39.1°C,66,Foot and Mouth Disease
+Dog,Beagle,6.4,Female,10.6,Vomiting,Nasal_Discharge,Diarrhea,Skin Lesions,23 hours,Yes,No,No,Yes,Yes,No,No,Yes,No,38.8°C,121,Canine Distemper
+Dog,Dachshund,3.0,Female,34.9,Eye Discharge,Coughing,Lameness,Labored Breathing,19 hours,No,No,No,No,No,Yes,No,No,No,38.6°C,66,Lyme Disease
+Cow,Aberdeen Angus,5.9,Male,648.5,Nasal Discharge,Fever,Fever,Anorexia,9 days,Yes,No,No,No,No,No,No,No,No,39.4°C,78,Mastitis
+Cow,Jersey,6.8,Female,712.1,Vomiting,Weight Loss,Diarrhea,Eye Discharge,11 days,No,No,Yes,No,No,No,No,Yes,No,38.4°C,49,Parasitic Infection
+Cow,Shorthorn,11.0,Male,717.9,Skin Lesions,Anemia,Eye Discharge,Nasal Discharge,3 weeks,No,No,Yes,No,No,No,No,No,No,39.3°C,63,Parasitic Infection
+Cow,Aberdeen Angus,5.1,Male,642.8,Weakness,Fever,Anorexia,Lameness,2 days,Yes,No,No,No,No,No,No,No,No,39.3°C,61,Mastitis
+Dog,Pit Bull,5.5,Male,32.2,Weakness,Lameness,Lethargy,Dehydration,6 days,Yes,No,Yes,No,No,No,No,No,No,38.3°C,74,Gastroenteritis
+Cow,Simmental,3.4,Female,528.5,Fever,Eye Discharge,Labored Breathing,Diarrhea,7 days,No,No,Yes,Yes,No,No,No,No,No,40.5°C,58,Bovine Viral Diarrhea
+Dog,Labrador,1.4,Female,21.8,Weakness,Eye Discharge,Eye_Discharge,Coughing,11 days,Yes,No,Yes,No,Yes,No,No,Yes,No,39.0°C,89,Canine Distemper
+Dog,Shih Tzu,7.9,Female,5.4,Diarrhea,Eye_Discharge,Lameness,Nasal_Discharge,8 weeks,No,No,No,Yes,No,No,No,No,Yes,38.1°C,99,Kennel Cough
+Cow,Red Angus,4.4,Female,465.7,Labored Breathing,Fever,Lameness,Anorexia,13 days,Yes,No,No,No,No,No,No,No,No,39.8°C,83,Mastitis
+Dog,Poodle,7.2,Male,14.7,Eye_Discharge,Coughing,Diarrhea,Eye Discharge,14 days,Yes,Yes,No,Yes,No,No,No,Yes,Yes,39.6°C,60,Canine Distemper
+Dog,Golden Retriever,1.4,Male,28.9,Loss of Appetite,Coughing,Skin Lesions,Lethargy,10 days,Yes,No,No,No,No,Yes,No,No,No,38.6°C,74,Lyme Disease
+Cow,Jersey,5.3,Female,551.2,Reduced Appetite,Diarrhea,Weakness,Fever,22 hours,Yes,No,No,No,No,No,No,No,No,40.3°C,63,Mastitis
+Cow,Red Poll,11.6,Female,463.8,Diarrhea,Lameness,Eye Discharge,Fever,2 days,Yes,No,No,No,Yes,No,Yes,No,No,39.7°C,64,Foot and Mouth Disease
+Cow,Charolais,11.6,Female,610.2,Dehydration,Nasal Discharge,Labored Breathing,Skin Lesions,11 days,No,No,No,No,No,No,No,No,No,39.1°C,55,Parasitic Infection
+Dog,Akita,5.9,Female,25.0,Diarrhea,Eye_Discharge,Vomiting,Skin Lesions,10 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,39.7°C,113,Canine Distemper
+Dog,Golden Retriever,5.5,Female,22.5,Coughing,Skin Lesions,Fever,Lethargy,3 days,Yes,No,No,No,No,No,No,No,No,38.8°C,97,Gastroenteritis
+Dog,Golden Retriever,7.9,Male,25.9,Eye_Discharge,Nasal Discharge,Dehydration,Skin Lesions,7 days,Yes,No,Yes,Yes,Yes,No,No,Yes,No,40.1°C,110,Canine Distemper
+Cow,Brahman,9.9,Female,593.2,Skin Lesions,Anorexia,Vomiting,Labored Breathing,13 days,No,No,No,Yes,No,No,No,Yes,No,40.2°C,51,Respiratory Disease
+Dog,Labrador,0.2,Male,31.6,Lethargy,Diarrhea,Skin Lesions,Vomiting,3 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,142,Gastroenteritis
+Dog,Dalmatian,9.5,Female,22.6,Vomiting,Coughing,Lameness,Loss of Appetite,6 hours,Yes,No,No,No,No,Yes,No,No,No,38.3°C,98,Lyme Disease
+Cow,Brahman,5.7,Male,526.5,Eye Discharge,Skin Lesions,Weakness,Diarrhea,7 days,Yes,No,Yes,No,Yes,No,No,No,No,39.7°C,77,Bovine Viral Diarrhea
+Dog,Labrador Retriever,1.2,Male,40.5,Dehydration,Nasal Discharge,Diarrhea,Eye Discharge,5 days,Yes,Yes,No,No,No,No,No,No,No,38.6°C,129,Gastroenteritis
+Cow,Angus,9.8,Male,578.7,Fever,Nasal Discharge,Diarrhea,Weakness,2 days,No,No,No,Yes,Yes,No,No,Yes,No,39.9°C,78,Respiratory Disease
+Dog,Husky,2.0,Male,21.6,Lameness,Anorexia,Coughing,Coughing,7 days,No,No,No,Yes,Yes,No,No,No,Yes,38.2°C,97,Kennel Cough
+Cow,Hereford,7.7,Male,508.6,Skin Lesions,Diarrhea,Weight Loss,Dehydration,11 days,Yes,No,No,No,No,No,No,No,No,38.6°C,60,Parasitic Infection
+Cow,Shorthorn,9.2,Female,562.6,Skin Lesions,Coughing,Eye Discharge,Nasal Discharge,22 hours,No,No,No,No,No,Yes,No,No,No,39.4°C,58,Mastitis
+Dog,Yorkshire Terrier,6.6,Female,4.3,Anorexia,Coughing,Diarrhea,Eye_Discharge,1 days,No,No,No,No,No,No,No,Yes,Yes,38.4°C,114,Kennel Cough
+Dog,Border Collie,0.6,Male,10.6,Lethargy,Dehydration,Vomiting,Anorexia,12 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,121,Parvovirus
+Cow,Limousin,6.6,Male,491.8,Diarrhea,Weight Loss,Weakness,Labored Breathing,7 days,Yes,No,No,No,No,No,No,No,No,39.3°C,48,Parasitic Infection
+Cow,Red Angus,9.2,Female,739.8,Skin Lesions,Fever,Weakness,Eye Discharge,19 hours,No,No,No,No,No,No,No,No,No,39.5°C,57,Bovine Viral Diarrhea
+Cow,Dexter,9.2,Male,538.6,Diarrhea,Weakness,Labored Breathing,Coughing,11 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,52,Parasitic Infection
+Dog,Dalmatian,0.7,Female,38.0,Eye Discharge,Labored Breathing,Fever,Weakness,11 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,128,Parvovirus
+Cow,Dexter,7.8,Male,561.0,Weakness,Nasal Discharge,Eye Discharge,Fever,2 days,Yes,No,No,No,No,No,No,Yes,Yes,40.5°C,77,Respiratory Disease
+Cow,Jersey,4.5,Female,518.8,Weakness,Eye Discharge,Nasal Discharge,Diarrhea,6 days,No,No,Yes,Yes,No,No,No,No,No,39.0°C,61,Bovine Viral Diarrhea
+Dog,Shih Tzu,1.4,Female,6.5,Eye Discharge,Appetite Loss,Labored Breathing,Anorexia,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,99,Gastroenteritis
+Cow,Charolais,7.9,Male,589.9,Eye Discharge,Weakness,Diarrhea,Vomiting,16 hours,Yes,No,No,No,No,Yes,Yes,No,No,39.9°C,63,Foot and Mouth Disease
+Dog,Rottweiler,4.2,Male,30.2,Nasal_Discharge,Anorexia,Coughing,Labored Breathing,9 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.2°C,124,Canine Distemper
+Dog,Golden Retriever,0.5,Male,25.2,Diarrhea,Eye Discharge,Vomiting,Diarrhea,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,150,Parvovirus
+Dog,Dalmatian,5.2,Male,26.3,Vomiting,Weakness,Nasal Discharge,Eye Discharge,8 days,Yes,No,No,Yes,No,No,No,No,Yes,38.4°C,117,Kennel Cough
+Cow,Belted Galloway,6.8,Female,611.6,Labored Breathing,Weakness,Coughing,Labored Breathing,5 days,Yes,No,No,No,Yes,No,No,No,No,39.9°C,57,Respiratory Disease
+Dog,Border Collie,1.0,Male,12.8,Diarrhea,Dehydration,Weakness,Coughing,12 days,Yes,Yes,Yes,No,No,No,No,No,No,40.6°C,65,Parvovirus
+Cow,Charolais,3.9,Male,496.6,Vomiting,Respiratory Signs,Nasal Discharge,Diarrhea,12 days,No,No,Yes,No,No,No,No,Yes,Yes,39.1°C,70,Bovine Viral Diarrhea
+Dog,Corgi,2.6,Female,3.7,Fever,Vomiting,Loss of Appetite,Fever,9 days,No,No,No,No,No,Yes,No,No,No,39.2°C,98,Lyme Disease
+Cow,Limousin,0.7,Male,538.0,Nasal Discharge,Lameness,Weight Loss,Vomiting,8 days,No,No,Yes,No,No,No,No,No,No,38.8°C,125,Parasitic Infection
+Cow,Dexter,11.6,Male,586.5,Weakness,Nasal Discharge,Labored Breathing,Anemia,19 hours,No,No,Yes,No,Yes,No,No,No,No,38.7°C,64,Parasitic Infection
+Cow,Ayrshire,8.5,Male,751.9,Anemia,Diarrhea,Dehydration,Weight Loss,8 days,No,No,Yes,No,No,No,No,No,No,38.6°C,67,Parasitic Infection
+Cow,Belted Galloway,3.5,Male,417.5,Fever,Weakness,Lameness,Labored Breathing,10 days,Yes,No,Yes,No,No,Yes,Yes,No,No,39.1°C,55,Foot and Mouth Disease
+Dog,Doberman Pinscher,1.7,Male,21.8,Fever,Lameness,Dehydration,Diarrhea,11 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,121,Gastroenteritis
+Cow,Red Angus,6.8,Female,463.3,Diarrhea,Lameness,Labored Breathing,Coughing,14 days,No,No,No,Yes,Yes,No,No,Yes,No,39.8°C,82,Respiratory Disease
+Dog,Chihuahua,1.0,Male,4.6,Eye_Discharge,Fever,Coughing,Eye Discharge,12 days,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,39.7°C,122,Canine Distemper
+Dog,Poodle,1.3,Male,23.3,Diarrhea,Dehydration,Lameness,Labored Breathing,11 days,No,No,No,No,No,No,No,Yes,No,38.4°C,97,Kennel Cough
+Dog,Akita,10.3,Male,28.6,Eye Discharge,Diarrhea,Skin Lesions,Weakness,11 days,No,No,No,No,No,Yes,Yes,No,No,39.8°C,79,Lyme Disease
+Dog,Beagle,0.7,Female,14.4,Coughing,Diarrhea,Skin Lesions,Anorexia,9 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,159,Parvovirus
+Cow,Limousin,2.3,Male,496.5,Skin Lesions,Weakness,Coughing,Fever,3 days,Yes,No,No,No,No,Yes,Yes,No,No,39.6°C,77,Foot and Mouth Disease
+Dog,Boxer,0.9,Male,29.3,Diarrhea,Lethargy,Dehydration,Anorexia,12 days,Yes,Yes,Yes,No,No,No,No,No,No,40.5°C,138,Parvovirus
+Cow,Brahman,9.8,Male,498.5,Fever,Vomiting,Nasal Discharge,Diarrhea,11 days,No,No,No,Yes,No,No,No,Yes,No,40.5°C,67,Respiratory Disease
+Dog,German Shepherd,6.2,Male,21.7,Coughing,Nasal Discharge,Anorexia,Fever,13 days,No,No,Yes,Yes,No,No,No,Yes,No,40.2°C,121,Canine Distemper
+Dog,Golden Retriever,0.5,Male,20.3,Nasal Discharge,Fever,Coughing,Lethargy,4 days,Yes,Yes,Yes,No,No,No,No,No,No,40.0°C,132,Parvovirus
+Dog,Bulldog,4.0,Male,16.1,Dehydration,Eye Discharge,Coughing,Weakness,12 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.9°C,126,Canine Distemper
+Cow,Brown Swiss,1.8,Female,532.9,Coughing,Eye Discharge,Lameness,Lameness,4 days,Yes,No,No,No,No,Yes,Yes,No,No,40.1°C,79,Foot and Mouth Disease
+Cow,Shorthorn,0.5,Male,520.1,Weakness,Diarrhea,Skin Lesions,Nasal Discharge,3 days,Yes,No,No,Yes,No,No,No,Yes,No,40.2°C,125,Respiratory Disease
+Cow,Hereford,5.8,Female,406.8,Diarrhea,Vomiting,Anorexia,Weakness,9 days,No,No,Yes,Yes,No,No,No,No,No,40.5°C,66,Bovine Viral Diarrhea
+Cow,Shorthorn,5.3,Male,551.4,Lameness,Eye Discharge,Vomiting,Dehydration,1 days,Yes,No,Yes,No,Yes,No,No,No,No,40.8°C,81,Bovine Viral Diarrhea
+Dog,Corgi,11.6,Male,14.2,Loss of Appetite,Skin Lesions,Nasal Discharge,Eye Discharge,3 days,Yes,No,Yes,No,No,Yes,No,No,No,38.6°C,86,Lyme Disease
+Cow,Belted Galloway,5.3,Female,639.9,Anorexia,Vomiting,Fever,Coughing,6 days,Yes,No,No,Yes,No,No,No,Yes,No,40.1°C,50,Respiratory Disease
+Cow,Brown Swiss,2.8,Female,581.7,Coughing,Labored Breathing,Lameness,Nasal Discharge,9 days,No,No,No,Yes,Yes,No,No,Yes,No,39.7°C,61,Respiratory Disease
+Cow,Red Poll,7.9,Male,473.5,Diarrhea,Anorexia,Fever,Eye Discharge,7 days,Yes,No,No,No,No,Yes,No,No,No,41.0°C,57,Foot and Mouth Disease
+Cow,Simmental,9.8,Male,831.5,Vomiting,Anorexia,Diarrhea,Coughing,14 days,No,No,No,Yes,No,No,No,Yes,No,41.0°C,68,Respiratory Disease
+Cow,Holstein,8.6,Female,468.3,Fever,Fever,Weakness,Dehydration,7 days,Yes,No,No,No,No,Yes,Yes,No,No,38.9°C,52,Foot and Mouth Disease
+Cow,Brahman,6.2,Male,534.3,Vomiting,Coughing,Dehydration,Weakness,13 days,No,No,Yes,No,No,No,No,No,No,39.1°C,68,Parasitic Infection
+Dog,Poodle,4.6,Female,20.7,Skin Lesions,Vomiting,Coughing,Dehydration,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,72,Gastroenteritis
+Cow,Ayrshire,0.9,Male,687.9,Fever,Diarrhea,Nasal Discharge,Skin Lesions,1 days,Yes,No,No,Yes,No,Yes,Yes,No,No,40.2°C,119,Foot and Mouth Disease
+Dog,Shih Tzu,7.3,Male,5.2,Eye Discharge,Diarrhea,Weakness,Skin Lesions,5 days,Yes,No,No,Yes,No,No,No,Yes,Yes,39.1°C,110,Kennel Cough
+Cow,Holstein,4.0,Male,408.5,Vomiting,Anemia,Diarrhea,Weakness,10 days,No,No,Yes,No,No,No,No,No,No,38.8°C,83,Parasitic Infection
+Dog,Siberian Husky,0.6,Male,28.1,Weakness,Labored Breathing,Diarrhea,Skin Lesions,12 days,No,Yes,Yes,No,No,No,No,No,No,39.9°C,136,Parvovirus
+Cow,Ayrshire,0.5,Male,440.0,Diarrhea,Eye Discharge,Diarrhea,Weakness,10 days,No,No,Yes,No,No,No,No,No,No,38.9°C,129,Parasitic Infection
+Cow,Hereford,5.4,Female,389.2,Dehydration,Vomiting,Skin Lesions,Lameness,12 days,Yes,No,No,No,No,No,No,No,No,39.3°C,71,Mastitis
+Dog,Border Collie,5.0,Female,1.3,Fever,Diarrhea,Coughing,Vomiting,3 days,No,No,No,Yes,No,No,No,No,No,39.8°C,78,Canine Distemper
+Dog,Beagle,4.6,Female,14.5,Fever,Fever,Dehydration,Diarrhea,8 days,Yes,No,No,No,No,Yes,No,No,No,39.7°C,108,Lyme Disease
+Cow,Jersey,6.4,Male,564.8,Anorexia,Nasal Discharge,Dehydration,Coughing,14 days,Yes,No,Yes,No,No,Yes,No,No,No,39.5°C,48,Foot and Mouth Disease
+Dog,Dachshund,0.8,Female,15.7,Fever,Dehydration,Lethargy,Anorexia,2 days,Yes,Yes,Yes,No,No,No,No,Yes,No,40.2°C,148,Parvovirus
+Cow,Charolais,2.4,Female,667.4,Labored Breathing,Anorexia,Swollen Udder,Nasal Discharge,1 days,Yes,No,No,No,No,No,No,No,No,40.1°C,68,Mastitis
+Dog,Yorkshire Terrier,4.4,Male,4.4,Eye Discharge,Coughing,Vomiting,Lethargy,1 days,No,Yes,Yes,No,No,No,No,Yes,No,39.1°C,91,Gastroenteritis
+Cow,Holstein,8.1,Female,540.4,Nasal Discharge,Diarrhea,Diarrhea,Vomiting,14 days,Yes,No,Yes,No,No,No,No,No,No,38.4°C,76,Parasitic Infection
+Dog,Labrador Retriever,7.5,Male,21.2,Vomiting,Labored Breathing,Fever,Lameness,7 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,110,Lyme Disease
+Dog,Beagle,4.5,Male,12.1,Labored Breathing,Vomiting,Nasal Discharge,Coughing,3 weeks,Yes,No,Yes,No,No,No,No,No,No,39.0°C,63,Gastroenteritis
+Cow,Brown Swiss,8.0,Male,520.4,Vomiting,Fever,Nasal Discharge,Eye Discharge,1 days,No,No,No,Yes,No,No,No,No,No,38.6°C,64,Respiratory Disease
+Dog,Rottweiler,6.5,Female,43.8,Dehydration,Vomiting,Diarrhea,Lameness,9 days,No,Yes,No,Yes,No,No,No,Yes,No,39.8°C,64,Canine Distemper
+Dog,Bulldog,0.1,Male,16.8,Anorexia,Nasal Discharge,Fever,Lameness,11 days,No,Yes,Yes,No,No,No,No,No,No,39.0°C,123,Parvovirus
+Cow,Angus,8.6,Male,528.1,Diarrhea,Anemia,Anorexia,Vomiting,5 days,No,No,Yes,No,No,No,No,No,No,39.3°C,60,Parasitic Infection
+Cow,Angus,6.5,Female,530.3,Anorexia,Vomiting,Nasal Discharge,Dehydration,3 weeks,Yes,No,Yes,Yes,No,No,No,Yes,No,39.5°C,59,Bovine Viral Diarrhea
+Cow,Shorthorn,7.6,Female,540.2,Labored Breathing,Diarrhea,Respiratory Signs,Diarrhea,23 hours,Yes,No,Yes,No,No,No,No,No,No,40.7°C,51,Bovine Viral Diarrhea
+Cow,Belted Galloway,7.4,Female,525.8,Skin Lesions,Nasal Discharge,Weakness,Diarrhea,4 days,No,No,No,No,No,No,No,No,No,39.1°C,75,Parasitic Infection
+Cow,Jersey,8.3,Male,475.1,Weight Loss,Dehydration,Weakness,Skin Lesions,12 days,Yes,No,Yes,No,No,No,No,No,No,38.7°C,77,Parasitic Infection
+Cow,Brahman,9.3,Male,457.5,Diarrhea,Skin Lesions,Swollen Udder,Reduced Appetite,12 days,Yes,No,No,No,No,No,No,No,No,39.7°C,57,Mastitis
+Dog,Shih Tzu,1.6,Female,4.8,Eye Discharge,Lethargy,Vomiting,Coughing,6 weeks,No,Yes,Yes,No,No,No,No,No,No,38.4°C,60,Gastroenteritis
+Dog,Doberman Pinscher,1.2,Female,23.2,Lameness,Coughing,Vomiting,Nasal_Discharge,12 days,No,No,No,Yes,Yes,No,No,No,Yes,40.0°C,68,Kennel Cough
+Dog,Husky,6.7,Male,23.9,Coughing,Dehydration,Nasal Discharge,Weakness,2 days,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,39.8°C,91,Canine Distemper
+Dog,German Shepherd,6.5,Female,26.1,Eye Discharge,Coughing,Fever,Nasal Discharge,6 days,No,No,No,Yes,No,No,No,No,No,38.3°C,89,Kennel Cough
+Dog,Golden Retriever,4.7,Male,27.3,Lameness,Nasal Discharge,Labored Breathing,Lameness,11 days,Yes,No,No,No,No,Yes,No,No,No,38.9°C,89,Lyme Disease
+Cow,Aberdeen Angus,3.6,Male,669.9,Nasal Discharge,Fever,Coughing,Coughing,19 hours,Yes,No,No,Yes,Yes,No,No,Yes,No,40.4°C,73,Respiratory Disease
+Cow,Jersey,2.3,Male,606.8,Nasal Discharge,Vomiting,Fever,Fever,10 days,Yes,No,Yes,No,No,No,No,Yes,Yes,38.9°C,64,Bovine Viral Diarrhea
+Dog,Poodle,4.4,Male,22.8,Dehydration,Fever,Skin Lesions,Lameness,10 days,No,No,No,Yes,No,No,No,No,Yes,38.6°C,90,Kennel Cough
+Cow,Brahman,5.3,Male,567.0,Coughing,Lameness,Labored Breathing,Coughing,13 days,No,No,No,Yes,Yes,No,No,Yes,No,39.6°C,50,Respiratory Disease
+Cow,Charolais,10.7,Male,474.0,Vomiting,Weakness,Lameness,Coughing,1 weeks,No,No,No,No,No,No,No,No,No,39.3°C,58,Parasitic Infection
+Cow,Dexter,4.1,Female,577.0,Lameness,Diarrhea,Weakness,Labored Breathing,7 days,No,No,No,No,No,Yes,No,Yes,Yes,39.5°C,72,Bovine Viral Diarrhea
+Dog,Corgi,1.6,Male,14.2,Dehydration,Nasal Discharge,Anorexia,Coughing,1 days,Yes,No,No,No,No,Yes,No,No,No,38.0°C,61,Lyme Disease
+Cow,Charolais,10.8,Male,594.4,Coughing,Nasal Discharge,Fever,Weakness,13 days,Yes,No,No,No,No,No,No,No,No,39.8°C,77,Mastitis
+Dog,German Shepherd,0.6,Female,33.6,Diarrhea,Anorexia,Skin Lesions,Dehydration,14 hours,No,Yes,No,Yes,No,No,No,Yes,Yes,39.0°C,157,Kennel Cough
+Dog,Chihuahua,5.7,Male,5.1,Fever,Labored Breathing,Loss of Appetite,Fever,6 days,No,No,No,No,No,Yes,No,No,No,38.8°C,115,Lyme Disease
+Dog,Beagle,4.7,Male,16.5,Nasal Discharge,Appetite Loss,Anorexia,Coughing,3 days,No,No,Yes,No,No,No,No,No,No,38.9°C,60,Gastroenteritis
+Cow,Charolais,8.4,Male,659.5,Labored Breathing,Skin Lesions,Nasal Discharge,Coughing,12 days,Yes,No,No,Yes,No,No,No,Yes,No,40.5°C,60,Respiratory Disease
+Dog,Bulldog,3.4,Female,14.2,Nasal_Discharge,Skin Lesions,Anorexia,Vomiting,13 days,No,Yes,Yes,Yes,Yes,No,No,Yes,No,39.5°C,114,Canine Distemper
+Cow,Simmental,5.4,Male,614.4,Vomiting,Lameness,Weakness,Anorexia,8 weeks,Yes,No,Yes,No,No,No,No,No,No,38.5°C,72,Parasitic Infection
+Dog,Shih Tzu,1.0,Female,4.6,Lameness,Diarrhea,Weakness,Vomiting,2 days,No,Yes,Yes,No,No,No,No,No,No,40.1°C,99,Parvovirus
+Dog,Doberman Pinscher,12.0,Male,32.2,Vomiting,Nasal Discharge,Skin Lesions,Vomiting,15 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,63,Gastroenteritis
+Cow,Belted Galloway,11.1,Female,607.4,Coughing,Fever,Anorexia,Fever,1 days,Yes,No,No,No,No,No,No,No,No,40.3°C,83,Mastitis
+Dog,Siberian Husky,10.2,Female,40.9,Fever,Diarrhea,Anorexia,Labored Breathing,4 days,Yes,No,Yes,No,No,No,No,No,No,38.6°C,107,Gastroenteritis
+Cow,Red Poll,11.4,Female,581.1,Eye Discharge,Coughing,Diarrhea,Anorexia,3 days,Yes,No,Yes,No,No,No,No,No,No,39.0°C,51,Parasitic Infection
+Cow,Limousin,8.2,Male,546.5,Dehydration,Fever,Lameness,Vomiting,3 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.1°C,74,Respiratory Disease
+Dog,Dalmatian,0.4,Female,24.3,Eye_Discharge,Weakness,Dehydration,Skin Lesions,5 days,No,Yes,No,Yes,No,No,No,Yes,No,38.6°C,153,Kennel Cough
+Cow,Brahman,2.2,Male,695.8,Diarrhea,Eye Discharge,Lameness,Vomiting,8 days,Yes,No,No,No,No,Yes,Yes,No,No,39.5°C,57,Foot and Mouth Disease
+Cow,Dexter,8.8,Male,551.0,Lameness,Skin Lesions,Eye Discharge,Diarrhea,7 days,No,No,Yes,Yes,No,No,No,No,No,40.3°C,74,Bovine Viral Diarrhea
+Cow,Ayrshire,2.3,Male,525.1,Vomiting,Lameness,Labored Breathing,Dehydration,22 hours,Yes,No,No,No,No,No,No,No,No,39.9°C,81,Mastitis
+Cow,Jersey,8.3,Male,605.6,Lameness,Skin Lesions,Dehydration,Eye Discharge,5 days,Yes,No,No,No,Yes,No,No,Yes,No,39.2°C,79,Respiratory Disease
+Dog,Bulldog,4.4,Male,15.2,Nasal_Discharge,Anorexia,Dehydration,Weakness,7 days,Yes,No,No,Yes,Yes,No,No,No,Yes,38.4°C,100,Kennel Cough
+Dog,Cocker Spaniel,6.4,Female,7.5,Labored Breathing,Nasal Discharge,Lameness,Fever,13 days,Yes,No,Yes,No,No,No,No,No,No,39.4°C,102,Gastroenteritis
+Dog,Dachshund,5.6,Female,17.9,Lameness,Nasal Discharge,Skin Lesions,Labored Breathing,10 days,Yes,No,No,No,No,Yes,No,No,No,39.3°C,65,Lyme Disease
+Cow,Belted Galloway,2.2,Female,490.8,Swollen Udder,Labored Breathing,Fever,Vomiting,12 days,Yes,No,No,No,No,No,No,No,No,40.1°C,63,Mastitis
+Dog,Siberian Husky,8.6,Male,21.9,Coughing,Lameness,Fever,Labored Breathing,5 days,Yes,No,Yes,No,No,Yes,No,No,No,38.5°C,104,Lyme Disease
+Cow,Angus,0.8,Female,541.8,Coughing,Diarrhea,Nasal Discharge,Weakness,11 days,No,No,No,No,Yes,Yes,Yes,No,No,40.0°C,107,Foot and Mouth Disease
+Cow,Ayrshire,0.8,Female,478.1,Lameness,Vomiting,Weakness,Anorexia,17 hours,Yes,No,No,No,No,Yes,Yes,No,No,39.5°C,111,Foot and Mouth Disease
+Cow,Brahman,4.6,Male,465.4,Nasal Discharge,Diarrhea,Skin Lesions,Eye Discharge,10 days,Yes,No,No,No,No,No,No,No,No,40.1°C,81,Mastitis
+Cow,Holstein,4.5,Male,489.1,Dehydration,Nasal Discharge,Labored Breathing,Skin Lesions,7 days,Yes,No,No,Yes,No,No,No,Yes,No,39.0°C,62,Respiratory Disease
+Dog,Labrador,8.5,Male,25.6,Fever,Anorexia,Coughing,Labored Breathing,14 days,No,No,No,Yes,Yes,No,No,Yes,No,38.6°C,73,Kennel Cough
+Cow,Simmental,0.2,Male,473.9,Skin Lesions,Nasal Discharge,Lameness,Coughing,11 days,Yes,No,No,No,No,Yes,Yes,No,No,39.4°C,120,Foot and Mouth Disease
+Dog,Labrador Retriever,3.6,Female,12.7,Eye_Discharge,Coughing,Vomiting,Labored Breathing,16 hours,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,40.0°C,62,Canine Distemper
+Dog,Dalmatian,3.1,Female,20.5,Skin Lesions,Anorexia,Nasal Discharge,Appetite Loss,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,113,Gastroenteritis
+Dog,Border Collie,9.7,Male,8.2,Diarrhea,Eye Discharge,Lameness,Fever,5 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,69,Lyme Disease
+Dog,Dachshund,9.5,Male,25.1,Anorexia,Diarrhea,Weakness,Eye_Discharge,4 days,No,No,No,Yes,No,No,No,Yes,Yes,37.8°C,124,Kennel Cough
+Cow,Hereford,3.5,Female,570.0,Eye Discharge,Lameness,Anorexia,Dehydration,3 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.2°C,51,Respiratory Disease
+Cow,Hereford,6.8,Male,535.2,Anemia,Lameness,Anorexia,Diarrhea,3 weeks,Yes,No,Yes,Yes,No,No,No,No,No,38.9°C,63,Parasitic Infection
+Cow,Red Poll,5.1,Female,552.4,Nasal Discharge,Coughing,Fever,Labored Breathing,4 days,Yes,No,Yes,No,No,No,No,No,No,38.8°C,71,Parasitic Infection
+Dog,Labrador,7.2,Female,22.1,Nasal Discharge,Diarrhea,Eye_Discharge,Nasal_Discharge,10 days,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,38.9°C,127,Canine Distemper
+Dog,Poodle,3.4,Male,13.2,Fever,Vomiting,Eye Discharge,Eye_Discharge,13 days,Yes,Yes,No,Yes,No,No,No,No,No,40.3°C,120,Canine Distemper
+Dog,Poodle,9.2,Female,23.7,Lethargy,Eye Discharge,Skin Lesions,Lameness,9 days,Yes,No,No,No,No,Yes,No,No,No,38.3°C,93,Lyme Disease
+Cow,Holstein,3.0,Male,668.3,Fever,Nasal Discharge,Vomiting,Diarrhea,5 days,No,No,Yes,No,No,No,No,Yes,No,40.2°C,74,Bovine Viral Diarrhea
+Dog,German Shepherd,4.2,Male,34.4,Anorexia,Skin Lesions,Fever,Weakness,7 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,38.8°C,85,Canine Distemper
+Cow,Brown Swiss,8.5,Male,613.9,Labored Breathing,Lameness,Dehydration,Skin Lesions,2 days,No,No,Yes,No,No,No,No,No,No,38.5°C,61,Parasitic Infection
+Dog,Shih Tzu,4.6,Male,4.2,Vomiting,Dehydration,Labored Breathing,Diarrhea,12 days,No,Yes,Yes,Yes,No,Yes,No,No,No,38.8°C,62,Lyme Disease
+Cow,Brown Swiss,6.8,Male,572.1,Coughing,Weakness,Dehydration,Nasal Discharge,15 hours,No,No,No,Yes,No,No,No,No,Yes,39.2°C,70,Respiratory Disease
+Cow,Charolais,10.7,Male,533.6,Rumen Issues,Coughing,Dehydration,Labored Breathing,13 days,Yes,No,No,No,No,Yes,Yes,No,No,40.1°C,78,Foot and Mouth Disease
+Dog,Doberman Pinscher,4.7,Male,34.4,Coughing,Appetite Loss,Vomiting,Anorexia,12 days,Yes,Yes,No,No,No,No,No,No,No,38.2°C,96,Gastroenteritis
+Dog,Rottweiler,7.5,Female,60.8,Nasal_Discharge,Diarrhea,Weakness,Fever,7 hours,No,No,No,No,No,No,No,Yes,Yes,38.6°C,93,Kennel Cough
+Dog,Akita,7.0,Female,29.6,Lameness,Skin Lesions,Coughing,Vomiting,11 days,No,Yes,No,Yes,No,No,No,Yes,Yes,38.6°C,119,Kennel Cough
+Cow,Limousin,10.1,Male,537.4,Fever,Diarrhea,Lameness,Swollen Udder,5 days,No,No,No,No,No,No,No,No,No,38.9°C,63,Mastitis
+Dog,Siberian Husky,0.2,Male,34.2,Weakness,Fever,Lethargy,Nasal Discharge,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,144,Parvovirus
+Dog,Shih Tzu,9.1,Female,3.8,Lameness,Nasal_Discharge,Eye Discharge,Dehydration,7 days,No,No,No,Yes,Yes,No,No,Yes,No,39.1°C,75,Kennel Cough
+Dog,Dachshund,3.8,Female,18.7,Coughing,Nasal_Discharge,Weakness,Labored Breathing,9 days,No,No,No,Yes,No,Yes,No,Yes,Yes,40.3°C,113,Canine Distemper
+Dog,Border Collie,5.1,Male,8.3,Nasal_Discharge,Vomiting,Eye_Discharge,Skin Lesions,5 weeks,No,No,No,Yes,Yes,No,No,Yes,No,38.7°C,89,Kennel Cough
+Cow,Belted Galloway,3.2,Female,353.8,Lameness,Nasal Discharge,Dehydration,Eye Discharge,1 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.9°C,82,Respiratory Disease
+Cow,Brahman,4.6,Male,664.5,Dehydration,Anorexia,Labored Breathing,Weakness,4 weeks,Yes,No,No,Yes,No,No,No,Yes,Yes,40.0°C,66,Respiratory Disease
+Cow,Hereford,4.3,Female,539.5,Lameness,Diarrhea,Eye Discharge,Fever,12 days,No,No,No,Yes,Yes,No,No,Yes,No,39.9°C,83,Respiratory Disease
+Cow,Angus,9.7,Male,458.8,Nasal Discharge,Eye Discharge,Vomiting,Weakness,13 days,No,No,No,No,No,No,No,No,No,39.0°C,57,Parasitic Infection
+Dog,Yorkshire Terrier,3.9,Male,3.7,Nasal Discharge,Vomiting,Labored Breathing,Nasal_Discharge,5 days,No,No,No,Yes,Yes,No,No,Yes,No,38.7°C,68,Kennel Cough
+Cow,Holstein,3.1,Male,593.7,Nasal Discharge,Labored Breathing,Swollen Udder,Fever,20 hours,Yes,No,No,No,No,Yes,No,No,No,40.1°C,74,Mastitis
+Cow,Ayrshire,8.9,Female,468.3,Weakness,Labored Breathing,Dehydration,Lameness,12 days,No,No,Yes,No,No,No,No,No,No,38.4°C,56,Parasitic Infection
+Dog,Beagle,8.7,Male,5.2,Labored Breathing,Lameness,Diarrhea,Anorexia,1 days,No,No,No,Yes,No,No,No,Yes,No,38.5°C,104,Kennel Cough
+Dog,Shih Tzu,3.7,Female,4.2,Labored Breathing,Lameness,Anorexia,Fever,4 days,No,No,No,No,No,Yes,No,No,No,38.6°C,79,Lyme Disease
+Cow,Hereford,8.9,Female,603.0,Vomiting,Coughing,Coughing,Diarrhea,14 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.8°C,66,Respiratory Disease
+Dog,Labrador,9.6,Male,36.9,Lethargy,Diarrhea,Vomiting,Weakness,2 days,Yes,Yes,No,No,No,Yes,No,No,No,38.8°C,62,Gastroenteritis
+Dog,Pit Bull,5.5,Male,16.2,Labored Breathing,Coughing,Lameness,Vomiting,13 days,Yes,Yes,Yes,No,No,No,No,No,No,39.6°C,82,Gastroenteritis
+Dog,Doberman Pinscher,6.4,Female,18.9,Anorexia,Loss of Appetite,Fever,Dehydration,8 days,No,No,No,No,No,Yes,No,No,No,38.2°C,112,Lyme Disease
+Dog,Chihuahua,0.2,Male,4.8,Weakness,Vomiting,Nasal Discharge,Diarrhea,8 days,Yes,Yes,Yes,No,No,No,No,No,No,40.6°C,152,Parvovirus
+Dog,Pit Bull,1.0,Female,16.8,Fever,Nasal Discharge,Anorexia,Coughing,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,87,Parvovirus
+Dog,Siberian Husky,4.4,Female,39.2,Eye_Discharge,Coughing,Labored Breathing,Nasal_Discharge,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,40.3°C,72,Canine Distemper
+Cow,Belted Galloway,9.7,Male,603.0,Coughing,Vomiting,Lameness,Fever,13 days,No,No,Yes,No,No,No,No,Yes,No,38.3°C,83,Bovine Viral Diarrhea
+Cow,Aberdeen Angus,2.2,Male,629.9,Weight Loss,Eye Discharge,Labored Breathing,Fever,12 days,Yes,No,Yes,Yes,No,No,No,No,No,39.5°C,57,Parasitic Infection
+Cow,Belted Galloway,10.3,Female,572.7,Lameness,Anorexia,Labored Breathing,Diarrhea,5 days,Yes,No,No,Yes,No,No,No,No,No,39.3°C,63,Respiratory Disease
+Cow,Dexter,6.5,Male,720.3,Coughing,Anemia,Diarrhea,Eye Discharge,18 hours,No,No,Yes,No,No,No,No,No,No,39.2°C,78,Parasitic Infection
+Dog,Cocker Spaniel,10.1,Female,24.3,Dehydration,Eye Discharge,Vomiting,Fever,14 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,98,Lyme Disease
+Dog,Boxer,0.5,Male,28.6,Vomiting,Lethargy,Eye Discharge,Anorexia,9 hours,Yes,Yes,Yes,No,No,No,No,No,No,39.7°C,138,Parvovirus
+Dog,Corgi,8.1,Female,5.9,Weakness,Anorexia,Coughing,Diarrhea,4 days,Yes,No,No,Yes,No,No,No,Yes,No,38.8°C,86,Kennel Cough
+Cow,Hereford,1.9,Female,435.7,Nasal Discharge,Coughing,Diarrhea,Skin Lesions,10 days,Yes,No,No,No,No,Yes,Yes,No,No,38.9°C,54,Foot and Mouth Disease
+Cow,Guernsey,3.6,Female,678.5,Dehydration,Coughing,Vomiting,Anorexia,6 weeks,Yes,No,No,No,No,No,No,No,No,39.5°C,73,Mastitis
+Cow,Guernsey,10.9,Female,574.0,Labored Breathing,Swollen Udder,Reduced Appetite,Skin Lesions,3 days,Yes,No,No,No,No,No,No,No,No,40.6°C,61,Mastitis
+Cow,Brown Swiss,2.4,Male,554.4,Vomiting,Labored Breathing,Fever,Lameness,6 days,Yes,No,Yes,No,No,No,No,No,Yes,40.8°C,53,Bovine Viral Diarrhea
+Cow,Jersey,10.4,Male,573.2,Nasal Discharge,Eye Discharge,Nasal Discharge,Labored Breathing,6 days,Yes,No,No,Yes,No,No,No,Yes,No,39.8°C,79,Respiratory Disease
+Cow,Ayrshire,6.6,Male,577.0,Nasal Discharge,Diarrhea,Anorexia,Lameness,6 weeks,Yes,No,Yes,Yes,No,No,No,No,No,39.5°C,56,Respiratory Disease
+Dog,Bulldog,3.4,Female,13.1,Weakness,Nasal_Discharge,Nasal Discharge,Skin Lesions,8 days,No,No,No,Yes,No,No,No,Yes,No,39.0°C,104,Kennel Cough
+Dog,Bulldog,7.1,Male,5.3,Vomiting,Fever,Coughing,Nasal Discharge,6 weeks,Yes,No,Yes,Yes,Yes,No,No,Yes,No,39.6°C,125,Canine Distemper
+Dog,Border Collie,3.6,Male,15.9,Anorexia,Labored Breathing,Eye Discharge,Lethargy,6 days,No,No,Yes,No,No,No,No,No,No,39.0°C,61,Gastroenteritis
+Dog,Dachshund,1.1,Male,13.1,Coughing,Dehydration,Vomiting,Appetite Loss,13 days,Yes,No,Yes,No,No,No,No,No,No,38.9°C,84,Gastroenteritis
+Cow,Dexter,5.2,Male,598.4,Diarrhea,Skin Lesions,Labored Breathing,Nasal Discharge,13 hours,No,No,Yes,No,No,No,No,No,No,40.2°C,80,Bovine Viral Diarrhea
+Dog,Corgi,0.4,Male,14.7,Lethargy,Coughing,Vomiting,Lameness,10 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,123,Parvovirus
+Dog,Border Collie,6.6,Male,15.5,Coughing,Anorexia,Eye Discharge,Lethargy,7 days,Yes,No,Yes,No,No,Yes,No,No,No,39.0°C,83,Lyme Disease
+Dog,Labrador Retriever,0.1,Male,33.7,Dehydration,Labored Breathing,Lethargy,Fever,4 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,138,Parvovirus
+Cow,Red Angus,4.3,Male,597.6,Reduced Appetite,Fever,Fever,Swollen Udder,6 days,Yes,No,No,No,No,No,No,No,No,39.7°C,51,Mastitis
+Dog,Siberian Husky,0.3,Male,24.7,Lethargy,Diarrhea,Anorexia,Lameness,10 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,134,Parvovirus
+Cow,Ayrshire,1.2,Male,616.0,Diarrhea,Weakness,Vomiting,Lameness,10 hours,No,No,No,No,No,No,Yes,No,No,38.9°C,71,Parasitic Infection
+Dog,Dalmatian,0.8,Female,34.2,Labored Breathing,Eye Discharge,Fever,Nasal Discharge,6 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,138,Parvovirus
+Cow,Brown Swiss,2.2,Female,635.5,Nasal Discharge,Weakness,Fever,Lameness,7 days,Yes,No,No,No,No,No,No,No,No,39.0°C,55,Parasitic Infection
+Dog,Cocker Spaniel,4.7,Male,28.1,Dehydration,Lethargy,Lameness,Weakness,5 days,Yes,No,No,No,No,Yes,No,No,No,38.2°C,122,Lyme Disease
+Cow,Holstein,5.4,Male,538.9,Weakness,Fever,Dehydration,Diarrhea,5 weeks,Yes,No,No,No,No,No,No,No,No,38.5°C,48,Parasitic Infection
+Cow,Simmental,8.0,Female,521.5,Labored Breathing,Lameness,Diarrhea,Vomiting,2 days,Yes,Yes,No,No,No,No,No,No,No,39.1°C,77,Parasitic Infection
+Dog,Labrador,0.7,Male,22.9,Skin Lesions,Coughing,Lameness,Anorexia,10 days,No,No,No,Yes,No,No,No,Yes,No,38.8°C,140,Kennel Cough
+Dog,Boxer,5.4,Female,30.6,Eye Discharge,Nasal Discharge,Weakness,Coughing,5 weeks,Yes,Yes,No,Yes,No,No,No,No,Yes,38.4°C,112,Kennel Cough
+Cow,Limousin,6.2,Female,612.4,Nasal Discharge,Dehydration,Eye Discharge,Diarrhea,4 days,Yes,No,Yes,No,No,No,Yes,No,No,38.5°C,73,Parasitic Infection
+Cow,Angus,7.0,Male,407.1,Eye Discharge,Weakness,Diarrhea,Nasal Discharge,8 weeks,No,No,Yes,No,No,No,No,No,No,39.1°C,57,Parasitic Infection
+Cow,Dexter,6.1,Female,637.8,Lameness,Fever,Eye Discharge,Swollen Udder,11 days,Yes,No,No,No,No,No,No,No,No,40.0°C,66,Mastitis
+Dog,Rottweiler,5.4,Male,52.5,Coughing,Eye_Discharge,Diarrhea,Fever,13 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.9°C,126,Canine Distemper
+Cow,Shorthorn,5.4,Female,510.6,Diarrhea,Dehydration,Skin Lesions,Anorexia,7 days,No,No,Yes,Yes,No,No,No,Yes,No,39.1°C,82,Bovine Viral Diarrhea
+Dog,Poodle,8.0,Male,25.7,Nasal_Discharge,Eye Discharge,Coughing,Skin Lesions,4 days,Yes,No,Yes,Yes,Yes,No,No,Yes,No,40.2°C,122,Canine Distemper
+Dog,Yorkshire Terrier,0.9,Male,1.0,Dehydration,Vomiting,Fever,Fever,13 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,141,Parvovirus
+Cow,Charolais,8.8,Female,505.6,Anorexia,Labored Breathing,Eye Discharge,Coughing,8 days,Yes,No,No,No,No,No,No,No,No,39.7°C,73,Mastitis
+Dog,Boxer,0.4,Female,29.1,Skin Lesions,Labored Breathing,Lameness,Eye_Discharge,14 days,No,No,No,No,Yes,No,No,Yes,No,38.6°C,143,Kennel Cough
+Dog,Chihuahua,5.4,Male,4.8,Vomiting,Nasal_Discharge,Fever,Eye_Discharge,8 weeks,Yes,Yes,No,Yes,No,No,No,Yes,Yes,39.5°C,102,Canine Distemper
+Cow,Guernsey,9.9,Male,759.8,Diarrhea,Nasal Discharge,Skin Lesions,Eye Discharge,22 hours,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.5°C,52,Respiratory Disease
+Cow,Holstein,4.8,Female,588.7,Eye Discharge,Fever,Diarrhea,Labored Breathing,4 days,Yes,No,No,Yes,Yes,No,No,No,Yes,39.6°C,72,Respiratory Disease
+Cow,Red Angus,5.6,Male,530.3,Reduced Appetite,Lameness,Anorexia,Fever,11 days,Yes,No,No,No,No,No,No,No,No,39.5°C,61,Mastitis
+Cow,Hereford,3.0,Female,476.4,Dehydration,Vomiting,Coughing,Eye Discharge,2 days,No,No,No,Yes,No,No,No,Yes,No,39.5°C,52,Respiratory Disease
+Dog,Border Collie,9.3,Male,12.2,Nasal Discharge,Diarrhea,Vomiting,Skin Lesions,3 days,Yes,Yes,Yes,No,No,No,No,Yes,No,38.2°C,80,Gastroenteritis
+Cow,Limousin,11.8,Male,624.4,Diarrhea,Lameness,Nasal Discharge,Reduced Appetite,3 days,No,No,No,No,No,No,Yes,No,No,38.9°C,67,Mastitis
+Dog,Border Collie,6.9,Male,11.8,Lameness,Nasal Discharge,Vomiting,Vomiting,4 weeks,Yes,No,Yes,No,No,No,No,No,No,38.8°C,100,Gastroenteritis
+Cow,Jersey,0.3,Female,489.7,Diarrhea,Nasal Discharge,Coughing,Lameness,8 days,Yes,No,No,Yes,No,No,No,No,No,39.2°C,123,Bovine Viral Diarrhea
+Dog,Yorkshire Terrier,8.6,Male,4.1,Skin Lesions,Fever,Vomiting,Vomiting,4 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,120,Gastroenteritis
+Dog,Labrador,3.4,Male,28.4,Eye Discharge,Lameness,Weakness,Vomiting,4 days,Yes,No,No,No,No,Yes,Yes,No,No,38.5°C,78,Lyme Disease
+Dog,Border Collie,1.7,Male,16.9,Eye Discharge,Anorexia,Dehydration,Diarrhea,10 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,119,Gastroenteritis
+Dog,Corgi,3.8,Male,13.6,Vomiting,Anorexia,Lameness,Coughing,12 days,Yes,Yes,No,Yes,Yes,No,No,Yes,No,40.5°C,107,Canine Distemper
+Dog,Bulldog,0.2,Female,10.7,Coughing,Diarrhea,Vomiting,Skin Lesions,12 days,Yes,Yes,Yes,No,No,No,No,No,No,40.1°C,140,Parvovirus
+Cow,Red Poll,3.9,Female,526.0,Skin Lesions,Rumen Issues,Eye Discharge,Coughing,6 days,Yes,No,No,No,No,Yes,Yes,No,No,40.2°C,54,Foot and Mouth Disease
+Dog,Labrador,1.2,Male,20.4,Diarrhea,Diarrhea,Dehydration,Coughing,5 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,126,Gastroenteritis
+Dog,Bulldog,7.6,Male,9.8,Skin Lesions,Vomiting,Weakness,Coughing,13 days,No,No,No,No,No,Yes,No,No,No,38.9°C,125,Lyme Disease
+Cow,Aberdeen Angus,11.7,Female,537.3,Fever,Anorexia,Anemia,Dehydration,13 days,No,No,Yes,No,No,No,No,No,No,38.9°C,53,Parasitic Infection
+Cow,Holstein,4.6,Male,586.9,Fever,Respiratory Signs,Diarrhea,Skin Lesions,12 days,No,No,Yes,Yes,No,No,Yes,Yes,No,39.8°C,54,Bovine Viral Diarrhea
+Cow,Holstein,10.4,Male,482.0,Skin Lesions,Anemia,Fever,Diarrhea,10 days,No,No,No,No,No,No,No,No,No,39.4°C,64,Parasitic Infection
+Cow,Brown Swiss,8.8,Female,572.9,Anemia,Skin Lesions,Weight Loss,Labored Breathing,15 hours,Yes,No,Yes,No,No,No,No,No,No,38.6°C,80,Parasitic Infection
+Cow,Red Poll,4.4,Female,520.8,Weakness,Coughing,Fever,Vomiting,13 days,Yes,No,No,No,No,No,No,No,No,39.5°C,72,Mastitis
+Dog,Pit Bull,0.4,Male,21.4,Diarrhea,Vomiting,Lameness,Lethargy,8 weeks,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,143,Parvovirus
+Cow,Jersey,1.9,Female,514.6,Fever,Skin Lesions,Diarrhea,Coughing,6 days,No,No,No,Yes,Yes,No,No,Yes,No,39.8°C,83,Respiratory Disease
+Cow,Red Poll,9.5,Male,607.0,Skin Lesions,Weakness,Lameness,Anorexia,5 days,No,Yes,Yes,No,No,No,No,No,No,39.0°C,71,Parasitic Infection
+Dog,Golden Retriever,0.4,Female,17.5,Anorexia,Lethargy,Dehydration,Vomiting,4 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,155,Parvovirus
+Dog,Golden Retriever,7.1,Male,20.4,Vomiting,Labored Breathing,Fever,Coughing,10 days,Yes,No,No,No,No,Yes,No,No,No,39.2°C,67,Lyme Disease
+Dog,Doberman Pinscher,2.5,Male,8.8,Coughing,Anorexia,Nasal_Discharge,Coughing,13 hours,No,Yes,Yes,Yes,Yes,No,No,No,Yes,39.8°C,72,Canine Distemper
+Cow,Belted Galloway,5.4,Male,448.7,Skin Lesions,Eye Discharge,Weakness,Skin Lesions,6 days,Yes,No,No,No,No,Yes,Yes,No,No,39.4°C,57,Foot and Mouth Disease
+Cow,Angus,0.6,Male,481.2,Weakness,Diarrhea,Anemia,Nasal Discharge,14 days,No,No,Yes,No,No,No,No,No,No,39.2°C,119,Parasitic Infection
+Dog,Dachshund,0.1,Male,30.0,Diarrhea,Lameness,Nasal Discharge,Vomiting,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,153,Parvovirus
+Dog,Yorkshire Terrier,5.7,Male,3.7,Fever,Nasal Discharge,Skin Lesions,Weakness,6 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,126,Gastroenteritis
+Cow,Red Angus,5.3,Male,611.9,Labored Breathing,Nasal Discharge,Skin Lesions,Diarrhea,4 days,Yes,No,No,No,No,No,Yes,No,No,38.6°C,82,Parasitic Infection
+Cow,Brown Swiss,0.5,Female,533.4,Vomiting,Fever,Coughing,Dehydration,3 days,No,No,Yes,No,No,Yes,Yes,No,No,39.8°C,113,Foot and Mouth Disease
+Cow,Jersey,0.6,Female,433.7,Skin Lesions,Lameness,Vomiting,Coughing,6 days,No,No,No,No,No,No,No,No,No,39.5°C,102,Parasitic Infection
+Dog,Chihuahua,4.4,Female,6.2,Fever,Eye Discharge,Lameness,Eye_Discharge,3 weeks,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,39.9°C,126,Canine Distemper
+Cow,Guernsey,1.6,Male,603.3,Dehydration,Lameness,Coughing,Weakness,9 hours,No,No,Yes,No,No,No,No,No,No,38.6°C,55,Parasitic Infection
+Dog,Dachshund,0.8,Female,14.3,Eye Discharge,Labored Breathing,Lameness,Lethargy,14 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,151,Parvovirus
+Dog,Boxer,9.3,Female,25.2,Labored Breathing,Fever,Nasal Discharge,Dehydration,9 days,No,No,No,No,No,Yes,Yes,No,No,38.6°C,84,Lyme Disease
+Cow,Holstein,9.8,Male,466.1,Lameness,Anorexia,Eye Discharge,Diarrhea,3 days,No,No,No,No,No,No,No,Yes,No,38.9°C,52,Parasitic Infection
+Cow,Shorthorn,7.0,Female,600.7,Lameness,Skin Lesions,Fever,Weakness,13 days,Yes,No,Yes,No,No,No,No,No,No,40.1°C,63,Bovine Viral Diarrhea
+Dog,Chihuahua,9.7,Female,5.5,Dehydration,Weakness,Diarrhea,Vomiting,8 days,Yes,No,No,No,Yes,Yes,Yes,No,No,38.8°C,63,Lyme Disease
+Dog,Yorkshire Terrier,11.5,Male,2.2,Anorexia,Dehydration,Diarrhea,Lethargy,7 days,Yes,Yes,Yes,No,No,No,No,No,No,38.7°C,104,Gastroenteritis
+Cow,Hereford,10.7,Female,631.5,Coughing,Swollen Udder,Dehydration,Anorexia,4 days,Yes,No,No,No,No,No,No,No,No,39.7°C,63,Mastitis
+Cow,Hereford,11.7,Male,591.1,Nasal Discharge,Fever,Labored Breathing,Skin Lesions,9 days,Yes,No,No,No,No,Yes,No,No,No,40.2°C,83,Foot and Mouth Disease
+Dog,Chihuahua,3.6,Male,3.6,Loss of Appetite,Lameness,Fever,Skin Lesions,13 days,No,No,No,No,No,Yes,No,No,No,38.9°C,109,Lyme Disease
+Dog,Poodle,4.9,Female,30.3,Skin Lesions,Vomiting,Lethargy,Diarrhea,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,97,Gastroenteritis
+Dog,Dachshund,0.7,Male,20.0,Lethargy,Eye Discharge,Nasal Discharge,Vomiting,5 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,127,Parvovirus
+Dog,Golden Retriever,4.9,Male,29.2,Eye_Discharge,Nasal Discharge,Anorexia,Dehydration,13 days,No,No,No,Yes,Yes,No,No,Yes,No,39.1°C,93,Kennel Cough
+Cow,Limousin,3.2,Male,490.1,Diarrhea,Lameness,Coughing,Weakness,2 days,No,No,No,No,No,No,No,No,No,38.8°C,48,Parasitic Infection
+Dog,Corgi,0.3,Male,9.6,Nasal_Discharge,Eye_Discharge,Weakness,Coughing,12 days,No,No,No,Yes,No,No,No,Yes,Yes,38.4°C,149,Kennel Cough
+Dog,Siberian Husky,0.1,Male,36.7,Coughing,Fever,Eye Discharge,Fever,5 weeks,Yes,No,Yes,No,No,No,No,No,No,39.4°C,129,Parvovirus
+Cow,Belted Galloway,5.6,Male,403.2,Dehydration,Fever,Coughing,Weakness,7 days,Yes,No,No,No,No,No,No,No,No,38.6°C,80,Mastitis
+Dog,Border Collie,8.9,Male,14.0,Fever,Anorexia,Vomiting,Dehydration,9 days,No,No,No,No,No,No,No,Yes,No,38.7°C,95,Kennel Cough
+Cow,Brahman,6.8,Female,509.2,Fever,Skin Lesions,Nasal Discharge,Lameness,8 days,No,No,No,Yes,Yes,Yes,No,Yes,No,39.4°C,51,Respiratory Disease
+Cow,Angus,0.5,Male,390.0,Lameness,Dehydration,Fever,Fever,22 hours,Yes,Yes,No,No,No,Yes,Yes,No,No,39.7°C,111,Foot and Mouth Disease
+Dog,Labrador,4.4,Female,27.3,Lameness,Dehydration,Coughing,Diarrhea,9 days,Yes,No,No,Yes,No,No,No,Yes,No,38.9°C,104,Kennel Cough
+Cow,Ayrshire,3.0,Male,609.7,Nasal Discharge,Diarrhea,Skin Lesions,Weakness,2 days,No,No,Yes,No,No,No,No,No,No,38.7°C,59,Parasitic Infection
+Dog,Bulldog,1.0,Female,17.7,Vomiting,Lameness,Eye Discharge,Labored Breathing,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,90,Parvovirus
+Cow,Charolais,2.9,Female,508.9,Weight Loss,Dehydration,Fever,Eye Discharge,3 days,Yes,No,Yes,No,No,No,No,No,No,39.0°C,68,Parasitic Infection
+Cow,Belted Galloway,7.4,Male,631.7,Vomiting,Diarrhea,Nasal Discharge,Dehydration,15 hours,Yes,No,No,Yes,No,No,No,Yes,Yes,39.2°C,50,Respiratory Disease
+Dog,Golden Retriever,1.4,Female,21.7,Nasal Discharge,Vomiting,Lethargy,Fever,9 days,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,115,Gastroenteritis
+Dog,Dachshund,8.8,Male,26.0,Skin Lesions,Vomiting,Nasal_Discharge,Lameness,11 days,No,No,No,No,No,No,No,Yes,Yes,39.3°C,112,Kennel Cough
+Cow,Simmental,5.8,Female,472.4,Dehydration,Diarrhea,Fever,Diarrhea,11 days,No,No,Yes,No,Yes,No,No,Yes,No,40.2°C,77,Bovine Viral Diarrhea
+Cow,Hereford,8.1,Female,511.4,Diarrhea,Skin Lesions,Fever,Swollen Udder,11 days,Yes,No,No,No,No,No,No,No,No,40.6°C,66,Mastitis
+Cow,Red Angus,10.5,Male,610.6,Eye Discharge,Anorexia,Fever,Labored Breathing,5 weeks,Yes,No,No,No,No,Yes,Yes,No,No,39.4°C,82,Foot and Mouth Disease
+Dog,Poodle,4.4,Male,8.0,Coughing,Labored Breathing,Weakness,Nasal_Discharge,11 days,Yes,No,No,No,Yes,No,No,Yes,No,39.0°C,102,Kennel Cough
+Cow,Simmental,8.4,Male,615.1,Anorexia,Weakness,Skin Lesions,Labored Breathing,6 days,Yes,No,No,No,No,No,No,No,No,39.9°C,79,Mastitis
+Dog,Yorkshire Terrier,0.2,Female,5.8,Coughing,Nasal Discharge,Diarrhea,Fever,4 days,No,Yes,No,No,No,No,No,No,No,40.0°C,147,Parvovirus
+Cow,Red Angus,10.3,Female,499.6,Coughing,Dehydration,Skin Lesions,Diarrhea,5 days,Yes,No,No,No,No,No,No,Yes,No,39.5°C,73,Mastitis
+Cow,Dexter,5.3,Female,470.3,Nasal Discharge,Weakness,Dehydration,Fever,14 days,Yes,No,No,No,No,Yes,Yes,No,No,39.2°C,65,Foot and Mouth Disease
+Cow,Angus,6.6,Male,451.9,Diarrhea,Vomiting,Coughing,Nasal Discharge,10 hours,Yes,No,No,Yes,No,No,No,Yes,No,40.5°C,54,Respiratory Disease
+Cow,Simmental,0.9,Male,587.1,Diarrhea,Coughing,Vomiting,Lameness,8 weeks,Yes,No,Yes,No,No,No,Yes,No,No,39.1°C,109,Foot and Mouth Disease
+Cow,Limousin,9.7,Female,559.0,Dehydration,Fever,Labored Breathing,Anorexia,3 days,Yes,No,No,Yes,No,No,No,Yes,No,38.8°C,57,Respiratory Disease
+Cow,Angus,4.7,Male,587.7,Nasal Discharge,Diarrhea,Skin Lesions,Weakness,10 days,No,No,No,Yes,Yes,No,No,Yes,No,39.1°C,64,Respiratory Disease
+Cow,Charolais,9.8,Female,499.0,Skin Lesions,Fever,Labored Breathing,Coughing,14 days,Yes,No,No,No,No,No,Yes,No,No,39.1°C,68,Mastitis
+Dog,Labrador Retriever,5.9,Female,25.8,Anorexia,Nasal_Discharge,Vomiting,Coughing,12 days,Yes,No,Yes,Yes,Yes,No,No,No,Yes,39.8°C,85,Canine Distemper
+Cow,Brahman,2.8,Male,567.8,Weight Loss,Weakness,Anorexia,Skin Lesions,4 days,No,No,No,No,No,No,No,No,No,38.6°C,70,Parasitic Infection
+Cow,Belted Galloway,2.8,Female,605.3,Dehydration,Labored Breathing,Diarrhea,Coughing,7 days,No,Yes,No,No,No,No,No,No,No,39.8°C,72,Parasitic Infection
+Cow,Limousin,5.4,Female,638.8,Fever,Weakness,Swollen Udder,Vomiting,18 hours,Yes,No,No,No,No,No,No,No,No,41.5°C,56,Mastitis
+Dog,Yorkshire Terrier,5.4,Male,2.9,Coughing,Anorexia,Dehydration,Labored Breathing,12 days,No,No,No,No,No,Yes,No,No,No,38.2°C,112,Lyme Disease
+Cow,Brown Swiss,11.5,Female,653.8,Vomiting,Dehydration,Diarrhea,Skin Lesions,8 days,No,No,No,Yes,Yes,No,No,No,No,39.5°C,57,Respiratory Disease
+Dog,Chihuahua,0.9,Female,5.1,Dehydration,Coughing,Fever,Lethargy,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,145,Parvovirus
+Cow,Simmental,6.1,Female,513.0,Reduced Appetite,Dehydration,Fever,Vomiting,10 days,Yes,No,No,No,No,No,No,No,No,39.8°C,66,Mastitis
+Dog,Dalmatian,1.0,Female,25.7,Nasal_Discharge,Eye Discharge,Nasal Discharge,Anorexia,12 days,No,Yes,No,No,No,No,No,Yes,Yes,39.5°C,72,Canine Distemper
+Dog,Rottweiler,2.2,Male,69.9,Fever,Anorexia,Labored Breathing,Diarrhea,5 days,No,No,No,Yes,No,No,No,No,Yes,38.8°C,68,Kennel Cough
+Dog,German Shepherd,0.3,Male,33.2,Diarrhea,Nasal Discharge,Weakness,Coughing,7 days,Yes,Yes,Yes,No,No,No,No,No,No,38.3°C,128,Parvovirus
+Cow,Red Angus,1.8,Male,552.9,Vomiting,Coughing,Labored Breathing,Anorexia,9 days,No,No,No,Yes,No,No,No,Yes,No,39.3°C,67,Respiratory Disease
+Cow,Limousin,4.7,Female,631.2,Fever,Dehydration,Skin Lesions,Vomiting,5 days,No,No,No,Yes,Yes,No,No,Yes,Yes,40.3°C,65,Respiratory Disease
+Dog,Golden Retriever,2.6,Female,30.6,Anorexia,Nasal_Discharge,Coughing,Fever,9 days,Yes,Yes,Yes,No,No,No,No,Yes,Yes,39.7°C,77,Canine Distemper
+Dog,Beagle,0.7,Male,13.1,Weakness,Coughing,Fever,Eye_Discharge,10 days,Yes,No,Yes,Yes,No,No,No,Yes,No,40.8°C,145,Canine Distemper
+Cow,Aberdeen Angus,11.9,Male,481.8,Lameness,Diarrhea,Anorexia,Labored Breathing,6 days,Yes,No,No,No,No,Yes,Yes,No,No,39.5°C,54,Foot and Mouth Disease
+Dog,Pit Bull,0.3,Male,24.0,Lameness,Eye Discharge,Dehydration,Nasal Discharge,3 days,Yes,No,Yes,Yes,No,No,No,Yes,Yes,39.2°C,125,Canine Distemper
+Cow,Brahman,11.4,Female,489.8,Diarrhea,Skin Lesions,Rumen Issues,Vomiting,5 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,80,Foot and Mouth Disease
+Dog,German Shepherd,0.2,Male,26.4,Fever,Anorexia,Weakness,Fever,12 days,Yes,Yes,Yes,No,No,No,No,No,No,39.8°C,129,Parvovirus
+Cow,Belted Galloway,11.4,Female,503.6,Vomiting,Swollen Udder,Reduced Appetite,Eye Discharge,14 days,Yes,No,No,No,No,No,No,No,No,39.6°C,59,Mastitis
+Dog,Corgi,10.6,Female,15.4,Dehydration,Lethargy,Coughing,Skin Lesions,10 days,No,No,No,No,No,No,No,No,No,38.2°C,81,Lyme Disease
+Cow,Jersey,10.1,Male,532.2,Anorexia,Vomiting,Coughing,Dehydration,8 days,Yes,No,No,Yes,No,No,No,No,No,38.8°C,76,Respiratory Disease
+Dog,Yorkshire Terrier,0.4,Female,4.5,Skin Lesions,Anorexia,Dehydration,Lethargy,2 weeks,Yes,No,Yes,No,No,No,No,No,No,39.2°C,125,Gastroenteritis
+Cow,Belted Galloway,11.1,Female,572.5,Nasal Discharge,Skin Lesions,Nasal Discharge,Diarrhea,4 days,Yes,No,No,Yes,No,No,No,No,No,40.0°C,63,Respiratory Disease
+Dog,Pit Bull,9.5,Female,33.6,Labored Breathing,Nasal_Discharge,Lameness,Fever,9 days,No,No,No,Yes,No,No,No,Yes,No,39.2°C,100,Kennel Cough
+Cow,Brahman,2.4,Male,449.2,Lameness,Eye Discharge,Weakness,Nasal Discharge,4 days,Yes,No,No,No,No,No,No,No,No,40.4°C,69,Mastitis
+Cow,Angus,11.6,Female,555.0,Dehydration,Nasal Discharge,Vomiting,Diarrhea,2 days,No,No,No,Yes,Yes,No,No,No,No,39.7°C,72,Respiratory Disease
+Dog,Bulldog,8.8,Female,15.5,Eye Discharge,Fever,Dehydration,Coughing,2 days,No,No,No,No,No,Yes,No,No,No,38.3°C,90,Lyme Disease
+Dog,Dachshund,0.4,Male,14.0,Diarrhea,Fever,Fever,Dehydration,4 weeks,Yes,Yes,Yes,Yes,No,No,No,No,No,39.2°C,136,Parvovirus
+Dog,German Shepherd,4.0,Male,31.4,Fever,Labored Breathing,Diarrhea,Loss of Appetite,9 days,No,Yes,No,No,No,Yes,No,No,No,38.7°C,70,Lyme Disease
+Cow,Jersey,3.9,Male,739.0,Eye Discharge,Lameness,Vomiting,Dehydration,6 days,Yes,No,No,No,No,Yes,Yes,No,No,40.8°C,55,Foot and Mouth Disease
+Cow,Aberdeen Angus,11.4,Male,682.7,Lameness,Dehydration,Labored Breathing,Diarrhea,5 days,Yes,No,No,No,No,Yes,No,No,No,39.4°C,83,Foot and Mouth Disease
+Dog,Cocker Spaniel,6.3,Female,22.1,Anorexia,Labored Breathing,Skin Lesions,Coughing,9 hours,No,No,No,Yes,No,No,No,Yes,No,39.4°C,83,Kennel Cough
+Cow,Limousin,1.5,Female,623.0,Dehydration,Coughing,Anorexia,Eye Discharge,9 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.4°C,63,Respiratory Disease
+Dog,Beagle,7.0,Male,14.5,Skin Lesions,Nasal_Discharge,Diarrhea,Labored Breathing,3 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,38.6°C,119,Canine Distemper
+Dog,Shih Tzu,11.9,Female,5.1,Lameness,Diarrhea,Eye Discharge,Fever,3 days,No,No,No,No,No,Yes,No,No,No,39.2°C,121,Lyme Disease
+Dog,Shih Tzu,1.8,Male,3.9,Vomiting,Eye Discharge,Nasal_Discharge,Weakness,6 days,Yes,No,No,No,No,No,No,Yes,Yes,39.0°C,79,Kennel Cough
+Dog,Bulldog,8.7,Male,9.1,Weakness,Dehydration,Eye_Discharge,Coughing,12 days,Yes,No,No,Yes,Yes,No,No,No,Yes,39.1°C,99,Kennel Cough
+Dog,Shih Tzu,7.4,Male,3.7,Diarrhea,Loss of Appetite,Coughing,Nasal Discharge,2 weeks,No,No,No,No,No,No,No,No,No,38.0°C,77,Lyme Disease
+Dog,Dalmatian,3.6,Male,25.3,Dehydration,Fever,Diarrhea,Anorexia,14 days,No,No,No,No,No,No,No,Yes,No,38.4°C,76,Kennel Cough
+Dog,Bulldog,7.6,Male,9.3,Loss of Appetite,Lameness,Vomiting,Fever,5 days,Yes,No,No,No,No,Yes,No,No,No,38.8°C,108,Lyme Disease
+Cow,Dexter,1.1,Female,653.8,Anorexia,Vomiting,Coughing,Nasal Discharge,6 weeks,No,No,Yes,No,No,No,No,No,No,38.8°C,80,Parasitic Infection
+Cow,Limousin,5.9,Male,622.8,Nasal Discharge,Lameness,Fever,Weakness,6 days,Yes,No,No,No,No,Yes,Yes,No,No,40.5°C,78,Foot and Mouth Disease
+Dog,Yorkshire Terrier,2.5,Female,4.2,Eye_Discharge,Weakness,Labored Breathing,Vomiting,5 days,Yes,Yes,No,Yes,Yes,No,No,No,No,38.2°C,111,Canine Distemper
+Cow,Simmental,8.1,Female,540.4,Skin Lesions,Eye Discharge,Labored Breathing,Dehydration,4 weeks,No,No,No,No,No,No,No,No,No,38.7°C,64,Parasitic Infection
+Cow,Belted Galloway,8.7,Male,497.9,Diarrhea,Eye Discharge,Coughing,Nasal Discharge,12 days,No,No,No,Yes,Yes,No,No,Yes,No,38.8°C,73,Respiratory Disease
+Dog,Pit Bull,10.0,Male,5.6,Fever,Nasal Discharge,Lameness,Coughing,5 days,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,38.4°C,116,Kennel Cough
+Dog,Doberman Pinscher,0.2,Male,3.2,Lameness,Eye Discharge,Fever,Fever,6 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,124,Parvovirus
+Cow,Holstein,1.1,Male,541.3,Nasal Discharge,Dehydration,Anorexia,Vomiting,11 days,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,50,Foot and Mouth Disease
+Cow,Holstein,11.7,Male,479.3,Diarrhea,Weakness,Diarrhea,Lameness,6 days,No,No,Yes,No,No,No,No,No,No,39.0°C,57,Parasitic Infection
+Cow,Simmental,2.4,Male,552.9,Dehydration,Lameness,Skin Lesions,Rumen Issues,4 days,Yes,No,No,Yes,No,Yes,No,No,No,39.1°C,69,Foot and Mouth Disease
+Dog,Cocker Spaniel,0.3,Female,13.6,Lameness,Labored Breathing,Anorexia,Diarrhea,7 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,142,Parvovirus
+Cow,Angus,11.3,Female,633.7,Weakness,Rumen Issues,Skin Lesions,Fever,5 days,Yes,No,No,No,Yes,No,Yes,No,No,39.5°C,52,Foot and Mouth Disease
+Dog,Rottweiler,1.9,Female,62.1,Vomiting,Diarrhea,Skin Lesions,Anorexia,5 days,Yes,No,Yes,No,No,No,No,No,No,38.9°C,85,Gastroenteritis
+Cow,Red Angus,10.8,Female,560.2,Coughing,Diarrhea,Weakness,Lameness,8 days,Yes,No,No,No,No,No,No,No,No,39.0°C,80,Mastitis
+Dog,Beagle,9.5,Female,14.3,Dehydration,Weakness,Nasal Discharge,Diarrhea,2 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,114,Lyme Disease
+Cow,Jersey,4.4,Male,639.0,Fever,Dehydration,Diarrhea,Vomiting,5 days,Yes,No,No,No,No,No,No,No,No,39.0°C,56,Mastitis
+Dog,Bulldog,0.7,Male,11.1,Coughing,Anorexia,Weakness,Diarrhea,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.6°C,148,Gastroenteritis
+Cow,Angus,0.2,Male,448.6,Lameness,Fever,Coughing,Dehydration,8 weeks,Yes,No,Yes,No,No,No,No,Yes,No,39.9°C,127,Bovine Viral Diarrhea
+Cow,Ayrshire,0.6,Female,549.8,Weakness,Anorexia,Vomiting,Nasal Discharge,4 days,Yes,No,No,No,No,Yes,Yes,No,No,39.7°C,137,Foot and Mouth Disease
+Dog,Dachshund,0.7,Male,16.7,Fever,Lameness,Eye Discharge,Vomiting,10 days,Yes,Yes,Yes,No,No,No,No,No,No,38.3°C,141,Parvovirus
+Dog,Boxer,0.2,Male,25.8,Skin Lesions,Lethargy,Vomiting,Weakness,9 days,Yes,No,Yes,Yes,No,No,No,No,No,39.7°C,138,Parvovirus
+Dog,Doberman Pinscher,0.8,Male,23.5,Nasal Discharge,Eye Discharge,Vomiting,Dehydration,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.0°C,152,Parvovirus
+Cow,Simmental,4.4,Female,493.4,Diarrhea,Fever,Lameness,Labored Breathing,7 days,No,No,No,Yes,Yes,No,No,Yes,No,39.4°C,51,Respiratory Disease
+Dog,Shih Tzu,10.6,Male,6.7,Diarrhea,Fever,Lethargy,Lameness,13 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.4°C,122,Gastroenteritis
+Cow,Brahman,1.6,Male,780.9,Labored Breathing,Eye Discharge,Anorexia,Lameness,13 days,Yes,No,No,Yes,No,No,No,Yes,Yes,39.6°C,66,Respiratory Disease
+Cow,Jersey,9.6,Male,562.9,Coughing,Nasal Discharge,Vomiting,Labored Breathing,7 hours,No,No,No,Yes,Yes,No,No,No,Yes,40.3°C,52,Respiratory Disease
+Cow,Charolais,2.5,Female,568.2,Dehydration,Eye Discharge,Lameness,Labored Breathing,11 days,No,No,No,Yes,Yes,No,No,Yes,No,40.1°C,58,Respiratory Disease
+Dog,Akita,0.9,Female,10.6,Weakness,Lameness,Diarrhea,Skin Lesions,13 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,129,Parvovirus
+Cow,Hereford,5.6,Male,639.0,Fever,Diarrhea,Diarrhea,Anorexia,6 days,No,No,Yes,Yes,No,No,No,No,Yes,39.9°C,50,Bovine Viral Diarrhea
+Cow,Hereford,7.9,Male,429.3,Nasal Discharge,Labored Breathing,Fever,Weakness,8 days,No,No,No,No,No,No,No,No,No,38.1°C,52,Parasitic Infection
+Cow,Red Angus,8.4,Female,498.0,Lameness,Skin Lesions,Diarrhea,Coughing,4 days,Yes,No,Yes,No,No,No,No,No,No,38.8°C,80,Bovine Viral Diarrhea
+Dog,Dachshund,11.5,Male,17.0,Fever,Coughing,Skin Lesions,Nasal Discharge,8 days,No,No,No,No,No,Yes,No,No,No,37.9°C,68,Lyme Disease
+Cow,Charolais,7.9,Male,545.7,Vomiting,Dehydration,Nasal Discharge,Anorexia,14 days,Yes,No,No,No,No,No,No,No,No,39.3°C,55,Mastitis
+Cow,Simmental,3.9,Male,505.3,Respiratory Signs,Diarrhea,Nasal Discharge,Fever,7 days,Yes,No,Yes,Yes,No,No,No,No,No,39.4°C,78,Bovine Viral Diarrhea
+Dog,Corgi,1.0,Male,11.6,Diarrhea,Skin Lesions,Anorexia,Eye Discharge,3 weeks,Yes,Yes,Yes,No,No,No,No,No,No,40.0°C,78,Parvovirus
+Cow,Ayrshire,2.6,Female,501.1,Lameness,Labored Breathing,Fever,Coughing,15 hours,No,No,No,Yes,Yes,No,No,Yes,No,39.9°C,61,Respiratory Disease
+Cow,Hereford,11.5,Male,567.0,Weakness,Eye Discharge,Fever,Labored Breathing,17 hours,Yes,No,Yes,No,No,Yes,Yes,No,No,39.6°C,53,Foot and Mouth Disease
+Cow,Guernsey,11.3,Male,465.5,Skin Lesions,Eye Discharge,Lameness,Nasal Discharge,1 days,No,No,No,Yes,Yes,No,No,Yes,No,39.6°C,66,Respiratory Disease
+Cow,Limousin,9.4,Male,528.9,Labored Breathing,Vomiting,Labored Breathing,Lameness,14 days,Yes,No,No,Yes,No,No,No,Yes,No,39.9°C,72,Respiratory Disease
+Cow,Brahman,9.6,Female,557.7,Vomiting,Eye Discharge,Diarrhea,Weakness,7 hours,No,No,No,No,No,Yes,No,No,No,39.7°C,49,Mastitis
+Cow,Guernsey,4.7,Female,501.2,Lameness,Weakness,Nasal Discharge,Skin Lesions,4 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.1°C,68,Mastitis
+Cow,Holstein,0.3,Female,584.6,Fever,Nasal Discharge,Anorexia,Diarrhea,12 hours,Yes,Yes,Yes,Yes,No,No,No,No,No,40.1°C,104,Bovine Viral Diarrhea
+Dog,Akita,10.7,Female,13.0,Labored Breathing,Eye Discharge,Nasal Discharge,Loss of Appetite,7 days,No,No,No,No,No,Yes,No,No,No,39.2°C,80,Lyme Disease
+Dog,Rottweiler,0.1,Male,68.3,Dehydration,Anorexia,Coughing,Weakness,4 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,134,Parvovirus
+Cow,Hereford,3.9,Female,483.6,Rumen Issues,Dehydration,Labored Breathing,Lameness,8 days,Yes,No,Yes,No,No,Yes,Yes,No,No,41.0°C,74,Foot and Mouth Disease
+Dog,Poodle,7.0,Female,15.7,Diarrhea,Fever,Dehydration,Nasal Discharge,13 days,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,40.2°C,70,Canine Distemper
+Dog,Pit Bull,7.6,Male,17.0,Vomiting,Anorexia,Eye Discharge,Fever,2 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,40.3°C,107,Canine Distemper
+Cow,Limousin,7.1,Male,724.3,Diarrhea,Lameness,Coughing,Dehydration,9 days,Yes,No,Yes,No,No,No,No,No,No,38.7°C,81,Parasitic Infection
+Dog,Dalmatian,6.5,Female,26.0,Skin Lesions,Fever,Coughing,Coughing,8 days,No,Yes,Yes,Yes,No,No,No,No,No,38.7°C,84,Canine Distemper
+Dog,Poodle,5.0,Male,12.4,Vomiting,Nasal_Discharge,Anorexia,Nasal Discharge,3 days,No,Yes,No,Yes,No,No,No,Yes,Yes,40.5°C,110,Canine Distemper
+Cow,Brown Swiss,8.7,Female,627.8,Labored Breathing,Fever,Nasal Discharge,Diarrhea,8 weeks,Yes,No,No,No,No,Yes,Yes,No,No,39.4°C,79,Foot and Mouth Disease
+Dog,Siberian Husky,5.5,Male,31.4,Coughing,Skin Lesions,Eye Discharge,Eye_Discharge,6 days,No,No,No,Yes,No,No,No,Yes,No,38.9°C,127,Kennel Cough
+Cow,Holstein,4.1,Female,458.8,Weakness,Labored Breathing,Anorexia,Nasal Discharge,13 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.7°C,67,Respiratory Disease
+Cow,Holstein,1.6,Female,605.8,Skin Lesions,Vomiting,Coughing,Weight Loss,12 days,Yes,No,Yes,No,No,No,No,No,No,38.7°C,68,Parasitic Infection
+Cow,Brown Swiss,8.0,Male,377.7,Eye Discharge,Vomiting,Diarrhea,Skin Lesions,8 days,No,No,Yes,No,No,No,No,No,No,39.6°C,60,Parasitic Infection
+Dog,Akita,0.8,Female,5.3,Coughing,Vomiting,Fever,Eye Discharge,1 days,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,148,Parvovirus
+Cow,Angus,7.1,Male,539.1,Fever,Dehydration,Diarrhea,Vomiting,8 days,No,No,Yes,No,No,No,No,Yes,No,39.3°C,59,Bovine Viral Diarrhea
+Dog,Labrador,0.8,Female,29.4,Coughing,Nasal Discharge,Labored Breathing,Vomiting,1 days,Yes,No,Yes,No,No,No,No,No,No,40.0°C,126,Parvovirus
+Dog,Border Collie,0.6,Female,16.4,Vomiting,Skin Lesions,Vomiting,Fever,4 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.5°C,137,Parvovirus
+Dog,Dalmatian,4.7,Female,45.9,Nasal_Discharge,Coughing,Nasal Discharge,Eye_Discharge,11 days,No,No,No,Yes,No,No,No,No,No,39.5°C,63,Canine Distemper
+Dog,Rottweiler,0.4,Male,67.1,Anorexia,Dehydration,Fever,Nasal_Discharge,3 days,Yes,Yes,Yes,Yes,No,No,No,No,Yes,39.9°C,140,Canine Distemper
+Cow,Brahman,6.5,Male,422.2,Respiratory Signs,Anorexia,Eye Discharge,Nasal Discharge,12 days,No,No,Yes,No,No,No,No,Yes,No,39.6°C,48,Bovine Viral Diarrhea
+Dog,German Shepherd,7.9,Male,22.2,Dehydration,Anorexia,Lameness,Weakness,6 days,Yes,No,No,No,No,Yes,No,No,No,39.2°C,76,Lyme Disease
+Dog,Pit Bull,2.8,Male,12.2,Coughing,Vomiting,Nasal_Discharge,Weakness,6 days,Yes,Yes,No,Yes,Yes,No,No,Yes,No,40.7°C,113,Canine Distemper
+Cow,Aberdeen Angus,4.4,Male,505.4,Vomiting,Labored Breathing,Coughing,Dehydration,7 days,No,No,No,Yes,Yes,No,No,Yes,No,39.0°C,67,Respiratory Disease
+Cow,Shorthorn,10.1,Male,543.1,Anemia,Eye Discharge,Lameness,Weight Loss,10 days,Yes,No,Yes,No,No,No,No,No,No,39.1°C,78,Parasitic Infection
+Cow,Jersey,7.3,Female,494.6,Coughing,Dehydration,Fever,Nasal Discharge,4 days,No,No,No,No,No,Yes,Yes,No,No,39.2°C,76,Foot and Mouth Disease
+Cow,Guernsey,7.9,Male,662.4,Nasal Discharge,Respiratory Signs,Skin Lesions,Diarrhea,6 days,No,No,Yes,No,Yes,No,No,No,Yes,39.5°C,66,Bovine Viral Diarrhea
+Dog,Husky,0.4,Female,26.9,Lethargy,Diarrhea,Nasal Discharge,Vomiting,4 days,Yes,No,Yes,No,No,No,No,No,No,41.3°C,157,Parvovirus
+Cow,Ayrshire,2.5,Female,511.8,Diarrhea,Labored Breathing,Anorexia,Fever,9 days,Yes,No,No,No,No,No,No,No,No,39.1°C,61,Mastitis
+Dog,Labrador Retriever,0.1,Male,21.1,Vomiting,Lameness,Nasal_Discharge,Anorexia,4 weeks,Yes,No,No,Yes,No,No,No,Yes,Yes,39.0°C,155,Kennel Cough
+Dog,Poodle,0.9,Female,-0.9,Lameness,Vomiting,Fever,Lethargy,6 weeks,Yes,Yes,Yes,No,No,No,No,No,No,39.6°C,139,Parvovirus
+Dog,German Shepherd,3.9,Female,29.3,Nasal Discharge,Anorexia,Dehydration,Lameness,7 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,77,Gastroenteritis
+Cow,Charolais,5.4,Female,547.8,Eye Discharge,Dehydration,Diarrhea,Vomiting,11 days,Yes,No,Yes,Yes,Yes,No,No,Yes,No,39.4°C,69,Bovine Viral Diarrhea
+Cow,Guernsey,5.7,Female,722.2,Lameness,Labored Breathing,Respiratory Signs,Nasal Discharge,12 days,No,No,Yes,No,Yes,No,No,No,No,40.2°C,75,Bovine Viral Diarrhea
+Dog,Cocker Spaniel,11.1,Male,11.8,Weakness,Labored Breathing,Diarrhea,Dehydration,13 days,Yes,No,Yes,Yes,No,No,No,No,No,38.1°C,84,Gastroenteritis
+Dog,Golden Retriever,0.8,Female,37.6,Fever,Skin Lesions,Diarrhea,Fever,5 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,149,Parvovirus
+Dog,German Shepherd,4.9,Female,23.7,Vomiting,Lameness,Anorexia,Diarrhea,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,129,Gastroenteritis
+Dog,Doberman Pinscher,0.4,Female,24.6,Diarrhea,Nasal Discharge,Coughing,Diarrhea,14 hours,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,144,Parvovirus
+Dog,Rottweiler,1.1,Male,53.7,Dehydration,Vomiting,Labored Breathing,Diarrhea,4 days,No,Yes,Yes,No,No,No,Yes,No,No,39.0°C,124,Gastroenteritis
+Dog,Pit Bull,1.0,Male,22.5,Coughing,Labored Breathing,Nasal Discharge,Vomiting,8 weeks,No,No,Yes,Yes,Yes,No,No,Yes,Yes,39.4°C,77,Canine Distemper
+Cow,Shorthorn,10.4,Female,356.4,Diarrhea,Dehydration,Eye Discharge,Vomiting,10 days,No,No,No,No,No,No,No,No,No,39.7°C,51,Parasitic Infection
+Cow,Guernsey,3.8,Male,505.7,Eye Discharge,Vomiting,Lameness,Dehydration,5 days,Yes,No,No,No,No,No,No,Yes,No,40.2°C,59,Bovine Viral Diarrhea
+Cow,Angus,7.1,Male,615.0,Dehydration,Swollen Udder,Fever,Skin Lesions,2 days,Yes,No,No,No,No,Yes,Yes,No,No,40.8°C,79,Mastitis
+Cow,Brahman,2.5,Male,469.4,Fever,Diarrhea,Anemia,Eye Discharge,1 days,No,No,No,No,No,No,No,No,No,38.6°C,62,Parasitic Infection
+Dog,Rottweiler,6.9,Female,67.4,Diarrhea,Lethargy,Eye Discharge,Appetite Loss,8 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,123,Gastroenteritis
+Cow,Red Angus,10.0,Female,436.7,Coughing,Dehydration,Nasal Discharge,Anorexia,8 weeks,No,No,Yes,No,No,No,No,No,No,38.6°C,79,Parasitic Infection
+Cow,Holstein,1.2,Male,554.6,Eye Discharge,Fever,Dehydration,Labored Breathing,6 days,Yes,No,No,Yes,Yes,No,No,Yes,Yes,40.8°C,68,Respiratory Disease
+Dog,Golden Retriever,0.7,Female,22.8,Diarrhea,Vomiting,Lethargy,Eye Discharge,8 days,Yes,Yes,Yes,No,No,No,No,No,No,38.9°C,152,Gastroenteritis
+Cow,Charolais,6.2,Female,513.3,Lameness,Anorexia,Skin Lesions,Eye Discharge,14 days,Yes,No,No,No,No,No,Yes,No,No,39.1°C,55,Foot and Mouth Disease
+Cow,Holstein,3.4,Male,544.0,Dehydration,Fever,Labored Breathing,Eye Discharge,5 days,No,No,No,No,Yes,No,No,No,No,40.3°C,76,Respiratory Disease
+Cow,Belted Galloway,2.0,Male,671.0,Skin Lesions,Fever,Dehydration,Nasal Discharge,13 days,Yes,No,No,No,No,No,No,No,No,39.0°C,74,Bovine Viral Diarrhea
+Cow,Angus,2.2,Male,568.4,Anorexia,Coughing,Dehydration,Labored Breathing,8 days,No,No,No,Yes,Yes,No,No,No,No,39.6°C,59,Respiratory Disease
+Dog,Labrador,3.7,Female,28.7,Skin Lesions,Nasal_Discharge,Eye_Discharge,Labored Breathing,7 days,Yes,No,Yes,Yes,No,No,No,No,No,38.5°C,108,Canine Distemper
+Cow,Angus,1.1,Female,467.9,Diarrhea,Labored Breathing,Rumen Issues,Skin Lesions,6 days,Yes,Yes,No,No,No,Yes,Yes,No,No,40.0°C,55,Foot and Mouth Disease
+Cow,Belted Galloway,5.8,Female,461.6,Nasal Discharge,Eye Discharge,Diarrhea,Dehydration,14 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.1°C,64,Respiratory Disease
+Cow,Dexter,11.7,Male,587.9,Dehydration,Anorexia,Labored Breathing,Weakness,13 days,No,No,No,Yes,Yes,No,Yes,Yes,Yes,39.8°C,55,Respiratory Disease
+Dog,Poodle,0.4,Male,11.0,Eye Discharge,Labored Breathing,Skin Lesions,Dehydration,14 days,No,No,No,Yes,Yes,No,No,Yes,No,38.3°C,149,Kennel Cough
+Dog,Rottweiler,5.9,Male,66.7,Lethargy,Labored Breathing,Eye Discharge,Vomiting,14 days,Yes,Yes,Yes,No,No,No,Yes,No,No,39.1°C,116,Gastroenteritis
+Dog,German Shepherd,6.5,Male,35.9,Lameness,Dehydration,Eye Discharge,Skin Lesions,9 days,No,No,No,No,No,Yes,No,No,No,38.5°C,115,Lyme Disease
+Cow,Dexter,4.3,Male,461.1,Diarrhea,Weakness,Lameness,Skin Lesions,13 days,No,No,No,No,No,No,No,No,No,40.2°C,72,Mastitis
+Dog,Doberman Pinscher,7.6,Male,28.2,Coughing,Skin Lesions,Diarrhea,Eye_Discharge,12 days,No,No,No,Yes,No,No,No,Yes,Yes,38.9°C,112,Kennel Cough
+Cow,Charolais,0.4,Female,625.9,Skin Lesions,Nasal Discharge,Vomiting,Coughing,1 days,No,No,No,Yes,Yes,No,No,Yes,Yes,38.9°C,131,Respiratory Disease
+Dog,Bulldog,8.6,Female,15.7,Skin Lesions,Diarrhea,Coughing,Coughing,9 hours,No,No,No,Yes,No,No,No,No,No,38.7°C,102,Kennel Cough
+Dog,Chihuahua,0.8,Female,5.7,Lameness,Fever,Eye Discharge,Vomiting,13 days,Yes,Yes,Yes,No,No,No,No,No,No,38.5°C,155,Parvovirus
+Cow,Guernsey,6.8,Male,463.6,Nasal Discharge,Diarrhea,Weakness,Coughing,12 days,Yes,No,No,No,No,Yes,Yes,No,No,39.9°C,81,Foot and Mouth Disease
+Cow,Brahman,7.8,Male,559.9,Lameness,Weakness,Dehydration,Reduced Appetite,1 weeks,No,No,No,No,No,No,No,No,No,39.3°C,73,Mastitis
+Cow,Brahman,0.1,Male,447.8,Anorexia,Fever,Labored Breathing,Weakness,11 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,103,Foot and Mouth Disease
+Cow,Red Angus,9.6,Male,519.4,Fever,Coughing,Weakness,Eye Discharge,15 hours,Yes,No,Yes,No,No,No,Yes,No,Yes,39.3°C,61,Bovine Viral Diarrhea
+Dog,Rottweiler,0.3,Female,69.3,Diarrhea,Fever,Vomiting,Fever,9 days,Yes,Yes,Yes,No,No,No,No,No,No,39.6°C,136,Parvovirus
+Dog,Dalmatian,0.8,Male,23.0,Vomiting,Diarrhea,Coughing,Skin Lesions,9 days,Yes,Yes,Yes,No,No,No,No,No,No,39.9°C,157,Parvovirus
+Cow,Charolais,0.7,Female,594.4,Fever,Labored Breathing,Weakness,Vomiting,9 days,No,No,No,Yes,Yes,No,No,Yes,No,39.3°C,132,Respiratory Disease
+Dog,Dachshund,8.8,Male,21.7,Appetite Loss,Labored Breathing,Diarrhea,Dehydration,14 days,Yes,Yes,Yes,No,No,No,No,No,No,38.3°C,113,Gastroenteritis
+Dog,Dalmatian,0.8,Female,28.4,Diarrhea,Weakness,Vomiting,Nasal Discharge,3 days,Yes,Yes,Yes,No,No,No,No,No,No,40.0°C,154,Parvovirus
+Cow,Belted Galloway,0.5,Male,554.6,Skin Lesions,Anemia,Fever,Vomiting,10 days,Yes,No,No,No,No,No,No,No,No,39.3°C,101,Parasitic Infection
+Cow,Angus,8.1,Female,590.4,Weakness,Labored Breathing,Nasal Discharge,Diarrhea,12 days,Yes,No,No,No,No,Yes,No,No,No,39.9°C,65,Foot and Mouth Disease
+Dog,Dalmatian,2.1,Female,26.2,Diarrhea,Fever,Lameness,Labored Breathing,3 days,No,No,No,Yes,Yes,No,No,No,Yes,39.0°C,112,Kennel Cough
+Dog,Boxer,0.6,Female,22.9,Lameness,Eye Discharge,Labored Breathing,Vomiting,7 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,131,Parvovirus
+Cow,Shorthorn,3.3,Female,500.5,Skin Lesions,Vomiting,Lameness,Dehydration,8 days,Yes,No,Yes,No,No,No,No,No,Yes,39.9°C,48,Bovine Viral Diarrhea
+Cow,Brahman,8.5,Female,676.2,Vomiting,Fever,Labored Breathing,Eye Discharge,5 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.8°C,54,Respiratory Disease
+Dog,Golden Retriever,1.5,Female,24.9,Lethargy,Lameness,Weakness,Fever,1 days,Yes,No,No,No,No,Yes,No,No,No,38.9°C,97,Lyme Disease
+Cow,Simmental,7.8,Male,364.3,Fever,Dehydration,Weakness,Lameness,6 weeks,Yes,No,Yes,No,No,Yes,Yes,No,No,40.2°C,64,Foot and Mouth Disease
+Dog,Golden Retriever,0.8,Female,43.9,Fever,Weakness,Vomiting,Lameness,9 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,143,Parvovirus
+Cow,Simmental,9.4,Male,711.5,Labored Breathing,Diarrhea,Diarrhea,Vomiting,21 hours,No,No,Yes,Yes,No,Yes,No,No,No,39.3°C,83,Bovine Viral Diarrhea
+Dog,Corgi,3.5,Male,12.1,Reduced appetite,Nasal discharge,Sneezing,Lethargy,3 days,Yes,No,No,No,No,No,No,Yes,No,39.8°C,66,Canine Influenza
+Dog,Siberian Husky,5.8,Male,32.9,Fever,Reduced appetite,Persistent cough,Lethargy,19 days,Yes,No,No,Yes,No,No,No,No,No,39.8°C,95,Canine Influenza
+Dog,Corgi,1.3,Male,9.3,Fever,Reduced appetite,Sneezing,Lethargy,7 days,Yes,Yes,No,Yes,No,No,No,No,No,39.9°C,82,Canine Influenza
+Dog,Labrador,6.2,Male,12.9,Sneezing,Fever,Ocular discharge,Persistent cough,19 days,Yes,No,No,Yes,No,No,No,No,Yes,40.3°C,138,Canine Influenza
+Dog,Akita,1.7,Female,22.7,Reduced appetite,Fever,Nasal discharge,Lethargy,8 days,Yes,No,No,Yes,No,No,No,Yes,No,39.0°C,109,Canine Influenza
+Dog,Rottweiler,1.6,Male,17.0,Ocular discharge,Nasal discharge,Sneezing,Persistent cough,9 days,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,39.6°C,100,Canine Influenza
+Dog,Cocker Spaniel,6.6,Female,27.6,Fever,Sneezing,Persistent cough,Nasal discharge,19 days,No,No,Yes,Yes,Yes,No,No,Yes,No,39.6°C,118,Canine Influenza
+Dog,Pit Bull,3.7,Female,20.1,Reduced appetite,Nasal discharge,Lethargy,Ocular discharge,21 days,Yes,No,No,No,No,No,No,Yes,Yes,40.6°C,88,Canine Influenza
+Dog,Doberman Pinscher,2.6,Male,32.9,Nasal discharge,Lethargy,Persistent cough,Ocular discharge,8 days,No,No,No,Yes,Yes,No,No,Yes,Yes,39.0°C,122,Canine Influenza
+Dog,Chihuahua,0.2,Male,16.5,Sneezing,Lethargy,Ocular discharge,Reduced appetite,18 days,Yes,No,Yes,Yes,No,No,No,No,Yes,39.8°C,150,Canine Influenza
+Dog,Beagle,1.3,Female,11.6,Lethargy,Ocular discharge,Sneezing,Persistent cough,11 days,Yes,No,No,Yes,No,No,No,No,Yes,40.4°C,83,Canine Influenza
+Dog,Husky,1.8,Male,25.4,Nasal discharge,Reduced appetite,Lethargy,Fever,9 days,Yes,No,No,No,Yes,No,No,Yes,No,39.3°C,64,Canine Influenza
+Dog,Siberian Husky,4.3,Female,24.6,Reduced appetite,Fever,Ocular discharge,Persistent cough,14 days,Yes,No,No,Yes,No,No,No,No,Yes,40.5°C,113,Canine Influenza
+Dog,Bulldog,3.8,Male,16.5,Nasal discharge,Sneezing,Lethargy,Persistent cough,7 days,No,No,No,Yes,No,No,No,Yes,No,39.7°C,136,Canine Influenza
+Dog,Chihuahua,3.5,Male,22.5,Nasal discharge,Sneezing,Ocular discharge,Reduced appetite,9 days,Yes,No,No,Yes,No,No,No,Yes,Yes,40.0°C,87,Canine Influenza
+Dog,Poodle,6.0,Male,28.8,Ocular discharge,Lethargy,Fever,Persistent cough,5 days,Yes,No,No,Yes,No,No,No,No,Yes,39.2°C,118,Canine Influenza
+Dog,Labrador Retriever,3.3,Female,26.0,Persistent cough,Lethargy,Nasal discharge,Sneezing,1 weeks,Yes,No,No,Yes,Yes,No,No,Yes,No,39.8°C,120,Canine Influenza
+Dog,Beagle,0.3,Male,7.4,Nasal discharge,Lethargy,Reduced appetite,Ocular discharge,8 weeks,Yes,No,No,Yes,Yes,No,No,Yes,Yes,39.7°C,127,Canine Influenza
+Dog,Doberman Pinscher,7.6,Male,22.3,Fever,Lethargy,Nasal discharge,Reduced appetite,21 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.0°C,137,Canine Influenza
+Dog,Dalmatian,6.7,Female,19.3,Persistent cough,Ocular discharge,Lethargy,Fever,18 days,No,No,No,Yes,Yes,No,No,No,Yes,39.6°C,65,Canine Influenza
+Dog,Border Collie,7.4,Female,26.1,Sneezing,Nasal discharge,Lethargy,Persistent cough,4 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.1°C,85,Canine Influenza
+Dog,Yorkshire Terrier,1.5,Male,13.0,Ocular discharge,Nasal discharge,Fever,Reduced appetite,11 days,Yes,No,No,Yes,No,No,No,Yes,Yes,39.7°C,99,Canine Influenza
+Dog,Akita,4.5,Female,14.4,Lethargy,Fever,Reduced appetite,Ocular discharge,2 weeks,Yes,No,No,Yes,No,No,No,No,Yes,39.6°C,63,Canine Influenza
+Dog,Husky,1.4,Female,21.9,Ocular discharge,Lethargy,Persistent cough,Sneezing,5 weeks,No,No,No,Yes,No,No,No,No,Yes,39.3°C,93,Canine Influenza
+Dog,Labrador Retriever,2.2,Female,29.3,Reduced appetite,Ocular discharge,Nasal discharge,Persistent cough,5 weeks,Yes,No,No,Yes,Yes,No,No,Yes,Yes,40.0°C,73,Canine Influenza
+Dog,Rottweiler,5.2,Male,13.5,Persistent cough,Ocular discharge,Sneezing,Fever,12 days,No,No,No,Yes,No,No,No,No,Yes,40.4°C,62,Canine Influenza
+Dog,Dachshund,2.4,Male,22.8,Nasal discharge,Persistent cough,Sneezing,Reduced appetite,3 days,Yes,Yes,No,Yes,No,No,No,Yes,No,38.7°C,67,Canine Influenza
+Dog,Yorkshire Terrier,6.5,Male,13.9,Lethargy,Ocular discharge,Fever,Persistent cough,1 days,Yes,No,No,Yes,No,No,No,No,Yes,39.5°C,102,Canine Influenza
+Dog,Shih Tzu,4.8,Male,12.5,Lethargy,Sneezing,Persistent cough,Nasal discharge,13 days,No,Yes,No,Yes,Yes,No,No,Yes,No,39.6°C,75,Canine Influenza
+Dog,Border Collie,8.0,Male,46.1,Nasal discharge,Reduced appetite,Persistent cough,Fever,5 days,Yes,No,No,Yes,No,No,No,Yes,No,40.5°C,75,Canine Influenza
+Cow,Jersey,1.9,Male,672.3,Weakness,Loss of appetite,Abdominal pain,Bloody feces,16 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,61,Bovine Coccidiosis
+Cow,Brahman,1.2,Female,498.4,Dehydration,Abdominal pain,Bloody feces,Loss of appetite,6 days,Yes,No,Yes,No,No,No,No,No,No,39.2°C,69,Bovine Coccidiosis
+Cow,Dexter,0.1,Male,439.9,Reduced milk production,Abdominal pain,Bloody feces,Dehydration,17 days,Yes,No,Yes,No,Yes,No,No,No,No,39.0°C,122,Bovine Coccidiosis
+Cow,Dexter,0.4,Male,517.8,Reduced milk production,Loss of appetite,Diarrhea,Bloody feces,20 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,117,Bovine Coccidiosis
+Cow,Dexter,1.2,Female,558.0,Diarrhea,Dehydration,Reduced milk production,Loss of appetite,5 weeks,Yes,No,Yes,No,No,No,No,No,No,39.3°C,66,Bovine Coccidiosis
+Cow,Dexter,0.4,Male,598.5,Dehydration,Loss of appetite,Bloody feces,Diarrhea,9 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,105,Bovine Coccidiosis
+Cow,Brown Swiss,1.9,Male,543.5,Weakness,Loss of appetite,Bloody feces,Dehydration,5 days,Yes,No,Yes,No,No,No,No,No,No,39.1°C,77,Bovine Coccidiosis
+Cow,Simmental,1.0,Male,580.1,Reduced milk production,Weakness,Diarrhea,Loss of appetite,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,71,Bovine Coccidiosis
+Cow,Belted Galloway,1.7,Male,603.4,Abdominal pain,Dehydration,Reduced milk production,Loss of appetite,10 days,Yes,No,No,No,No,No,No,No,No,39.2°C,69,Bovine Coccidiosis
+Cow,Holstein,1.3,Female,532.8,Abdominal pain,Weakness,Dehydration,Loss of appetite,19 days,Yes,No,No,No,No,No,No,No,No,39.8°C,74,Bovine Coccidiosis
+Cow,Ayrshire,0.1,Female,645.6,Bloody feces,Weakness,Dehydration,Reduced milk production,8 weeks,No,No,Yes,No,No,No,No,No,No,40.0°C,136,Bovine Coccidiosis
+Cow,Red Poll,1.5,Female,688.2,Dehydration,Reduced milk production,Weakness,Bloody feces,17 days,Yes,No,Yes,No,No,No,No,No,No,40.0°C,65,Bovine Coccidiosis
+Cow,Holstein,0.4,Female,498.5,Diarrhea,Bloody feces,Reduced milk production,Loss of appetite,4 days,Yes,No,Yes,No,No,No,No,No,No,39.5°C,110,Bovine Coccidiosis
+Cow,Hereford,1.9,Male,458.3,Loss of appetite,Diarrhea,Weakness,Reduced milk production,1 days,Yes,No,Yes,No,No,No,No,No,No,39.6°C,59,Bovine Coccidiosis
+Cow,Belted Galloway,0.7,Female,512.6,Dehydration,Bloody feces,Diarrhea,Loss of appetite,11 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,132,Bovine Coccidiosis
+Cow,Hereford,1.7,Female,577.3,Diarrhea,Bloody feces,Weakness,Abdominal pain,4 weeks,Yes,No,Yes,No,No,No,No,No,No,39.2°C,58,Bovine Coccidiosis
+Cow,Guernsey,0.6,Male,573.5,Dehydration,Abdominal pain,Loss of appetite,Weakness,7 days,Yes,No,No,No,No,Yes,No,No,No,39.7°C,139,Bovine Coccidiosis
+Cow,Brown Swiss,0.1,Male,489.0,Weakness,Loss of appetite,Reduced milk production,Dehydration,3 days,Yes,No,No,No,No,No,No,No,No,39.5°C,121,Bovine Coccidiosis
+Cow,Angus,2.0,Male,485.8,Weakness,Dehydration,Loss of appetite,Bloody feces,16 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,70,Bovine Coccidiosis
+Cow,Charolais,1.4,Female,707.2,Loss of appetite,Weakness,Dehydration,Bloody feces,12 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,72,Bovine Coccidiosis
+Cow,Simmental,1.0,Female,544.1,Weakness,Diarrhea,Loss of appetite,Abdominal pain,9 days,Yes,No,Yes,No,No,No,No,No,No,39.5°C,53,Bovine Coccidiosis
+Cow,Shorthorn,1.9,Male,622.2,Weakness,Loss of appetite,Diarrhea,Reduced milk production,6 days,Yes,No,Yes,No,No,No,No,No,No,39.8°C,51,Bovine Coccidiosis
+Cow,Red Poll,1.5,Female,574.0,Reduced milk production,Loss of appetite,Abdominal pain,Diarrhea,8 days,Yes,No,Yes,No,No,No,No,No,No,40.1°C,66,Bovine Coccidiosis
+Cow,Angus,0.3,Male,520.3,Bloody feces,Reduced milk production,Diarrhea,Weakness,11 days,Yes,No,Yes,No,No,No,No,No,No,39.7°C,130,Bovine Coccidiosis
+Cow,Shorthorn,1.2,Female,709.2,Loss of appetite,Diarrhea,Bloody feces,Weakness,19 days,Yes,No,Yes,No,No,No,No,No,No,40.1°C,68,Bovine Coccidiosis
+Cow,Limousin,0.8,Female,417.5,Loss of appetite,Weakness,Reduced milk production,Bloody feces,18 days,Yes,No,Yes,No,No,No,No,No,No,39.4°C,106,Bovine Coccidiosis
+Cow,Limousin,1.4,Male,631.5,Reduced milk production,Weakness,Diarrhea,Loss of appetite,8 weeks,Yes,No,Yes,No,No,No,No,No,No,39.9°C,78,Bovine Coccidiosis
+Cow,Hereford,1.0,Female,538.0,Loss of appetite,Weakness,Bloody feces,Dehydration,14 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,72,Bovine Coccidiosis
+Cow,Angus,0.4,Male,646.3,Reduced milk production,Diarrhea,Bloody feces,Loss of appetite,19 days,Yes,No,Yes,No,No,No,No,No,No,39.1°C,127,Bovine Coccidiosis
+Cow,Jersey,0.4,Male,611.7,Weakness,Reduced milk production,Dehydration,Diarrhea,9 days,Yes,No,Yes,No,No,No,No,No,No,39.3°C,134,Bovine Coccidiosis
+Dog,Border Collie,5.4,Female,17.5,Stiffness,Lethargy,Change in gait,Reluctance to play,14 days,Yes,No,No,No,No,Yes,No,No,No,38.7°C,114,Arthritis
+Dog,Husky,7.3,Female,35.0,Joint pain,Stiffness,Limping,Reluctance to play,2 weeks,No,No,No,No,No,Yes,No,No,No,38.8°C,93,Arthritis
+Dog,Chihuahua,14.4,Male,4.2,Limping,Change in gait,Lethargy,Difficulty rising,5 days,No,Yes,No,No,No,Yes,No,No,No,38.7°C,72,Arthritis
+Dog,Corgi,12.1,Female,11.7,Joint pain,Reluctance to play,Stiffness,Lethargy,3 days,No,No,No,No,No,Yes,No,No,No,38.7°C,73,Arthritis
+Dog,Bulldog,13.6,Male,15.2,Limping,Lethargy,Change in gait,Stiffness,1 days,No,No,No,No,No,Yes,No,No,No,38.9°C,137,Arthritis
+Dog,Beagle,10.6,Male,13.8,Difficulty rising,Lethargy,Stiffness,Reluctance to play,9 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,74,Arthritis
+Dog,Poodle,13.0,Male,28.2,Joint pain,Limping,Difficulty rising,Reluctance to play,11 days,No,No,No,No,No,Yes,No,No,No,39.1°C,76,Arthritis
+Dog,Cocker Spaniel,6.3,Female,25.5,Reluctance to play,Change in gait,Limping,Joint pain,7 weeks,No,No,No,No,No,Yes,No,No,No,39.2°C,60,Arthritis
+Dog,Siberian Husky,12.4,Male,23.1,Lethargy,Change in gait,Stiffness,Limping,14 days,No,No,No,No,No,Yes,No,No,No,39.0°C,106,Arthritis
+Dog,Corgi,13.1,Female,15.2,Stiffness,Reluctance to play,Limping,Difficulty rising,7 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,114,Arthritis
+Dog,Boxer,8.4,Female,28.3,Joint pain,Lethargy,Difficulty rising,Change in gait,2 weeks,No,No,No,No,No,Yes,No,No,No,38.8°C,124,Arthritis
+Dog,Dalmatian,8.6,Female,19.9,Stiffness,Joint pain,Difficulty rising,Lethargy,7 weeks,No,No,No,No,No,Yes,No,No,No,39.2°C,84,Arthritis
+Dog,Dalmatian,12.0,Female,14.1,Reluctance to play,Change in gait,Joint pain,Difficulty rising,8 days,Yes,No,No,No,No,Yes,No,No,No,38.9°C,76,Arthritis
+Dog,Border Collie,10.8,Female,20.5,Limping,Joint pain,Reluctance to play,Difficulty rising,16 days,Yes,No,No,No,No,Yes,No,No,No,39.0°C,65,Arthritis
+Dog,Corgi,9.6,Male,10.9,Stiffness,Limping,Change in gait,Lethargy,13 days,No,No,No,No,No,Yes,No,No,No,39.2°C,80,Arthritis
+Dog,Husky,9.9,Female,31.4,Difficulty rising,Reluctance to play,Limping,Lethargy,15 days,No,No,No,No,No,Yes,No,No,No,39.2°C,128,Arthritis
+Dog,Rottweiler,11.4,Male,19.2,Reluctance to play,Limping,Change in gait,Joint pain,19 days,No,No,No,No,No,Yes,No,No,No,38.7°C,98,Arthritis
+Dog,Dalmatian,13.4,Female,14.7,Reluctance to play,Stiffness,Change in gait,Joint pain,14 days,No,No,No,No,No,Yes,No,No,No,39.2°C,107,Arthritis
+Dog,Husky,11.0,Female,32.5,Reluctance to play,Change in gait,Joint pain,Limping,11 days,No,No,No,No,No,Yes,No,No,No,38.5°C,82,Arthritis
+Dog,Rottweiler,13.7,Female,7.6,Lethargy,Joint pain,Reluctance to play,Difficulty rising,19 days,Yes,No,No,No,No,Yes,No,No,No,38.5°C,60,Arthritis
+Dog,Dachshund,12.2,Male,19.8,Joint pain,Reluctance to play,Difficulty rising,Stiffness,10 days,Yes,No,Yes,No,No,Yes,No,No,No,38.8°C,125,Arthritis
+Dog,Labrador,10.8,Male,28.7,Joint pain,Reluctance to play,Lethargy,Difficulty rising,2 days,No,No,No,No,No,Yes,No,No,No,38.9°C,126,Arthritis
+Dog,Border Collie,12.9,Male,26.1,Change in gait,Limping,Lethargy,Stiffness,17 days,Yes,No,No,No,No,Yes,No,No,No,39.1°C,118,Arthritis
+Dog,Border Collie,12.4,Female,27.7,Stiffness,Reluctance to play,Lethargy,Change in gait,4 days,No,No,No,No,No,Yes,No,No,Yes,38.9°C,128,Arthritis
+Dog,Beagle,13.4,Female,7.5,Joint pain,Reluctance to play,Lethargy,Change in gait,10 days,No,No,No,No,No,Yes,No,No,No,39.2°C,92,Arthritis
+Dog,Chihuahua,5.8,Female,24.2,Stiffness,Difficulty rising,Limping,Lethargy,7 weeks,Yes,No,No,No,No,Yes,No,No,No,38.9°C,104,Arthritis
+Dog,Golden Retriever,8.9,Male,33.3,Reluctance to play,Lethargy,Joint pain,Limping,9 days,No,No,No,No,No,Yes,No,No,No,38.8°C,72,Arthritis
+Dog,Cocker Spaniel,14.1,Female,21.4,Difficulty rising,Joint pain,Change in gait,Stiffness,2 weeks,No,No,No,No,No,Yes,No,No,No,38.9°C,117,Arthritis
+Dog,Chihuahua,6.6,Male,14.3,Limping,Difficulty rising,Change in gait,Joint pain,8 days,Yes,No,No,No,No,Yes,No,No,No,38.8°C,72,Arthritis
+Dog,Labrador Retriever,14.2,Male,23.6,Change in gait,Joint pain,Limping,Reluctance to play,21 days,No,No,No,No,No,Yes,No,No,No,38.7°C,136,Arthritis
+Dog,Rottweiler,10.7,Female,7.5,Lethargy,Jaundice,Neurological signs,Loss of appetite,21 days,Yes,No,No,No,No,Yes,No,No,No,40.7°C,108,Tick-Borne Disease
+Dog,Golden Retriever,4.4,Male,26.8,Jaundice,Pale gums,Fever,Diarrhea,21 days,No,Yes,Yes,No,No,No,No,No,No,40.1°C,118,Tick-Borne Disease
+Dog,Bulldog,11.3,Female,14.1,Pale gums,Lethargy,Diarrhea,Neurological signs,7 days,Yes,No,Yes,No,No,Yes,No,No,No,39.7°C,96,Tick-Borne Disease
+Dog,Rottweiler,8.0,Male,24.5,Loss of appetite,Lethargy,Vomiting,Diarrhea,21 days,Yes,Yes,Yes,No,Yes,Yes,No,No,No,39.5°C,62,Tick-Borne Disease
+Dog,Dalmatian,7.8,Female,17.8,Lameness,Swollen lymph nodes,Lethargy,Jaundice,8 weeks,No,No,No,No,No,Yes,No,No,No,38.8°C,132,Tick-Borne Disease
+Dog,Siberian Husky,10.1,Male,29.6,Lameness,Jaundice,Lethargy,Swollen lymph nodes,11 days,No,No,No,No,No,Yes,No,No,No,40.0°C,84,Tick-Borne Disease
+Dog,German Shepherd,8.8,Male,31.1,Neurological signs,Vomiting,Lameness,Swollen lymph nodes,5 weeks,Yes,Yes,No,No,No,Yes,No,No,No,39.0°C,119,Tick-Borne Disease
+Dog,Labrador Retriever,10.0,Male,25.3,Swollen lymph nodes,Jaundice,Neurological signs,Lethargy,7 weeks,Yes,Yes,No,No,No,No,No,No,No,38.9°C,110,Tick-Borne Disease
+Dog,Corgi,4.7,Female,9.1,Lethargy,Diarrhea,Neurological signs,Lameness,17 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.4°C,130,Tick-Borne Disease
+Dog,Labrador Retriever,5.6,Female,25.6,Diarrhea,Lethargy,Neurological signs,Fever,12 days,Yes,No,Yes,No,No,No,No,No,No,40.0°C,73,Tick-Borne Disease
+Dog,Akita,4.7,Male,16.8,Vomiting,Fever,Swollen lymph nodes,Pale gums,13 days,Yes,Yes,No,No,No,Yes,No,No,No,40.2°C,101,Tick-Borne Disease
+Dog,Yorkshire Terrier,5.9,Male,23.1,Swollen lymph nodes,Diarrhea,Fever,Loss of appetite,11 days,Yes,No,Yes,Yes,No,No,No,No,No,39.9°C,87,Tick-Borne Disease
+Dog,Akita,10.4,Female,27.1,Pale gums,Lethargy,Swollen lymph nodes,Vomiting,14 days,Yes,Yes,No,No,No,Yes,No,No,No,39.6°C,106,Tick-Borne Disease
+Dog,Beagle,3.8,Female,15.5,Lethargy,Diarrhea,Jaundice,Pale gums,12 days,Yes,No,Yes,No,No,Yes,No,No,No,39.3°C,132,Tick-Borne Disease
+Dog,Corgi,5.8,Female,13.3,Neurological signs,Vomiting,Lameness,Jaundice,4 weeks,No,Yes,No,No,No,Yes,No,No,No,39.5°C,86,Tick-Borne Disease
+Dog,Border Collie,7.2,Female,31.5,Lethargy,Loss of appetite,Diarrhea,Pale gums,21 days,Yes,No,Yes,No,No,Yes,No,No,No,39.9°C,108,Tick-Borne Disease
+Dog,Poodle,7.4,Male,10.2,Jaundice,Lethargy,Loss of appetite,Fever,10 days,Yes,No,No,No,No,No,No,No,No,40.0°C,65,Tick-Borne Disease
+Dog,Pit Bull,4.7,Male,21.2,Neurological signs,Lameness,Loss of appetite,Diarrhea,1 weeks,Yes,No,Yes,No,No,Yes,No,No,No,40.6°C,66,Tick-Borne Disease
+Dog,Labrador,3.5,Female,33.1,Pale gums,Vomiting,Jaundice,Loss of appetite,3 days,Yes,Yes,No,No,No,Yes,No,No,No,39.8°C,69,Tick-Borne Disease
+Dog,Cocker Spaniel,10.0,Female,31.0,Lethargy,Lameness,Neurological signs,Pale gums,18 days,Yes,No,No,No,No,Yes,No,No,No,40.2°C,120,Tick-Borne Disease
+Dog,Rottweiler,2.2,Female,29.5,Loss of appetite,Jaundice,Pale gums,Vomiting,10 days,Yes,Yes,No,No,No,No,No,No,No,39.6°C,118,Tick-Borne Disease
+Dog,Husky,1.0,Male,29.6,Jaundice,Neurological signs,Swollen lymph nodes,Fever,18 days,No,No,No,No,No,Yes,No,No,No,40.4°C,119,Tick-Borne Disease
+Dog,Dalmatian,6.6,Male,24.8,Neurological signs,Jaundice,Diarrhea,Lameness,6 days,Yes,No,Yes,No,No,Yes,No,No,No,39.9°C,95,Tick-Borne Disease
+Dog,Dalmatian,8.4,Male,26.4,Diarrhea,Neurological signs,Lethargy,Vomiting,15 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,125,Tick-Borne Disease
+Dog,Yorkshire Terrier,5.9,Female,30.8,Vomiting,Fever,Pale gums,Lethargy,9 days,No,Yes,Yes,No,No,No,No,No,No,39.8°C,81,Tick-Borne Disease
+Dog,Husky,7.6,Female,25.3,Pale gums,Loss of appetite,Vomiting,Jaundice,16 days,Yes,Yes,No,No,No,No,No,No,No,39.2°C,89,Tick-Borne Disease
+Dog,Beagle,7.2,Male,9.3,Lethargy,Fever,Pale gums,Vomiting,1 days,Yes,Yes,No,No,No,No,No,No,No,39.9°C,117,Tick-Borne Disease
+Dog,Dalmatian,11.0,Male,29.3,Lameness,Swollen lymph nodes,Diarrhea,Neurological signs,9 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.6°C,94,Tick-Borne Disease
+Dog,Dalmatian,0.5,Female,16.9,Vomiting,Swollen lymph nodes,Pale gums,Loss of appetite,12 days,Yes,Yes,No,No,No,Yes,No,No,No,39.6°C,129,Tick-Borne Disease
+Dog,Siberian Husky,10.3,Female,35.2,Fever,Loss of appetite,Swollen lymph nodes,Lethargy,19 days,Yes,No,No,No,No,No,No,No,No,39.6°C,79,Tick-Borne Disease

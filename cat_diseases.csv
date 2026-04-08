@@ -1,0 +1,64 @@
+AnimalName,symptoms1,symptoms2,symptoms3,symptoms4,symptoms5,Dangerous
+cat,fever,eye ulcer,congestion,depression,pink eye,yes
+cat,pnemonia,loss of  appetite,eye disharge,lameness,arthritis,yes
+cat,fever,seizures,hydrophobia,jaw is dropped,shyness or aggression,yes
+cat,bloody urine,diffculty breathing,vomiting,weight loss,anorexia,yes
+cat,loss of eat,difficulty in breathing,swelling ,lameness,neurologic abnormalities,yes
+cat,dark or black face,diarrhea,vomiting,blood in faces,pain,yes
+cat,jaundice,difficulty in breathing,seizuers,lethargy,pale gums,yes
+cat,appetite varies,diarrhea,vomiting,weight loss,pain,yes
+cat,loss of eat,fell unwell,lethargy,weight loss,skin issue,yes
+cat,sickness,loss of  appetite,vomiting,weight loss,raised growth or bump,yes
+cat,nasal bleeding,diffulty chewing,swelling ,weight loss,anorexia,yes
+cat,ulcers,lesions ,scabs,lumps,"bumps(black,grey or red)",yes
+cat,gasc,loss of  appetite,blood in stool,stomach growling,black stool,yes
+cat,shaking head,scartching ear,black on ear,bad smell,red and inflammation ear,yes
+cat,attacks,loss of  appetite,coughing,weight loss,periodic vommiting,yes
+cat,blood stool,diarrhea,coughing,weight loss,anemia,yes
+cat,nasal discharge,nosebleeds,inflamed nostrils,sneezing,lound breathing,yes
+cat,polyuria,loss of  appetite,vomiting,weight loss,polydipsa,yes
+cat,exessive urination,change in gait,vomiting,weight loss,inability to jump,yes
+cat,convulsion,loss of consciousness,chewing,twitching,salivating,yes
+cat,wheezing,rapid breathing,coughing,swallowing,effort to breath,yes
+cat,jaundice,weekness,lethargy,weight loss,anorexia,yes
+cat,lession on cat skin,dandruff in cat coat,red patches,hair loss,skin issue,yes
+cat,lethargy,diarrhea,vomiting,discharge from eye,anorexia,yes
+cat,skin irritation,scartching,lethargy,hair loss,excessive grooming,yes
+cat,floopy muscle,speech delay,intellectual disability,walking problem,eye movements,yes
+cat,sensitivity to bright light,disharge from affected eye,inflammation,clouded cornea,rubbing eye,yes
+cat,fever,diarrhea,vomiting,cramps,dehydration,yes
+cat,tenderness,erythema,swelling ,scartch,pain,yes
+cat,fever,diarrhea,vomiting,salivation,decrease appetite,yes
+cat,scaly patches of skin,sore,scabs,scartch,hair loss,yes
+cat,fatty stool,diarrhea,vomiting,weight loss,pain,yes
+cat,nausea,loss of appetite,vomiting,firm,distended stomach,yes
+cat,fever,swelling  in the bite area,lethargy,limp,pain,yes
+cat,fever,loss of appetite,eyeproblem,liver disease,nuerological,yes
+cat,fever,mild sneezing,coughing,nasal,ocular discharge,yes
+cattle, abortion at the end of gestation,fatigue,weak calves,join pains,swelling of internal organs,yes
+cattle,fever,distress,trembling,staggering,convulsion,yes
+cattle,fever,animal become lame,prostrat,painfull swalling,lameness,yes
+cattle,fever,difficulty in breathing,dribbling of saliva,inability of swalllon feeding,moist and painfull,yes
+cattle,fluif faeces on blood and muscle,sudden death,blooody fluid,red diarrhea,faeces are streake with blood,yes
+cattle,fever,pneumonia ,stand with head droping,weight loss,abnormal behaviour,yes
+cattle,fever,slightly swollen,lession on the skin,milky hard,papules appear on teats anad udder,yes
+cattle,fever,dull,hind quarted soil,animal stop feed,decrease in milk production,yes
+cattle,severe,diarrhea,blood on faces,appetite,milk reduce,yes
+cattle,fever,depression,relunctance to move,salivation,nasal discharge,yes
+cattle,normal appetite,diarrhea,swelling may occur under jaw,weight loss,drop in milk production,yes
+cattle,swelling on leg,heat,hardness,redness,pain,yes
+cattle,inability to stand ,diarrhea,bottle jaw,pot belly,dry hair coat,yes
+cattle,excitability,nervousness,loss of appetite,hyper sensitivity,weakness,yes
+cattle,fever,depression,attack,bite other animals,pain,yes
+cattle,fever,difficulty in breathing,coughing,painfull,eye become dull,yes
+cattle,fever,ulcer on gum,red eye,yellowish discharge,bloody diarrhea,yes
+cattle,fever,diarrhea,coughing,consistency of milk,pain,yes
+cattle,animal gets uneasy,difficulty in breathing,difficult in respiration,excessive production,stamping and pedding of hind eye,yes
+goat,abortion ,mummification,stillbirth,weak kids,pain,yes
+tiger,feline infections,lymphosarcoma,difficulty breating,stomatitis,anaemia,yes
+cattle,sudden death,high temperature,difficulty breating,aneamia,trembling,yes
+cattle,fever,loss of appetite,swollen teats,lameness in affected leg,depression,yes
+cattle,swelling,nasal discharge,drooling,tiredness,fever,yes
+elephant,lession on cat skin,dandruff in cat coat,red patches,hair loss,skin issue,yes
+fowl,abortion ,mummification,stillbirth,weak kids,pain,yes
+deer,feline infections,lymphosarcoma,difficulty breating,stomatitis,anaemia,yes
